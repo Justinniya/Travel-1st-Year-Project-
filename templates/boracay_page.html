@@ -1,0 +1,1370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Boracay – Boracay, Western Visayas</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+    :root {
+      --dark    : #1c1c1e;
+      --gray-bg : #f0f0f0;
+      --card-bg : #e0e0e0;
+      --radius  : 14px;
+    }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      font-family: 'Open Sans', Arial, sans-serif;
+      color: var(--dark);
+      overflow-x: hidden;
+      background: #fff;
+    }
+
+    /* ═══════════════════════════════════════════════
+       HERO  (nav lives inside here as floating pill)
+    ═══════════════════════════════════════════════ */
+    .hero {
+      position: relative;
+      width: 100%;
+      height: 580px;
+      overflow: hidden;
+    }
+
+    /* Real aerial photo of Boracay as hero background */
+    .hero-bg {
+      width: 100%;
+      height: 100%;
+      background-image: url('https://images.unsplash.com/photo-1537996194471-e657df975ab4?w=1400&h=700&fit=crop&q=80');
+      background-size: cover;
+      background-position: center;
+    }
+
+    /* dark overlay for text readability */
+    .hero-bg::after {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(
+        to bottom,
+        rgba(0,0,0,.18) 0%,
+        rgba(0,0,0,.08) 40%,
+        rgba(0,0,0,.30) 100%
+      );
+    }
+
+    /* ── Floating pill nav — fixed so it stays on scroll ── */
+    .hero-nav {
+      position: fixed;
+      top: 28px;
+      left: 50%;
+      transform: translateX(-50%);
+      z-index: 100;
+      background: rgba(30,40,50,.55);
+      backdrop-filter: blur(18px);
+      -webkit-backdrop-filter: blur(18px);
+      border-radius: 50px;
+      padding: 16px 56px;
+      display: flex;
+      gap: 50px;
+      box-shadow: 0 4px 24px rgba(0,0,0,.18);
+      white-space: nowrap;
+      border: 1px solid rgba(255,255,255,.25);
+      transition: background .3s;
+    }
+
+    .hero-nav a {
+      text-decoration: none;
+      color: #fff;
+      font-size: 12px;
+      font-weight: 800;
+      letter-spacing: 1.6px;
+      text-transform: uppercase;
+      transition: opacity .2s;
+      text-shadow: 0 1px 6px rgba(0,0,0,.25);
+      font-family: 'Montserrat', sans-serif;
+    }
+
+    .hero-nav a:hover { opacity: .65; }
+
+    /* ── Hero title ── */
+    .hero-title {
+      position: absolute;
+      inset: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      z-index: 5;
+    }
+
+    .hero-title h1 {
+      color: #fff;
+      font-size: 88px;
+      font-weight: 900;
+      letter-spacing: 12px;
+      text-shadow: 0 3px 24px rgba(0,0,0,.45);
+      line-height: 1;
+      font-family: 'Montserrat', sans-serif;
+    }
+
+    .hero-title p {
+      color: rgba(255,255,255,.95);
+      font-size: 14px;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      text-shadow: 0 2px 8px rgba(0,0,0,.35);
+      font-family: 'Montserrat', sans-serif;
+    }
+
+    /* ═══════════════════════════════════════════════
+       ICON MENU  (floats over hero/white boundary)
+    ═══════════════════════════════════════════════ */
+    .icon-menu {
+      display: flex;
+      justify-content: center;
+      gap: 48px;
+      margin-top: -65px;
+      margin-bottom: 48px;
+      position: relative;
+      z-index: 5;
+      flex-wrap: wrap;
+      padding: 0 60px;
+    }
+
+    .icon-item {
+      text-align: center;
+      font-size: 12px;
+      font-weight: 800;
+      letter-spacing: 1.4px;
+      text-transform: uppercase;
+      color: var(--dark);
+      font-family: 'Montserrat', sans-serif;
+      cursor: pointer;
+    }
+
+    .icon-circle {
+      width: 130px;
+      height: 130px;
+      background: #fff;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 12px;
+      box-shadow: 0 6px 20px rgba(0,0,0,.13);
+      transition: transform .2s, box-shadow .2s;
+      border: 1px solid rgba(0,0,0,.06);
+    }
+
+    .icon-circle:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 12px 28px rgba(0,0,0,.16);
+    }
+
+    .icon-circle svg {
+      width: 62px;
+      height: 62px;
+    }
+
+    /* ═══════════════════════════════════════════════
+       DESCRIPTION
+    ═══════════════════════════════════════════════ */
+    .desc-section {
+      padding: 64px 120px;
+    }
+
+    .desc-inner {
+      display: grid;
+      grid-template-columns: 1fr 1.1fr;
+      gap: 60px;
+      align-items: center;
+    }
+
+    .desc-left {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+    }
+
+    .desc-left .section-title {
+      font-size: 26px;
+      font-weight: 900;
+      letter-spacing: 4px;
+      text-transform: uppercase;
+      margin-bottom: 0;
+      font-family: 'Montserrat', sans-serif;
+    }
+
+    .desc-text {
+      font-size: 14px;
+      line-height: 1.95;
+      color: #555;
+      text-align: center;
+    }
+
+    .desc-photo {
+      width: 100%;
+      height: 240px;
+      border-radius: 18px;
+      overflow: hidden;
+    }
+
+    .desc-photo img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+      border-radius: 18px;
+    }
+
+    /* ═══════════════════════════════════════════════
+       INFO CHIPS
+    ═══════════════════════════════════════════════ */
+    .chips-section {
+      padding: 8px 80px 64px;
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+      align-items: center;
+    }
+
+    .chips-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 14px;
+      justify-content: center;
+    }
+
+    .chip {
+      background: var(--gray-bg);
+      border-radius: 30px;
+      padding: 26px 6px;
+      text-align: center;
+      min-width: 140px;
+      transition: background .2s, transform .2s;
+    }
+
+    .chip:hover { background: #e4e4e4; transform: translateY(-2px); }
+
+    .chip-label {
+      font-size: 11px;
+      font-weight: 900;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      color: var(--dark);
+      line-height: 1.3;
+      font-family: 'Montserrat', sans-serif;
+    }
+
+    .chip-value {
+      font-size: 12px;
+      font-weight: 400;
+      color: #555;
+      margin-top: 5px;
+      line-height: 1.4;
+    }
+
+    /* ═══════════════════════════════════════════════
+       TRANSPORTATION
+    ═══════════════════════════════════════════════ */
+    .section-wrap { padding: 64px 100px; }
+    .alt-bg { background: #fafafa; }
+
+    .section-title {
+      text-align: center;
+      font-size: 24px;
+      font-weight: 900;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      margin-bottom: 36px;
+      font-family: 'Montserrat', sans-serif;
+    }
+
+    .transport-row {
+      display: flex;
+      justify-content: center;
+      gap: 22px;
+      flex-wrap: wrap;
+    }
+
+    .transport-card {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 14px;
+      background: var(--gray-bg);
+      border-radius: 22px;
+      padding: 32px 40px;
+      min-width: 148px;
+      min-height: 148px;
+      transition: transform .2s, box-shadow .2s;
+    }
+
+    .transport-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 12px 28px rgba(0,0,0,.1);
+    }
+
+    .transport-icon svg {
+      width: 64px;
+      height: 64px;
+      display: block;
+    }
+
+    .transport-label {
+      font-size: 11px;
+      font-weight: 900;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: var(--dark);
+      font-family: 'Montserrat', sans-serif;
+    }
+
+    /* ═══════════════════════════════════════════════
+       PHOTO GALLERY  —  2 rows, infinite-scroll
+    ═══════════════════════════════════════════════ */
+    .gallery-section {
+      padding: 64px 0 72px;
+      overflow: hidden;
+    }
+
+    .gallery-section .section-title {
+      padding: 0 100px;
+      margin-bottom: 28px;
+    }
+
+    .slider-viewport { overflow: hidden; width: 100%; }
+
+    .slider-track-1 {
+      display: flex;
+      gap: 14px;
+      width: max-content;
+      animation: scroll-left 28s linear infinite;
+      margin-bottom: 14px;
+    }
+
+    .slider-track-2 {
+      display: flex;
+      gap: 14px;
+      width: max-content;
+      animation: scroll-left 34s linear infinite;
+    }
+
+    .slider-track-1:hover,
+    .slider-track-2:hover { animation-play-state: paused; }
+
+    @keyframes scroll-left {
+      0%   { transform: translateX(0); }
+      100% { transform: translateX(-50%); }
+    }
+
+    .slide-lg {
+      width: 380px;
+      min-width: 380px;
+      height: 210px;
+      border-radius: 18px;
+      flex-shrink: 0;
+      overflow: hidden;
+      background: linear-gradient(135deg, #b0d8f0, #c8e8d8);
+    }
+
+    .slide-sm {
+      width: 280px;
+      min-width: 280px;
+      height: 180px;
+      border-radius: 18px;
+      flex-shrink: 0;
+      overflow: hidden;
+      background: linear-gradient(135deg, #b0d8f0, #c8e8d8);
+    }
+
+    .slide-lg img, .slide-sm img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+      transition: transform .3s;
+      will-change: transform;
+    }
+
+    .slide-lg:hover img,
+    .slide-sm:hover img { transform: scale(1.06); }
+
+    /* ═══════════════════════════════════════════════
+       CONTENT CARD SECTIONS
+    ═══════════════════════════════════════════════ */
+    .cards-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+      margin-bottom: 28px;
+    }
+
+    .card {
+      background: var(--card-bg);
+      border-radius: var(--radius);
+      height: 350px;
+      display: flex;
+      align-items: flex-end;
+      justify-content: center;
+      color: #fff;
+      font-size: 13px;
+      font-weight: 800;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+      cursor: pointer;
+      transition: transform .2s, box-shadow .2s;
+      font-family: 'Montserrat', sans-serif;
+      overflow: hidden;
+      position: relative;
+    }
+
+    .card img {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+      transition: transform .4s;
+    }
+
+    .card:hover img { transform: scale(1.07); }
+
+    .card-label {
+      position: relative;
+      z-index: 2;
+      padding: 14px 18px;
+      width: 100%;
+      text-align: center;
+      background: linear-gradient(to top, rgba(0,0,0,.62) 0%, transparent 100%);
+      padding-top: 40px;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 10px 28px rgba(0,0,0,.12);
+    }
+
+    .view-more-btn {
+      display: block;
+      margin: 0 auto;
+      padding: 10px 34px;
+      background: #fff;
+      border: 1.5px solid #c8c8c8;
+      border-radius: 26px;
+      font-size: 11px;
+      font-weight: 800;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      cursor: pointer;
+      transition: background .2s, color .2s, border-color .2s;
+      font-family: 'Montserrat', sans-serif;
+    }
+
+    .view-more-btn:hover {
+      background: var(--dark);
+      color: #fff;
+      border-color: var(--dark);
+    }
+
+    /* ═══════════════════════════════════════════════
+       MODAL
+    ═══════════════════════════════════════════════ */
+    .modal-overlay {
+      display: none;
+      position: fixed;
+      inset: 0;
+      background: rgba(0,0,0,.55);
+      z-index: 1000;
+      align-items: center;
+      justify-content: center;
+      padding: 24px;
+    }
+
+    .modal-overlay.active { display: flex; }
+
+    .modal-box {
+      background: #fff;
+      border-radius: 20px;
+      width: 100%;
+      max-width: 840px;
+      max-height: 88vh;
+      overflow-y: auto;
+      padding: 48px 44px 44px;
+      position: relative;
+      animation: modal-pop .28s cubic-bezier(.34,1.56,.64,1);
+    }
+
+    @keyframes modal-pop {
+      from { opacity: 0; transform: scale(.9) translateY(28px); }
+      to   { opacity: 1; transform: scale(1) translateY(0); }
+    }
+
+    .modal-close {
+      position: absolute;
+      top: 16px; right: 22px;
+      background: none;
+      border: none;
+      font-size: 30px;
+      cursor: pointer;
+      color: #bbb;
+      line-height: 1;
+      transition: color .15s;
+    }
+
+    .modal-close:hover { color: var(--dark); }
+
+    .modal-title {
+      font-size: 22px;
+      font-weight: 900;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      margin-bottom: 28px;
+      font-family: 'Montserrat', sans-serif;
+    }
+
+    .modal-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 16px;
+    }
+
+    .modal-card {
+      background: var(--card-bg);
+      border-radius: 12px;
+      height: 180px;
+      position: relative;
+      overflow: hidden;
+      cursor: pointer;
+      transition: transform .2s, box-shadow .2s;
+    }
+
+    .modal-card img {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+      transition: transform .4s;
+    }
+
+    .modal-card:hover img { transform: scale(1.07); }
+
+    .modal-card-label {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      padding: 28px 12px 12px;
+      background: linear-gradient(to top, rgba(0,0,0,.65) 0%, transparent 100%);
+      color: #fff;
+      font-size: 11px;
+      font-weight: 800;
+      letter-spacing: 1.4px;
+      text-transform: uppercase;
+      text-align: center;
+      font-family: 'Montserrat', sans-serif;
+    }
+
+    .modal-card:hover { transform: translateY(-3px); box-shadow: 0 10px 24px rgba(0,0,0,.15); }
+
+    /* ── Footer ── */
+    footer {
+      background: #d0d0d0;
+      height: 66px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #888;
+      font-size: 12px;
+      letter-spacing: 1px;
+      font-family: 'Montserrat', sans-serif;
+    }
+
+    /* ── Hamburger hidden on desktop ── */
+    .hamburger-btn { display: none; }
+    .mobile-menu   { display: none; }
+
+    /* ═══════════════════════════════════════════════
+       RESPONSIVE — TABLET (≤900px)
+    ═══════════════════════════════════════════════ */
+    @media (max-width: 900px) {
+      .hero-nav { gap: 24px; padding: 12px 28px; }
+      .desc-section { padding: 48px 32px; }
+      .desc-inner { grid-template-columns: 1fr; gap: 28px; }
+      .section-wrap { padding: 48px 32px; }
+      .chips-section { padding: 8px 24px 48px; }
+      .chips-section .chip { min-width: 110px; }
+      .cards-grid, .modal-grid { grid-template-columns: repeat(2, 1fr); }
+      .cards-grid > .card:last-child:nth-child(odd),
+      .modal-grid > .modal-card:last-child:nth-child(odd) { grid-column: 1 / -1; }
+      .hero-title h1 { font-size: 56px; letter-spacing: 8px; }
+      .gallery-section .section-title { padding: 0 32px; }
+      .transport-card { min-width: 130px; padding: 24px 20px; }
+    }
+
+    /* ═══════════════════════════════════════════════
+       RESPONSIVE — MOBILE (≤540px)
+    ═══════════════════════════════════════════════ */
+    @media (max-width: 540px) {
+
+      /* ── Hero ── */
+      .hero { height: 400px; }
+      .hero-title h1 { font-size: 40px; letter-spacing: 6px; }
+      .hero-title p  { font-size: 11px; letter-spacing: 2px; }
+
+      /* ── Hide desktop nav, show hamburger ── */
+      .hero-nav { display: none !important; }
+
+      .hamburger-btn {
+        display: flex;
+        position: fixed;
+        top: 16px;
+        right: 16px;
+        z-index: 200;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+        width: 44px;
+        height: 44px;
+        background: rgba(200,210,220,.55);
+        backdrop-filter: blur(14px);
+        -webkit-backdrop-filter: blur(14px);
+        border: 1px solid rgba(255,255,255,.5);
+        border-radius: 12px;
+        cursor: pointer;
+        box-shadow: 0 2px 12px rgba(0,0,0,.12);
+      }
+
+      .hamburger-btn span {
+        display: block;
+        width: 20px;
+        height: 2px;
+        background: #fff;
+        border-radius: 2px;
+        transition: transform .3s, opacity .3s;
+      }
+
+      .hamburger-btn.open span:nth-child(1) { transform: translateY(7px) rotate(45deg); }
+      .hamburger-btn.open span:nth-child(2) { opacity: 0; }
+      .hamburger-btn.open span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
+
+      .mobile-menu {
+        display: none;
+        position: fixed;
+        inset: 0;
+        z-index: 190;
+        background: rgba(20,30,40,.72);
+        backdrop-filter: blur(16px);
+        -webkit-backdrop-filter: blur(16px);
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        padding: 60px 32px 40px;
+      }
+
+      .mobile-menu.open { display: flex; }
+
+      .mobile-menu a {
+        text-decoration: none;
+        color: #fff;
+        font-size: 22px;
+        font-weight: 900;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+        padding: 14px 0;
+        width: 100%;
+        text-align: center;
+        border-bottom: 1px solid rgba(255,255,255,.15);
+        transition: opacity .2s;
+        font-family: 'Montserrat', sans-serif;
+      }
+      .mobile-menu a:last-child { border-bottom: none; }
+      .mobile-menu a:hover { opacity: .6; }
+
+      /* ── Description ── */
+      .desc-section { padding: 36px 20px; }
+      .desc-inner { gap: 20px; }
+      .desc-photo { height: 200px; }
+
+      /* ── Chips ── */
+      .chips-section { padding: 8px 16px 36px; gap: 12px; }
+      .chip { min-width: 100px; padding: 18px 8px; border-radius: 20px; }
+      .chip-label { font-size: 10px; }
+      .chip-value { font-size: 10px; }
+
+      /* ── Section wrap ── */
+      .section-wrap { padding: 36px 20px; }
+      .section-title { font-size: 20px; letter-spacing: 2px; margin-bottom: 24px; }
+
+      /* ── Transport ── */
+      .transport-row { gap: 12px; }
+      .transport-card { min-width: calc(50% - 6px); padding: 20px 16px; min-height: 120px; border-radius: 16px; }
+      .transport-icon svg { width: 44px; height: 44px; }
+      .transport-label { font-size: 10px; letter-spacing: 1.5px; }
+
+      /* ── Gallery ── */
+      .gallery-section { padding: 36px 0 48px; }
+      .gallery-section .section-title { padding: 0 20px; }
+      .slide-lg { width: 240px; height: 150px; border-radius: 14px; }
+      .slide-sm { width: 180px; height: 130px; border-radius: 14px; }
+
+      /* ── Cards ── */
+      .cards-grid { grid-template-columns: 1fr; gap: 14px; }
+      .cards-grid > .card:last-child:nth-child(odd) { grid-column: auto; }
+      .card { height: 220px; border-radius: 12px; }
+
+      /* ── View more btn ── */
+      .view-more-btn { padding: 10px 28px; font-size: 10px; }
+
+      /* ── Modal ── */
+      .modal-box { padding: 32px 18px 24px; border-radius: 16px; }
+      .modal-title { font-size: 17px; letter-spacing: 2px; }
+      .modal-grid { grid-template-columns: repeat(2, 1fr); gap: 10px; }
+      .modal-grid > .modal-card:last-child:nth-child(odd) { grid-column: 1 / -1; }
+      .modal-card { height: 120px; font-size: 10px; }
+
+      /* ── Footer ── */
+      footer { height: auto; padding: 18px 16px; font-size: 11px; text-align: center; }
+
+      /* ── Icon menu ── */
+      .icon-menu { gap: 16px; padding: 0 12px; }
+      .icon-circle { width: 90px; height: 90px; }
+      .icon-circle svg { width: 44px; height: 44px; }
+      .icon-item { font-size: 9px; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- ═══ HAMBURGER BUTTON (mobile only) ═══════════════ -->
+<button class="hamburger-btn" id="hamburgerBtn" aria-label="Open menu">
+  <span></span><span></span><span></span>
+</button>
+
+<!-- ═══ MOBILE MENU OVERLAY ════════════════════════ -->
+<nav class="mobile-menu" id="mobileMenu">
+  <a href="#"               class="mobile-nav-link">Home</a>
+  <a href="#destination"    class="mobile-nav-link">Destination</a>
+  <a href="#attractions"    class="mobile-nav-link">Attractions</a>
+  <a href="#activities"     class="mobile-nav-link">Things To Do</a>
+  <a href="#accommodations" class="mobile-nav-link">Accommodations</a>
+</nav>
+
+<!-- ═══ HERO + FLOATING NAV ═══════════════════════════ -->
+<div class="hero">
+  <div class="hero-bg"></div>
+
+  <!-- pill nav — matches Figma: HOME · DESTINATION · ATTRACTIONS · THINGS TO DO · ACCOMMODATIONS -->
+  <nav class="hero-nav">
+    <a href="#">Home</a>
+    <a href="#destination">Destination</a>
+    <a href="#attractions">Attractions</a>
+    <a href="#activities">Things To Do</a>
+    <a href="#accommodations">Accommodations</a>
+  </nav>
+
+  <!-- big title centered on hero -->
+  <div class="hero-title">
+    <h1>BORACAY</h1>
+    <p>Boracay, Western Visayas</p>
+  </div>
+</div>
+
+<!-- ═══ ICON MENU (floats over hero/content boundary) ═══════════════ -->
+<div class="icon-menu">
+
+  <!-- ATTRACTIONS -->
+  <div class="icon-item" onclick="document.querySelector('#attractions').scrollIntoView({behavior:'smooth'})">
+    <div class="icon-circle">
+      <svg viewBox="0 0 64 64" fill="none">
+        <!-- sun -->
+        <circle cx="48" cy="16" r="6" fill="#1c1c1e"/>
+        <!-- island -->
+        <path d="M10 42 Q32 28 54 42 L50 48 Q32 36 14 48 Z" fill="#1c1c1e"/>
+        <!-- palm trunk -->
+        <rect x="30" y="22" width="3" height="18" fill="#1c1c1e"/>
+        <!-- leaves -->
+        <path d="M31 22 Q20 18 18 26 Q26 24 31 26 Z" fill="#1c1c1e"/>
+        <path d="M31 22 Q42 18 44 26 Q36 24 31 26 Z" fill="#1c1c1e"/>
+      </svg>
+    </div>
+    <span>Attractions</span>
+  </div>
+
+  <!-- RESTAURANTS -->
+  <div class="icon-item" onclick="document.querySelector('#restaurants').scrollIntoView({behavior:'smooth'})">
+    <div class="icon-circle">
+      <svg viewBox="0 0 64 64" fill="none">
+        <!-- fork -->
+        <rect x="18" y="10" width="2" height="20" fill="#1c1c1e"/>
+        <rect x="22" y="10" width="2" height="20" fill="#1c1c1e"/>
+        <rect x="26" y="10" width="2" height="20" fill="#1c1c1e"/>
+        <rect x="22" y="30" width="2" height="18" fill="#1c1c1e"/>
+        <!-- spoon -->
+        <ellipse cx="40" cy="18" rx="5" ry="7" fill="#1c1c1e"/>
+        <rect x="39" y="25" width="2" height="23" fill="#1c1c1e"/>
+      </svg>
+    </div>
+    <span>Restaurants</span>
+  </div>
+
+  <!-- ACTIVITIES -->
+  <div class="icon-item" onclick="document.querySelector('#activities').scrollIntoView({behavior:'smooth'})">
+    <div class="icon-circle">
+      <svg viewBox="0 0 64 64" fill="none">
+        <!-- wave -->
+        <path d="M6 42 Q16 34 26 42 T46 42 T62 42" stroke="#1c1c1e" stroke-width="3" fill="none"/>
+        <!-- person -->
+        <circle cx="28" cy="20" r="4" fill="#1c1c1e"/>
+        <path d="M28 24 L22 34 L30 34 L36 28" stroke="#1c1c1e" stroke-width="3" fill="none"/>
+      </svg>
+    </div>
+    <span>Activities</span>
+  </div>
+
+  <!-- EVENTS -->
+  <div class="icon-item" onclick="document.querySelector('#events').scrollIntoView({behavior:'smooth'})">
+    <div class="icon-circle">
+      <svg viewBox="0 0 64 64" fill="none">
+        <!-- calendar -->
+        <rect x="10" y="14" width="44" height="36" rx="4" fill="#1c1c1e"/>
+        <rect x="10" y="14" width="44" height="10" fill="white" opacity=".2"/>
+        <!-- rings -->
+        <rect x="18" y="8" width="4" height="10" fill="#1c1c1e"/>
+        <rect x="42" y="8" width="4" height="10" fill="#1c1c1e"/>
+        <!-- star -->
+        <path d="M32 28 L34 34 L40 34 L35 38 L37 44 L32 40 L27 44 L29 38 L24 34 L30 34 Z" fill="white"/>
+      </svg>
+    </div>
+    <span>Events</span>
+  </div>
+
+  <!-- ACCOMMODATIONS -->
+  <div class="icon-item" onclick="document.querySelector('#accommodations').scrollIntoView({behavior:'smooth'})">
+    <div class="icon-circle">
+      <svg viewBox="0 0 64 64" fill="none">
+        <!-- building -->
+        <rect x="16" y="14" width="32" height="36" rx="3" fill="#1c1c1e"/>
+        <!-- windows -->
+        <rect x="22" y="20" width="4" height="4" fill="white"/>
+        <rect x="30" y="20" width="4" height="4" fill="white"/>
+        <rect x="38" y="20" width="4" height="4" fill="white"/>
+        <rect x="22" y="28" width="4" height="4" fill="white"/>
+        <rect x="30" y="28" width="4" height="4" fill="white"/>
+        <rect x="38" y="28" width="4" height="4" fill="white"/>
+        <!-- door -->
+        <rect x="30" y="36" width="4" height="14" fill="white"/>
+      </svg>
+    </div>
+    <span>Accommodations</span>
+  </div>
+
+</div>
+
+<!-- ═══ DESCRIPTION ═══════════════════════════════════ -->
+<div class="desc-section" id="destination">
+  <div class="desc-inner">
+    <div class="desc-left">
+      <h2 class="section-title">Description</h2>
+      <p class="desc-text">
+        Every visit to the picturesque Boracay is a tropical vacation that will undoubtedly
+        be memorable. Fall in love again and again with the island's white sand, crystal blue
+        waters, and festive atmosphere that keeps Boracay close to every traveler's heart.
+      </p>
+    </div>
+    <!-- Real beach photo replacing the placeholder -->
+    <div class="desc-photo">
+      <img
+        src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=700&h=420&fit=crop&q=80"
+        alt="Boracay White Beach with palm trees and clear water"
+        loading="lazy"
+      />
+    </div>
+  </div>
+</div>
+
+<!-- ═══ INFO CHIPS ════════════════════════════════════ -->
+<!-- Row 1: Island · Region · Population · Province · City  (matches Figma) -->
+<!-- Row 2: Languages & Dialects · Known As · Tagline · Nickname  (matches Figma order) -->
+<div class="chips-section">
+  <div class="chips-row">
+    <div class="chip">
+      <div class="chip-label">Island</div>
+      <div class="chip-value">Visayas</div>
+    </div>
+    <div class="chip">
+      <div class="chip-label">Region</div>
+      <div class="chip-value">Western Visayas</div>
+    </div>
+    <div class="chip">
+      <div class="chip-label">Population</div>
+      <div class="chip-value">12,000</div>
+    </div>
+    <div class="chip">
+      <div class="chip-label">Province</div>
+      <div class="chip-value">Aklan</div>
+    </div>
+    <div class="chip">
+      <div class="chip-label">City</div>
+      <div class="chip-value">Malay</div>
+    </div>
+  </div>
+  <div class="chips-row">
+    <div class="chip">
+      <div class="chip-label">Languages &amp;<br>Dialects</div>
+      <div class="chip-value">Filipino, English, Aklanon</div>
+    </div>
+    <div class="chip">
+      <div class="chip-label">Known As</div>
+      <div class="chip-value">White-sand beaches</div>
+    </div>
+    <div class="chip">
+      <div class="chip-label">Tagline</div>
+      <div class="chip-value">Boracay Better than Ever</div>
+    </div>
+    <div class="chip">
+      <div class="chip-label">Nickname</div>
+      <div class="chip-value">The Island That Never Sleeps</div>
+    </div>
+  </div>
+</div>
+
+<!-- ═══ TRANSPORTATION ════════════════════════════════ -->
+<div class="section-wrap">
+  <h2 class="section-title">Transportations</h2>
+  <div class="transport-row">
+
+    <!-- BOAT -->
+    <div class="transport-card">
+      <span class="transport-icon">
+        <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M8 40 Q32 52 56 40 L52 46 Q32 58 12 46 Z" fill="#1c1c1e"/>
+          <line x1="32" y1="12" x2="32" y2="40" stroke="#1c1c1e" stroke-width="2.5" stroke-linecap="round"/>
+          <path d="M32 14 L14 38 L32 38 Z" fill="#1c1c1e"/>
+          <path d="M32 20 L46 38 L32 38 Z" fill="#1c1c1e" opacity=".55"/>
+          <path d="M4 54 Q12 50 20 54 Q28 58 36 54 Q44 50 52 54 Q58 57 62 54" stroke="#1c1c1e" stroke-width="2" fill="none" stroke-linecap="round"/>
+        </svg>
+      </span>
+      <span class="transport-label">Boat</span>
+    </div>
+
+    <!-- VAN -->
+    <div class="transport-card">
+      <span class="transport-icon">
+        <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect x="4" y="24" width="56" height="22" rx="4" fill="#1c1c1e"/>
+          <path d="M4 24 L12 12 L44 12 L56 24 Z" fill="#1c1c1e"/>
+          <path d="M14 14 L20 24 L44 24 L50 14 Z" fill="white" opacity=".2"/>
+          <circle cx="16" cy="48" r="7" fill="#1c1c1e" stroke="white" stroke-width="2"/>
+          <circle cx="16" cy="48" r="3" fill="white"/>
+          <circle cx="48" cy="48" r="7" fill="#1c1c1e" stroke="white" stroke-width="2"/>
+          <circle cx="48" cy="48" r="3" fill="white"/>
+          <rect x="26" y="15" width="12" height="8" rx="2" fill="white" opacity=".2"/>
+        </svg>
+      </span>
+      <span class="transport-label">Van</span>
+    </div>
+
+    <!-- JEEPNEY -->
+    <div class="transport-card">
+      <span class="transport-icon">
+        <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect x="4" y="22" width="56" height="22" rx="3" fill="#1c1c1e"/>
+          <path d="M4 22 L8 12 L28 12 L28 22 Z" fill="#1c1c1e"/>
+          <rect x="28" y="14" width="28" height="8" rx="2" fill="#1c1c1e"/>
+          <path d="M9 14 L12 22 L26 22 L26 14 Z" fill="white" opacity=".2"/>
+          <rect x="30" y="15" width="8" height="6" rx="1" fill="white" opacity=".2"/>
+          <rect x="42" y="15" width="8" height="6" rx="1" fill="white" opacity=".2"/>
+          <circle cx="14" cy="46" r="7" fill="#1c1c1e" stroke="white" stroke-width="2"/>
+          <circle cx="14" cy="46" r="3" fill="white"/>
+          <circle cx="50" cy="46" r="7" fill="#1c1c1e" stroke="white" stroke-width="2"/>
+          <circle cx="50" cy="46" r="3" fill="white"/>
+          <line x1="4" y1="30" x2="60" y2="30" stroke="white" stroke-width="1.5" opacity=".3"/>
+        </svg>
+      </span>
+      <span class="transport-label">Jeepney</span>
+    </div>
+
+    <!-- TRICYCLE -->
+    <div class="transport-card">
+      <span class="transport-icon">
+        <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect x="4" y="22" width="30" height="20" rx="4" fill="#1c1c1e"/>
+          <rect x="4" y="16" width="30" height="8" rx="3" fill="#1c1c1e"/>
+          <rect x="8" y="18" width="10" height="5" rx="1" fill="white" opacity=".25"/>
+          <ellipse cx="48" cy="32" rx="8" ry="10" fill="#1c1c1e"/>
+          <line x1="34" y1="34" x2="44" y2="34" stroke="#1c1c1e" stroke-width="4" stroke-linecap="round"/>
+          <circle cx="16" cy="46" r="7" fill="#1c1c1e" stroke="white" stroke-width="2"/>
+          <circle cx="16" cy="46" r="3" fill="white"/>
+          <circle cx="48" cy="46" r="7" fill="#1c1c1e" stroke="white" stroke-width="2"/>
+          <circle cx="48" cy="46" r="3" fill="white"/>
+          <path d="M52 24 L56 20 L58 22" stroke="#1c1c1e" stroke-width="2.5" stroke-linecap="round"/>
+        </svg>
+      </span>
+      <span class="transport-label">Tricycle</span>
+    </div>
+
+    <!-- AIRPLANE -->
+    <div class="transport-card">
+      <span class="transport-icon">
+        <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M6 34 Q24 28 56 32 Q58 34 56 36 Q24 40 6 34 Z" fill="#1c1c1e"/>
+          <path d="M52 32 Q62 34 52 36 Z" fill="#1c1c1e"/>
+          <path d="M22 34 L18 14 L26 16 L34 34 Z" fill="#1c1c1e"/>
+          <path d="M8 34 L6 24 L12 26 L14 34 Z" fill="#1c1c1e"/>
+          <path d="M10 33 L8 26 L12 28 L12 33 Z" fill="#1c1c1e" opacity=".6"/>
+          <path d="M22 34 L18 52 L26 50 L34 34 Z" fill="#1c1c1e" opacity=".5"/>
+        </svg>
+      </span>
+      <span class="transport-label">Airplane</span>
+    </div>
+
+  </div>
+</div>
+
+<!-- ═══ PHOTOS — 2-ROW INFINITE SLIDER ═══════════════ -->
+<div class="gallery-section alt-bg">
+  <h2 class="section-title">Photos</h2>
+
+  <!-- Row 1 — scrolls left -->
+  <div class="slider-viewport">
+    <div class="slider-track-1">
+      <div class="slide-lg"><img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=760&h=420&fit=crop" alt="Boracay Beach" loading="eager" decoding="async" /></div>
+      <div class="slide-lg"><img src="https://images.unsplash.com/photo-1519046904884-53103b34b206?w=760&h=420&fit=crop" alt="Boracay Shore" loading="eager" decoding="async" /></div>
+      <div class="slide-lg"><img src="https://images.unsplash.com/photo-1506929562872-bb421503ef21?w=760&h=420&fit=crop" alt="Tropical Island" loading="eager" decoding="async" /></div>
+      <div class="slide-lg"><img src="https://images.unsplash.com/photo-1473116763249-2faaef81ccda?w=760&h=420&fit=crop" alt="White Beach" loading="eager" decoding="async" /></div>
+      <!-- duplicate for seamless loop -->
+      <div class="slide-lg"><img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=760&h=420&fit=crop" alt="Boracay Beach" loading="eager" decoding="async" /></div>
+      <div class="slide-lg"><img src="https://images.unsplash.com/photo-1519046904884-53103b34b206?w=760&h=420&fit=crop" alt="Boracay Shore" loading="eager" decoding="async" /></div>
+      <div class="slide-lg"><img src="https://images.unsplash.com/photo-1506929562872-bb421503ef21?w=760&h=420&fit=crop" alt="Tropical Island" loading="eager" decoding="async" /></div>
+      <div class="slide-lg"><img src="https://images.unsplash.com/photo-1473116763249-2faaef81ccda?w=760&h=420&fit=crop" alt="White Beach" loading="eager" decoding="async" /></div>
+    </div>
+  </div>
+
+  <!-- Row 2 — scrolls left (slightly different speed) -->
+  <div class="slider-viewport">
+    <div class="slider-track-2">
+      <div class="slide-sm"><img src="https://images.unsplash.com/photo-1548574505-5e239809ee19?w=560&h=360&fit=crop" alt="Night Beach" loading="eager" decoding="async" /></div>
+      <div class="slide-sm"><img src="https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=560&h=360&fit=crop" alt="Island View" loading="eager" decoding="async" /></div>
+      <div class="slide-sm"><img src="https://images.unsplash.com/photo-1559494007-9f5847c49d94?w=560&h=360&fit=crop" alt="Sunset Beach" loading="eager" decoding="async" /></div>
+      <div class="slide-sm"><img src="https://images.unsplash.com/photo-1484821582734-6c6c9f99a672?w=560&h=360&fit=crop" alt="Beach Sunset" loading="eager" decoding="async" /></div>
+      <div class="slide-sm"><img src="https://images.unsplash.com/photo-1505118380757-91f5f5632de0?w=560&h=360&fit=crop" alt="Tropical Palm" loading="eager" decoding="async" /></div>
+      <!-- duplicate for seamless loop -->
+      <div class="slide-sm"><img src="https://images.unsplash.com/photo-1548574505-5e239809ee19?w=560&h=360&fit=crop" alt="Night Beach" loading="eager" decoding="async" /></div>
+      <div class="slide-sm"><img src="https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=560&h=360&fit=crop" alt="Island View" loading="eager" decoding="async" /></div>
+      <div class="slide-sm"><img src="https://images.unsplash.com/photo-1559494007-9f5847c49d94?w=560&h=360&fit=crop" alt="Sunset Beach" loading="eager" decoding="async" /></div>
+      <div class="slide-sm"><img src="https://images.unsplash.com/photo-1484821582734-6c6c9f99a672?w=560&h=360&fit=crop" alt="Beach Sunset" loading="eager" decoding="async" /></div>
+      <div class="slide-sm"><img src="https://images.unsplash.com/photo-1505118380757-91f5f5632de0?w=560&h=360&fit=crop" alt="Tropical Palm" loading="eager" decoding="async" /></div>
+    </div>
+  </div>
+</div>
+
+<!-- ═══ ATTRACTIONS ════════════════════════════════════ -->
+<div class="section-wrap" id="attractions">
+  <h2 class="section-title">Attractions</h2>
+  <div class="cards-grid">
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=600&h=500&fit=crop" alt="White Beach"/>
+      <div class="card-label">White Beach</div>
+    </div>
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1519046904884-53103b34b206?w=600&h=500&fit=crop" alt="Puka Shell Beach"/>
+      <div class="card-label">Puka Shell Beach</div>
+    </div>
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1473116763249-2faaef81ccda?w=600&h=500&fit=crop" alt="Willy's Rock"/>
+      <div class="card-label">Willy's Rock</div>
+    </div>
+  </div>
+  <button class="view-more-btn" data-category="attractions">View More</button>
+</div>
+
+<!-- ═══ ACTIVITIES ═════════════════════════════════════ -->
+<div class="section-wrap alt-bg" id="activities">
+  <h2 class="section-title">Things To Do</h2>
+  <div class="cards-grid">
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1506929562872-bb421503ef21?w=600&h=500&fit=crop" alt="Island Hopping"/>
+      <div class="card-label">Island Hopping</div>
+    </div>
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1548574505-5e239809ee19?w=600&h=500&fit=crop" alt="Parasailing"/>
+      <div class="card-label">Parasailing</div>
+    </div>
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1559494007-9f5847c49d94?w=600&h=500&fit=crop" alt="Kitesurfing"/>
+      <div class="card-label">Kitesurfing</div>
+    </div>
+  </div>
+  <button class="view-more-btn" data-category="activities">View More</button>
+</div>
+
+<!-- ═══ FOOD & DRINKS ══════════════════════════════════ -->
+<div class="section-wrap" id="restaurants">
+  <h2 class="section-title">Food &amp; Drinks</h2>
+  <div class="cards-grid">
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1505118380757-91f5f5632de0?w=600&h=500&fit=crop" alt="Seafood BBQ"/>
+      <div class="card-label">Seafood BBQ</div>
+    </div>
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1484821582734-6c6c9f99a672?w=600&h=500&fit=crop" alt="Halo-halo"/>
+      <div class="card-label">Halo-halo</div>
+    </div>
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=600&h=500&fit=crop" alt="Mango Float"/>
+      <div class="card-label">Mango Float</div>
+    </div>
+  </div>
+  <button class="view-more-btn" data-category="food">View More</button>
+</div>
+
+<!-- ═══ EVENTS ════════════════════════════════════════ -->
+<div class="section-wrap alt-bg" id="events">
+  <h2 class="section-title">Events</h2>
+  <div class="cards-grid">
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1537996194471-e657df975ab4?w=600&h=500&fit=crop" alt="Ati-Atihan Festival"/>
+      <div class="card-label">Ati-Atihan Festival</div>
+    </div>
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1519046904884-53103b34b206?w=600&h=500&fit=crop" alt="Boracay Funboard Cup"/>
+      <div class="card-label">Boracay Funboard Cup</div>
+    </div>
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1473116763249-2faaef81ccda?w=600&h=500&fit=crop" alt="Paraw Regatta"/>
+      <div class="card-label">Paraw Regatta</div>
+    </div>
+  </div>
+  <button class="view-more-btn" data-category="events">View More</button>
+</div>
+
+<!-- ═══ ACCOMMODATIONS ════════════════════════════════ -->
+<div class="section-wrap" id="accommodations">
+  <h2 class="section-title">Accommodations</h2>
+  <div class="cards-grid">
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=600&h=500&fit=crop" alt="Shangri-La Boracay"/>
+      <div class="card-label">Shangri-La Boracay</div>
+    </div>
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1506929562872-bb421503ef21?w=600&h=500&fit=crop" alt="Discovery Shores"/>
+      <div class="card-label">Discovery Shores</div>
+    </div>
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1548574505-5e239809ee19?w=600&h=500&fit=crop" alt="Henann Resort"/>
+      <div class="card-label">Henann Resort</div>
+    </div>
+  </div>
+  <button class="view-more-btn" data-category="accommodations">View More</button>
+</div>
+
+<!-- ═══ FOOTER ════════════════════════════════════════ -->
+<footer>
+  &copy; 2026 Boracay, Western Visayas &nbsp;·&nbsp; All rights reserved.
+</footer>
+
+<!-- ═══ MODAL ═════════════════════════════════════════ -->
+<div class="modal-overlay" id="modalOverlay">
+  <div class="modal-box" role="dialog" aria-modal="true">
+    <button class="modal-close" id="modalClose" aria-label="Close">&times;</button>
+    <h2 class="modal-title" id="modalTitle"></h2>
+    <div class="modal-grid" id="modalGrid"></div>
+  </div>
+</div>
+
+<script>
+  /* ── Data ─────────────────────────────────────── */
+  const IMGS = [
+    'https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=400&h=300&fit=crop',
+    'https://images.unsplash.com/photo-1519046904884-53103b34b206?w=400&h=300&fit=crop',
+    'https://images.unsplash.com/photo-1473116763249-2faaef81ccda?w=400&h=300&fit=crop',
+    'https://images.unsplash.com/photo-1506929562872-bb421503ef21?w=400&h=300&fit=crop',
+    'https://images.unsplash.com/photo-1548574505-5e239809ee19?w=400&h=300&fit=crop',
+    'https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=400&h=300&fit=crop',
+    'https://images.unsplash.com/photo-1559494007-9f5847c49d94?w=400&h=300&fit=crop',
+    'https://images.unsplash.com/photo-1484821582734-6c6c9f99a672?w=400&h=300&fit=crop',
+    'https://images.unsplash.com/photo-1505118380757-91f5f5632de0?w=400&h=300&fit=crop',
+    'https://images.unsplash.com/photo-1537996194471-e657df975ab4?w=400&h=300&fit=crop',
+  ];
+
+  const DATA = {
+    attractions: {
+      title: 'Attractions',
+      items: [
+        { name: 'White Beach',         img: IMGS[0] },
+        { name: 'Puka Shell Beach',    img: IMGS[1] },
+        { name: 'Diniwid Beach',       img: IMGS[2] },
+        { name: "Willy's Rock",        img: IMGS[3] },
+        { name: 'Crocodile Island',    img: IMGS[4] },
+        { name: 'Magic Island',        img: IMGS[5] },
+        { name: 'Bat Cave',            img: IMGS[6] },
+        { name: 'Bulabog Beach',       img: IMGS[7] },
+        { name: 'Mount Luho View Deck',img: IMGS[8] },
+      ]
+    },
+    activities: {
+      title: 'Things To Do',
+      items: [
+        { name: 'Island Hopping',  img: IMGS[3] },
+        { name: 'Cliff Diving',    img: IMGS[4] },
+        { name: 'Parasailing',     img: IMGS[0] },
+        { name: 'Kitesurfing',     img: IMGS[6] },
+        { name: 'Helmet Diving',   img: IMGS[2] },
+        { name: 'ATV Riding',      img: IMGS[9] },
+        { name: 'Snorkeling',      img: IMGS[5] },
+        { name: 'Sunset Sailing',  img: IMGS[7] },
+        { name: 'Scuba Diving',    img: IMGS[1] },
+      ]
+    },
+    food: {
+      title: 'Food & Drinks',
+      items: [
+        { name: 'Seafood BBQ',         img: IMGS[8] },
+        { name: 'Fresh Buko Juice',    img: IMGS[0] },
+        { name: 'Pusit Grilled Squid', img: IMGS[9] },
+        { name: 'Halo-halo',           img: IMGS[7] },
+        { name: 'Kare-kare',           img: IMGS[1] },
+        { name: 'Lechon de Leche',     img: IMGS[3] },
+        { name: 'Mango Float',         img: IMGS[5] },
+        { name: 'Sinigang',            img: IMGS[2] },
+        { name: 'Sisig',               img: IMGS[4] },
+      ]
+    },
+    accommodations: {
+      title: 'Accommodations',
+      items: [
+        { name: 'Shangri-La Boracay',    img: IMGS[0] },
+        { name: 'Discovery Shores',      img: IMGS[3] },
+        { name: 'Henann Resort',         img: IMGS[4] },
+        { name: 'The Lind Boracay',      img: IMGS[1] },
+        { name: 'Fairways & Bluewater',  img: IMGS[9] },
+        { name: 'Movenpick',             img: IMGS[2] },
+        { name: 'Crimson Hotel',         img: IMGS[6] },
+        { name: 'Be Grand Resort',       img: IMGS[5] },
+        { name: 'Astoria Boracay',       img: IMGS[7] },
+      ]
+    },
+    events: {
+      title: 'Events',
+      items: [
+        { name: 'Ati-Atihan Festival',        img: IMGS[9] },
+        { name: 'Boracay Funboard Cup',       img: IMGS[3] },
+        { name: 'ArTboracay',                 img: IMGS[0] },
+        { name: "New Year's Countdown",       img: IMGS[7] },
+        { name: 'Easter Mass on the Beach',   img: IMGS[1] },
+        { name: 'Paraw Regatta',              img: IMGS[2] },
+        { name: 'Boracay Food Festival',      img: IMGS[8] },
+        { name: 'Sandcastle Competition',     img: IMGS[5] },
+        { name: 'Sinulog sa Boracay',         img: IMGS[4] },
+      ]
+    }
+  };
+
+  /* ── Modal ────────────────────────────────────── */
+  const overlay    = document.getElementById('modalOverlay');
+  const modalTitle = document.getElementById('modalTitle');
+  const modalGrid  = document.getElementById('modalGrid');
+  const modalClose = document.getElementById('modalClose');
+
+  function openModal(category) {
+    const d = DATA[category];
+    if (!d) return;
+    modalTitle.textContent = d.title;
+    modalGrid.innerHTML = d.items.map(item => `
+      <div class="modal-card">
+        <img src="${item.img}" alt="${item.name}" loading="lazy"/>
+        <div class="modal-card-label">${item.name}</div>
+      </div>
+    `).join('');
+    overlay.classList.add('active');
+    document.body.style.overflow = 'hidden';
+  }
+
+  function closeModal() {
+    overlay.classList.remove('active');
+    document.body.style.overflow = '';
+  }
+
+  modalClose.addEventListener('click', closeModal);
+  overlay.addEventListener('click', e => { if (e.target === overlay) closeModal(); });
+  document.addEventListener('keydown', e => { if (e.key === 'Escape') closeModal(); });
+
+  document.querySelectorAll('.view-more-btn').forEach(btn => {
+    btn.addEventListener('click', () => openModal(btn.dataset.category));
+  });
+
+  /* ── Hamburger menu ──────────────────────────── */
+  const hamburgerBtn = document.getElementById('hamburgerBtn');
+  const mobileMenu   = document.getElementById('mobileMenu');
+
+  function toggleMenu() {
+    const isOpen = mobileMenu.classList.toggle('open');
+    hamburgerBtn.classList.toggle('open', isOpen);
+    document.body.style.overflow = isOpen ? 'hidden' : '';
+  }
+
+  function closeMenu() {
+    mobileMenu.classList.remove('open');
+    hamburgerBtn.classList.remove('open');
+    document.body.style.overflow = '';
+  }
+
+  hamburgerBtn.addEventListener('click', toggleMenu);
+
+  document.querySelectorAll('.mobile-nav-link').forEach(link => {
+    link.addEventListener('click', e => {
+      e.preventDefault();
+      closeMenu();
+      const href = link.getAttribute('href');
+      if (href && href !== '#') {
+        const target = document.querySelector(href);
+        if (target) setTimeout(() => target.scrollIntoView({ behavior: 'smooth' }), 100);
+      }
+    });
+  });
+
+  /* ── Start slider only after images load ─── */
+  const tracks = document.querySelectorAll('.slider-track-1, .slider-track-2');
+  tracks.forEach(t => t.style.animationPlayState = 'paused');
+
+  const sliderImgs = document.querySelectorAll('.slide-lg img, .slide-sm img');
+  let loaded = 0;
+  function onImgLoad() {
+    loaded++;
+    if (loaded >= sliderImgs.length / 2) {
+      tracks.forEach(t => t.style.animationPlayState = 'running');
+    }
+  }
+  sliderImgs.forEach(img => {
+    if (img.complete) onImgLoad();
+    else { img.addEventListener('load', onImgLoad); img.addEventListener('error', onImgLoad); }
+  });
+
+  /* ── Smooth scroll for desktop nav ─────────── */
+  document.querySelectorAll('.hero-nav a').forEach(link => {
+    link.addEventListener('click', e => {
+      const href = link.getAttribute('href');
+      if (href && href !== '#') {
+        e.preventDefault();
+        const target = document.querySelector(href);
+        if (target) target.scrollIntoView({ behavior: 'smooth' });
+      }
+    });
+  });
+</script>
+</body>
+</html>
