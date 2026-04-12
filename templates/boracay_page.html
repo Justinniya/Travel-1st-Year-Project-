@@ -758,22 +758,25 @@
 <nav class="mobile-menu" id="mobileMenu">
   <a href="#"               class="mobile-nav-link">Home</a>
   <a href="#destination"    class="mobile-nav-link">Destination</a>
-  <a href="#attractions"    class="mobile-nav-link">Attractions</a>
-  <a href="#activities"     class="mobile-nav-link">Things To Do</a>
-  <a href="#accommodations" class="mobile-nav-link">Accommodations</a>
+  <a href="#attractions"    class="mobile-nav-link">Attraction</a>
+  <a href="#restaurants"    class="mobile-nav-link">Restaurant</a>
+  <a href="#activities"     class="mobile-nav-link">Activities</a>
+  <a href="#events"         class="mobile-nav-link">Event</a>
+  <a href="#accommodations" class="mobile-nav-link">Accommodation</a>
 </nav>
 
 <!-- ═══ HERO + FLOATING NAV ═══════════════════════════ -->
 <div class="hero">
   <div class="hero-bg"></div>
 
-  <!-- pill nav — matches Figma: HOME · DESTINATION · ATTRACTIONS · THINGS TO DO · ACCOMMODATIONS -->
   <nav class="hero-nav">
     <a href="#">Home</a>
     <a href="#destination">Destination</a>
-    <a href="#attractions">Attractions</a>
-    <a href="#activities">Things To Do</a>
-    <a href="#accommodations">Accommodations</a>
+    <a href="#attractions">Attraction</a>
+    <a href="#restaurants">Restaurant</a>
+    <a href="#activities">Activities</a>
+    <a href="#events">Event</a>
+    <a href="#accommodations">Accommodation</a>
   </nav>
 
   <!-- big title centered on hero -->
@@ -1072,103 +1075,38 @@
   </div>
 </div>
 
-<!-- ═══ ATTRACTIONS ════════════════════════════════════ -->
+<!-- ═══ ATTRACTION ════════════════════════════════════ -->
 <div class="section-wrap" id="attractions">
-  <h2 class="section-title">Attractions</h2>
-  <div class="cards-grid">
-    <div class="card">
-      <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=600&h=500&fit=crop" alt="White Beach"/>
-      <div class="card-label">White Beach</div>
-    </div>
-    <div class="card">
-      <img src="https://images.unsplash.com/photo-1519046904884-53103b34b206?w=600&h=500&fit=crop" alt="Puka Shell Beach"/>
-      <div class="card-label">Puka Shell Beach</div>
-    </div>
-    <div class="card">
-      <img src="https://images.unsplash.com/photo-1473116763249-2faaef81ccda?w=600&h=500&fit=crop" alt="Willy's Rock"/>
-      <div class="card-label">Willy's Rock</div>
-    </div>
-  </div>
+  <h2 class="section-title">Attraction</h2>
+  <div class="cards-grid" id="grid-attractions"></div>
   <button class="view-more-btn" data-category="attractions">View More</button>
 </div>
 
-<!-- ═══ ACTIVITIES ═════════════════════════════════════ -->
-<div class="section-wrap alt-bg" id="activities">
-  <h2 class="section-title">Things To Do</h2>
-  <div class="cards-grid">
-    <div class="card">
-      <img src="https://images.unsplash.com/photo-1506929562872-bb421503ef21?w=600&h=500&fit=crop" alt="Island Hopping"/>
-      <div class="card-label">Island Hopping</div>
-    </div>
-    <div class="card">
-      <img src="https://images.unsplash.com/photo-1548574505-5e239809ee19?w=600&h=500&fit=crop" alt="Parasailing"/>
-      <div class="card-label">Parasailing</div>
-    </div>
-    <div class="card">
-      <img src="https://images.unsplash.com/photo-1559494007-9f5847c49d94?w=600&h=500&fit=crop" alt="Kitesurfing"/>
-      <div class="card-label">Kitesurfing</div>
-    </div>
-  </div>
-  <button class="view-more-btn" data-category="activities">View More</button>
-</div>
-
-<!-- ═══ FOOD & DRINKS ══════════════════════════════════ -->
-<div class="section-wrap" id="restaurants">
-  <h2 class="section-title">Food &amp; Drinks</h2>
-  <div class="cards-grid">
-    <div class="card">
-      <img src="https://images.unsplash.com/photo-1505118380757-91f5f5632de0?w=600&h=500&fit=crop" alt="Seafood BBQ"/>
-      <div class="card-label">Seafood BBQ</div>
-    </div>
-    <div class="card">
-      <img src="https://images.unsplash.com/photo-1484821582734-6c6c9f99a672?w=600&h=500&fit=crop" alt="Halo-halo"/>
-      <div class="card-label">Halo-halo</div>
-    </div>
-    <div class="card">
-      <img src="https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=600&h=500&fit=crop" alt="Mango Float"/>
-      <div class="card-label">Mango Float</div>
-    </div>
-  </div>
+<!-- ═══ RESTAURANT ═════════════════════════════════════ -->
+<div class="section-wrap alt-bg" id="restaurants">
+  <h2 class="section-title">Restaurant</h2>
+  <div class="cards-grid" id="grid-food"></div>
   <button class="view-more-btn" data-category="food">View More</button>
 </div>
 
-<!-- ═══ EVENTS ════════════════════════════════════════ -->
+<!-- ═══ ACTIVITIES ══════════════════════════════════════ -->
+<div class="section-wrap" id="activities">
+  <h2 class="section-title">Activities</h2>
+  <div class="cards-grid" id="grid-activities"></div>
+  <button class="view-more-btn" data-category="activities">View More</button>
+</div>
+
+<!-- ═══ EVENT ════════════════════════════════════════ -->
 <div class="section-wrap alt-bg" id="events">
-  <h2 class="section-title">Events</h2>
-  <div class="cards-grid">
-    <div class="card">
-      <img src="https://images.unsplash.com/photo-1537996194471-e657df975ab4?w=600&h=500&fit=crop" alt="Ati-Atihan Festival"/>
-      <div class="card-label">Ati-Atihan Festival</div>
-    </div>
-    <div class="card">
-      <img src="https://images.unsplash.com/photo-1519046904884-53103b34b206?w=600&h=500&fit=crop" alt="Boracay Funboard Cup"/>
-      <div class="card-label">Boracay Funboard Cup</div>
-    </div>
-    <div class="card">
-      <img src="https://images.unsplash.com/photo-1473116763249-2faaef81ccda?w=600&h=500&fit=crop" alt="Paraw Regatta"/>
-      <div class="card-label">Paraw Regatta</div>
-    </div>
-  </div>
+  <h2 class="section-title">Event</h2>
+  <div class="cards-grid" id="grid-events"></div>
   <button class="view-more-btn" data-category="events">View More</button>
 </div>
 
-<!-- ═══ ACCOMMODATIONS ════════════════════════════════ -->
+<!-- ═══ ACCOMMODATION ════════════════════════════════ -->
 <div class="section-wrap" id="accommodations">
-  <h2 class="section-title">Accommodations</h2>
-  <div class="cards-grid">
-    <div class="card">
-      <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=600&h=500&fit=crop" alt="Shangri-La Boracay"/>
-      <div class="card-label">Shangri-La Boracay</div>
-    </div>
-    <div class="card">
-      <img src="https://images.unsplash.com/photo-1506929562872-bb421503ef21?w=600&h=500&fit=crop" alt="Discovery Shores"/>
-      <div class="card-label">Discovery Shores</div>
-    </div>
-    <div class="card">
-      <img src="https://images.unsplash.com/photo-1548574505-5e239809ee19?w=600&h=500&fit=crop" alt="Henann Resort"/>
-      <div class="card-label">Henann Resort</div>
-    </div>
-  </div>
+  <h2 class="section-title">Accommodation</h2>
+  <div class="cards-grid" id="grid-accommodations"></div>
   <button class="view-more-btn" data-category="accommodations">View More</button>
 </div>
 
@@ -1187,109 +1125,83 @@
 </div>
 
 <script>
-  /* ── Data ─────────────────────────────────────── */
-  const IMGS = [
-    'https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=400&h=300&fit=crop',
-    'https://images.unsplash.com/photo-1519046904884-53103b34b206?w=400&h=300&fit=crop',
-    'https://images.unsplash.com/photo-1473116763249-2faaef81ccda?w=400&h=300&fit=crop',
-    'https://images.unsplash.com/photo-1506929562872-bb421503ef21?w=400&h=300&fit=crop',
-    'https://images.unsplash.com/photo-1548574505-5e239809ee19?w=400&h=300&fit=crop',
-    'https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=400&h=300&fit=crop',
-    'https://images.unsplash.com/photo-1559494007-9f5847c49d94?w=400&h=300&fit=crop',
-    'https://images.unsplash.com/photo-1484821582734-6c6c9f99a672?w=400&h=300&fit=crop',
-    'https://images.unsplash.com/photo-1505118380757-91f5f5632de0?w=400&h=300&fit=crop',
-    'https://images.unsplash.com/photo-1537996194471-e657df975ab4?w=400&h=300&fit=crop',
-  ];
-
-  const DATA = {
-    attractions: {
-      title: 'Attractions',
-      items: [
-        { name: 'White Beach',         img: IMGS[0] },
-        { name: 'Puka Shell Beach',    img: IMGS[1] },
-        { name: 'Diniwid Beach',       img: IMGS[2] },
-        { name: "Willy's Rock",        img: IMGS[3] },
-        { name: 'Crocodile Island',    img: IMGS[4] },
-        { name: 'Magic Island',        img: IMGS[5] },
-        { name: 'Bat Cave',            img: IMGS[6] },
-        { name: 'Bulabog Beach',       img: IMGS[7] },
-        { name: 'Mount Luho View Deck',img: IMGS[8] },
-      ]
-    },
-    activities: {
-      title: 'Things To Do',
-      items: [
-        { name: 'Island Hopping',  img: IMGS[3] },
-        { name: 'Cliff Diving',    img: IMGS[4] },
-        { name: 'Parasailing',     img: IMGS[0] },
-        { name: 'Kitesurfing',     img: IMGS[6] },
-        { name: 'Helmet Diving',   img: IMGS[2] },
-        { name: 'ATV Riding',      img: IMGS[9] },
-        { name: 'Snorkeling',      img: IMGS[5] },
-        { name: 'Sunset Sailing',  img: IMGS[7] },
-        { name: 'Scuba Diving',    img: IMGS[1] },
-      ]
-    },
-    food: {
-      title: 'Food & Drinks',
-      items: [
-        { name: 'Seafood BBQ',         img: IMGS[8] },
-        { name: 'Fresh Buko Juice',    img: IMGS[0] },
-        { name: 'Pusit Grilled Squid', img: IMGS[9] },
-        { name: 'Halo-halo',           img: IMGS[7] },
-        { name: 'Kare-kare',           img: IMGS[1] },
-        { name: 'Lechon de Leche',     img: IMGS[3] },
-        { name: 'Mango Float',         img: IMGS[5] },
-        { name: 'Sinigang',            img: IMGS[2] },
-        { name: 'Sisig',               img: IMGS[4] },
-      ]
-    },
-    accommodations: {
-      title: 'Accommodations',
-      items: [
-        { name: 'Shangri-La Boracay',    img: IMGS[0] },
-        { name: 'Discovery Shores',      img: IMGS[3] },
-        { name: 'Henann Resort',         img: IMGS[4] },
-        { name: 'The Lind Boracay',      img: IMGS[1] },
-        { name: 'Fairways & Bluewater',  img: IMGS[9] },
-        { name: 'Movenpick',             img: IMGS[2] },
-        { name: 'Crimson Hotel',         img: IMGS[6] },
-        { name: 'Be Grand Resort',       img: IMGS[5] },
-        { name: 'Astoria Boracay',       img: IMGS[7] },
-      ]
-    },
-    events: {
-      title: 'Events',
-      items: [
-        { name: 'Ati-Atihan Festival',        img: IMGS[9] },
-        { name: 'Boracay Funboard Cup',       img: IMGS[3] },
-        { name: 'ArTboracay',                 img: IMGS[0] },
-        { name: "New Year's Countdown",       img: IMGS[7] },
-        { name: 'Easter Mass on the Beach',   img: IMGS[1] },
-        { name: 'Paraw Regatta',              img: IMGS[2] },
-        { name: 'Boracay Food Festival',      img: IMGS[8] },
-        { name: 'Sandcastle Competition',     img: IMGS[5] },
-        { name: 'Sinulog sa Boracay',         img: IMGS[4] },
-      ]
-    }
+  /* ══════════════════════════════════════════════════
+     SECTION TITLES used in modal header
+  ══════════════════════════════════════════════════ */
+  const SECTION_TITLES = {
+    attractions:    'Attraction',
+    activities:     'Activities',
+    food:           'Restaurant',
+    events:         'Event',
+    accommodations: 'Accommodation',
   };
 
-  /* ── Modal ────────────────────────────────────── */
+  /* ══════════════════════════════════════════════════
+     FETCH JSON DATABASE & RENDER CARDS
+  ══════════════════════════════════════════════════ */
+  let DB = {};   // will hold the full data.json contents
+
+  function goToDetail(category, id) {
+    window.location.href = `/boracay/detail?category=${encodeURIComponent(category)}&id=${encodeURIComponent(id)}`;
+  }
+
+  function buildCard(item, category) {
+    const div = document.createElement('div');
+    div.className = 'card';
+    div.style.cursor = 'pointer';
+    div.innerHTML = `
+      <img src="${item.image}" alt="${item.name}" loading="lazy"/>
+      <div class="card-label">${item.name}</div>
+    `;
+    div.addEventListener('click', () => goToDetail(category, item.id));
+    return div;
+  }
+
+  function buildModalCard(item, category) {
+    const div = document.createElement('div');
+    div.className = 'modal-card';
+    div.style.cursor = 'pointer';
+    div.innerHTML = `
+      <img src="${item.image}" alt="${item.name}" loading="lazy"/>
+      <div class="modal-card-label">${item.name}</div>
+    `;
+    div.addEventListener('click', () => {
+      closeModal();
+      goToDetail(category, item.id);
+    });
+    return div;
+  }
+
+  fetch('/static/data.json')
+    .then(r => r.json())
+    .then(data => {
+      DB = data;
+      // Render first 3 cards for each category
+      const categories = ['attractions', 'activities', 'food', 'events', 'accommodations'];
+      categories.forEach(cat => {
+        const grid = document.getElementById('grid-' + cat);
+        if (!grid) return;
+        (data[cat] || []).slice(0, 3).forEach(item => {
+          grid.appendChild(buildCard(item, cat));
+        });
+      });
+    })
+    .catch(err => console.error('Failed to load data.json:', err));
+
+  /* ══════════════════════════════════════════════════
+     MODAL
+  ══════════════════════════════════════════════════ */
   const overlay    = document.getElementById('modalOverlay');
   const modalTitle = document.getElementById('modalTitle');
   const modalGrid  = document.getElementById('modalGrid');
   const modalClose = document.getElementById('modalClose');
 
   function openModal(category) {
-    const d = DATA[category];
-    if (!d) return;
-    modalTitle.textContent = d.title;
-    modalGrid.innerHTML = d.items.map(item => `
-      <div class="modal-card">
-        <img src="${item.img}" alt="${item.name}" loading="lazy"/>
-        <div class="modal-card-label">${item.name}</div>
-      </div>
-    `).join('');
+    const items = DB[category];
+    if (!items) return;
+    modalTitle.textContent = SECTION_TITLES[category] || category;
+    modalGrid.innerHTML = '';
+    items.forEach(item => modalGrid.appendChild(buildModalCard(item, category)));
     overlay.classList.add('active');
     document.body.style.overflow = 'hidden';
   }
@@ -1307,7 +1219,9 @@
     btn.addEventListener('click', () => openModal(btn.dataset.category));
   });
 
-  /* ── Hamburger menu ──────────────────────────── */
+  /* ══════════════════════════════════════════════════
+     HAMBURGER MENU
+  ══════════════════════════════════════════════════ */
   const hamburgerBtn = document.getElementById('hamburgerBtn');
   const mobileMenu   = document.getElementById('mobileMenu');
 
@@ -1337,7 +1251,9 @@
     });
   });
 
-  /* ── Start slider only after images load ─── */
+  /* ══════════════════════════════════════════════════
+     SLIDER — start only after images load
+  ══════════════════════════════════════════════════ */
   const tracks = document.querySelectorAll('.slider-track-1, .slider-track-2');
   tracks.forEach(t => t.style.animationPlayState = 'paused');
 

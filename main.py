@@ -10,6 +10,10 @@ def landing_page():
 def boracay_page():
     return render_template('boracay_page.html')
 
+@app.route('/boracay/detail')
+def detail_page():
+    return render_template('detail_page.html')
+
 
 if __name__ == '__main__':
     app.run(debug=True, port=3300)
