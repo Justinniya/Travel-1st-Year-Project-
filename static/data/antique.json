@@ -1,0 +1,417 @@
+{
+  "meta": {
+    "title": "ANTIQUE",
+    "subtitle": "Antique, Western Visayas",
+    "hero_image": "https://images.unsplash.com/photo-1518791841217-8f162f1912da?w=1400&h=700&fit=crop&q=80",
+    "desc_photo": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=700&h=420&fit=crop&q=80",
+    "description": "Antique is a hidden gem on the western coast of Panay Island, known for rugged mountain ranges, pristine waterfalls, and rich indigenous culture. The province is home to the Kinaray-a speaking people and boasts the Malumpati Cold Spring, Nogas Island, and the lively Binirayan Festival.",
+    "chips": [
+      {
+        "label": "Province",
+        "value": "Antique"
+      },
+      {
+        "label": "Region",
+        "value": "Western Visayas"
+      },
+      {
+        "label": "Capital",
+        "value": "San Jose de Buenavista"
+      },
+      {
+        "label": "Language",
+        "value": "Kinaray-a"
+      },
+      {
+        "label": "Festival",
+        "value": "Binirayan"
+      },
+      {
+        "label": "Famous For",
+        "value": "Eco-Tourism"
+      },
+      {
+        "label": "Climate",
+        "value": "Tropical"
+      },
+      {
+        "label": "Best Visit",
+        "value": "Mar–Jun"
+      },
+      {
+        "label": "Island",
+        "value": "Panay"
+      }
+    ]
+  },
+  "attractions": [
+    {
+      "id": "malumpati-spring",
+      "name": "Malumpati Cold Spring",
+      "image": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=600&h=400&fit=crop",
+      "description": "Pristine cold spring with crystal-clear blue waters ideal for swimming and cliff jumping.",
+      "price": "₱50 / pax",
+      "rating": 4.8
+    },
+    {
+      "id": "nogas-island",
+      "name": "Nogas Island",
+      "image": "https://images.unsplash.com/photo-1537996194471-e657df975ab4?w=600&h=400&fit=crop",
+      "description": "A small uninhabited island with a marine sanctuary boasting rich coral reefs.",
+      "price": "₱200 / pax",
+      "rating": 4.7
+    },
+    {
+      "id": "tigbauan-beach",
+      "name": "Igcabugao Beach",
+      "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=600&h=400&fit=crop",
+      "description": "A peaceful gray-sand beach with gentle waves and panoramic sunset views.",
+      "price": "Free Entry",
+      "rating": 4.4
+    },
+    {
+      "id": "pan-ay-river",
+      "name": "Pan-ay River",
+      "image": "https://images.unsplash.com/photo-1504701954957-2010ec3bcec1?w=600&h=400&fit=crop",
+      "description": "One of the longest rivers in the Visayas, ideal for kayaking and eco-tours.",
+      "price": "₱150 / pax",
+      "rating": 4.5
+    },
+    {
+      "id": "mag-aba-falls",
+      "name": "Mag-aba Falls",
+      "image": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=600&h=400&fit=crop",
+      "description": "Towering multi-tiered waterfall deep in the Antique mountain forest.",
+      "price": "₱100 / pax",
+      "rating": 4.6
+    },
+    {
+      "id": "antique-museum",
+      "name": "Antique Museum",
+      "image": "https://images.unsplash.com/photo-1582555172866-f73bb12a2ab3?w=600&h=400&fit=crop",
+      "description": "Houses archaeological findings and artifacts that trace the pre-colonial history of Antique.",
+      "price": "₱30 / pax",
+      "rating": 4.3
+    },
+    {
+      "id": "seco-island",
+      "name": "Seco Island",
+      "image": "https://images.unsplash.com/photo-1537996194471-e657df975ab4?w=600&h=400&fit=crop",
+      "description": "A remote white-sand sandbar offering solitude, snorkeling, and pristine sea views.",
+      "price": "₱600 / boat",
+      "rating": 4.7
+    },
+    {
+      "id": "maasin-river",
+      "name": "Maasin River",
+      "image": "https://images.unsplash.com/photo-1504701954957-2010ec3bcec1?w=600&h=400&fit=crop",
+      "description": "Fast-flowing river popular for whitewater kayaking and bamboo raft rides.",
+      "price": "₱200 / pax",
+      "rating": 4.5
+    },
+    {
+      "id": "mount-madja-as",
+      "name": "Mount Madja-as",
+      "image": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=600&h=400&fit=crop",
+      "description": "The legendary mountain of Antique, steeped in Kinaray-a mythology and epic trekking routes.",
+      "price": "₱400 / pax (permit)",
+      "rating": 4.6
+    }
+  ],
+  "activities": [
+    {
+      "id": "binirayan-festival",
+      "name": "Binirayan Festival",
+      "image": "https://images.unsplash.com/photo-1504609773096-104ff2c73ba4?w=600&h=400&fit=crop",
+      "description": "Join the epic annual re-enactment of the Bornean datus' arrival at Antique shores.",
+      "price": "Free to Watch",
+      "rating": 4.8
+    },
+    {
+      "id": "kayaking-maasin",
+      "name": "Kayaking on Maasin River",
+      "image": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=600&h=400&fit=crop",
+      "description": "Paddle through exciting rapids surrounded by lush tropical forest.",
+      "price": "₱300 / pax",
+      "rating": 4.6
+    },
+    {
+      "id": "island-hopping-antique",
+      "name": "Island Hopping Antique",
+      "image": "https://images.unsplash.com/photo-1537996194471-e657df975ab4?w=600&h=400&fit=crop",
+      "description": "Hop between Nogas, Seco, and other islets off Antique's western coast.",
+      "price": "₱800 / boat",
+      "rating": 4.7
+    },
+    {
+      "id": "weaving-workshop",
+      "name": "Hablon Weaving Workshop",
+      "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&h=400&fit=crop",
+      "description": "Learn traditional Kinaray-a textile weaving from master weavers of Antique.",
+      "price": "₱250 / session",
+      "rating": 4.5
+    },
+    {
+      "id": "cliff-diving",
+      "name": "Cliff Diving at Malumpati",
+      "image": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=600&h=400&fit=crop",
+      "description": "Leap from natural rock ledges into the crystal-clear waters of Malumpati Cold Spring.",
+      "price": "Free (entrance fee only)",
+      "rating": 4.7
+    },
+    {
+      "id": "trekking-madja-as",
+      "name": "Trekking Mount Madja-as",
+      "image": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=600&h=400&fit=crop",
+      "description": "Multi-day trek through mythological terrain to the summit of Madja-as.",
+      "price": "₱1,500 / pax",
+      "rating": 4.6
+    },
+    {
+      "id": "snorkeling-nogas",
+      "name": "Snorkeling at Nogas Island",
+      "image": "https://images.unsplash.com/photo-1537996194471-e657df975ab4?w=600&h=400&fit=crop",
+      "description": "Dive into the marine sanctuary and swim with hundreds of fish species.",
+      "price": "₱200 / pax",
+      "rating": 4.8
+    },
+    {
+      "id": "bamboo-rafting",
+      "name": "Bamboo Rafting",
+      "image": "https://images.unsplash.com/photo-1504701954957-2010ec3bcec1?w=600&h=400&fit=crop",
+      "description": "Float lazily down the Pan-ay River on a traditional bamboo raft.",
+      "price": "₱150 / pax",
+      "rating": 4.4
+    },
+    {
+      "id": "pottery-antique",
+      "name": "Pottery Workshop",
+      "image": "https://images.unsplash.com/photo-1565193566173-7a0ee3dbe261?w=600&h=400&fit=crop",
+      "description": "Create traditional Antiquean pottery with local craftspeople using age-old techniques.",
+      "price": "₱300 / session",
+      "rating": 4.3
+    }
+  ],
+  "food": [
+    {
+      "id": "talunon",
+      "name": "Talunon",
+      "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=600&h=400&fit=crop",
+      "description": "Antique's version of boiled pork in sour soup with local vegetables — rich and hearty.",
+      "price": "₱130–₱220",
+      "rating": 4.6
+    },
+    {
+      "id": "inunlan",
+      "name": "Inunlan",
+      "image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=600&h=400&fit=crop",
+      "description": "Shrimp cooked in taro leaves and coconut milk, a distinctly Kinaray-a seafood dish.",
+      "price": "₱150–₱250",
+      "rating": 4.7
+    },
+    {
+      "id": "piyaya-antique",
+      "name": "Piyaya",
+      "image": "https://images.unsplash.com/photo-1558961363-fa8fdf82db35?w=600&h=400&fit=crop",
+      "description": "Antique's own take on the muscovado-filled flatbread, slightly thicker and crispier.",
+      "price": "₱25–₱70 / pack",
+      "rating": 4.7
+    },
+    {
+      "id": "seafood-grill",
+      "name": "Fresh Catch Seafood Grill",
+      "image": "https://images.unsplash.com/photo-1559847844-5315695dadae?w=600&h=400&fit=crop",
+      "description": "Freshly grilled fish and shellfish served daily by local fisherfolk in San Jose.",
+      "price": "₱150–₱300",
+      "rating": 4.6
+    },
+    {
+      "id": "binakol-antique",
+      "name": "Binakol na Manok",
+      "image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=600&h=400&fit=crop",
+      "description": "Chicken cooked in a bamboo tube with coconut water and herbs — a mountain delicacy.",
+      "price": "₱180–₱280",
+      "rating": 4.5
+    },
+    {
+      "id": "latik-pudding",
+      "name": "Latik Rice Pudding",
+      "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=600&h=400&fit=crop",
+      "description": "Creamy rice pudding topped with toasted coconut curds, a traditional Antiquean sweet.",
+      "price": "₱30–₱60",
+      "rating": 4.5
+    },
+    {
+      "id": "kinilaw-tanigue",
+      "name": "Kinilaw na Tanigue",
+      "image": "https://images.unsplash.com/photo-1559847844-5315695dadae?w=600&h=400&fit=crop",
+      "description": "Fresh Spanish mackerel ceviche with vinegar, ginger, and chilies — pure coastal flavor.",
+      "price": "₱120–₱200",
+      "rating": 4.7
+    },
+    {
+      "id": "nilubyan",
+      "name": "Nilubyan",
+      "image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=600&h=400&fit=crop",
+      "description": "A smoky grilled pork dish marinated in native spices and charcoal-cooked over open flame.",
+      "price": "₱100–₱180",
+      "rating": 4.5
+    },
+    {
+      "id": "saging-na-saba",
+      "name": "Turon and Saba Banana",
+      "image": "https://images.unsplash.com/photo-1558961363-fa8fdf82db35?w=600&h=400&fit=crop",
+      "description": "Crispy banana spring rolls and steamed saba bananas, popular Antiquean street foods.",
+      "price": "₱15–₱40",
+      "rating": 4.4
+    }
+  ],
+  "events": [
+    {
+      "id": "binirayan",
+      "name": "Binirayan Festival",
+      "image": "https://images.unsplash.com/photo-1504609773096-104ff2c73ba4?w=600&h=400&fit=crop",
+      "description": "December — a grand re-enactment of the Bornean datus' arrival on Panay Island.",
+      "price": "Free",
+      "rating": 4.9
+    },
+    {
+      "id": "nogas-day",
+      "name": "Nogas Island Festival",
+      "image": "https://images.unsplash.com/photo-1537996194471-e657df975ab4?w=600&h=400&fit=crop",
+      "description": "May — marine conservation event with boat parades and underwater cleanup drives.",
+      "price": "Free",
+      "rating": 4.5
+    },
+    {
+      "id": "tapusan",
+      "name": "Tapusan Festival",
+      "image": "https://images.unsplash.com/photo-1514525253161-7a46d19cd819?w=600&h=400&fit=crop",
+      "description": "June — thanksgiving harvest celebration with street dances and cultural competitions.",
+      "price": "Free",
+      "rating": 4.4
+    },
+    {
+      "id": "antique-trade-fair",
+      "name": "Antique Provincial Trade Fair",
+      "image": "https://images.unsplash.com/photo-1467810563316-b5476525c0f9?w=600&h=400&fit=crop",
+      "description": "April — provincial fair showcasing local products, handicrafts, and agricultural goods.",
+      "price": "Free",
+      "rating": 4.3
+    },
+    {
+      "id": "hablon-festival",
+      "name": "Hablon Weaving Festival",
+      "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&h=400&fit=crop",
+      "description": "September — textile festival celebrating Antique's rich tradition of handloom weaving.",
+      "price": "Free",
+      "rating": 4.5
+    },
+    {
+      "id": "river-fest",
+      "name": "Pan-ay River Festival",
+      "image": "https://images.unsplash.com/photo-1504701954957-2010ec3bcec1?w=600&h=400&fit=crop",
+      "description": "August — water sports and eco-tourism event along the scenic Pan-ay River.",
+      "price": "Free",
+      "rating": 4.4
+    },
+    {
+      "id": "fiesta-san-jose",
+      "name": "Fiesta de San Jose",
+      "image": "https://images.unsplash.com/photo-1508739773434-c26b3d09e071?w=600&h=400&fit=crop",
+      "description": "March 19 — grand fiesta of Antique's capital with processions and cultural performances.",
+      "price": "Free",
+      "rating": 4.4
+    },
+    {
+      "id": "tabuk-festival",
+      "name": "Tabuk Fishing Festival",
+      "image": "https://images.unsplash.com/photo-1559847844-5315695dadae?w=600&h=400&fit=crop",
+      "description": "November — a lively coastal festival dedicated to the local freshwater tabuk fish harvest.",
+      "price": "Free",
+      "rating": 4.3
+    },
+    {
+      "id": "heritage-day",
+      "name": "Antique Heritage Day",
+      "image": "https://images.unsplash.com/photo-1555400038-63f5ba517a47?w=600&h=400&fit=crop",
+      "description": "October — historical tours, museum exhibits, and indigenous artifact displays.",
+      "price": "Free",
+      "rating": 4.4
+    }
+  ],
+  "accommodations": [
+    {
+      "id": "malumpati-lodge",
+      "name": "Malumpati Lodge",
+      "image": "https://images.unsplash.com/photo-1582719508461-905c673771fd?w=600&h=400&fit=crop",
+      "description": "Simple but scenic lodge set right next to the famous cold spring.",
+      "price": "₱1,200–₱2,500 / night",
+      "rating": 4.4
+    },
+    {
+      "id": "san-jose-grand",
+      "name": "San Jose Grand Hotel",
+      "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=600&h=400&fit=crop",
+      "description": "The best-equipped hotel in Antique's capital with modern rooms and dining.",
+      "price": "₱2,500–₱4,500 / night",
+      "rating": 4.5
+    },
+    {
+      "id": "antique-ecolodge",
+      "name": "Antique Eco Lodge",
+      "image": "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?w=600&h=400&fit=crop",
+      "description": "Sustainable bamboo cottages surrounded by native forest and mountain streams.",
+      "price": "₱1,500–₱3,000 / night",
+      "rating": 4.5
+    },
+    {
+      "id": "nogas-beach-cottage",
+      "name": "Nogas Beach Cottage",
+      "image": "https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9?w=600&h=400&fit=crop",
+      "description": "Beachside cottages near the Nogas Island jump-off point with hammocks and sea views.",
+      "price": "₱800–₱1,800 / night",
+      "rating": 4.3
+    },
+    {
+      "id": "kinaray-inn",
+      "name": "Kinaray-a Inn",
+      "image": "https://images.unsplash.com/photo-1582719508461-905c673771fd?w=600&h=400&fit=crop",
+      "description": "Cultural guesthouse with indigenous décor and warm Kinaray-a hospitality.",
+      "price": "₱900–₱2,000 / night",
+      "rating": 4.3
+    },
+    {
+      "id": "mountain-view-resort",
+      "name": "Mountain View Resort Antique",
+      "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=600&h=400&fit=crop",
+      "description": "Resort perched on a hillside with sweeping views of the Antique Mountain Range.",
+      "price": "₱1,800–₱3,500 / night",
+      "rating": 4.4
+    },
+    {
+      "id": "pensione-buenavista",
+      "name": "Pensione Buenavista",
+      "image": "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?w=600&h=400&fit=crop",
+      "description": "Budget pensione in San Jose with clean rooms and a central downtown location.",
+      "price": "₱600–₱1,200 / night",
+      "rating": 4.1
+    },
+    {
+      "id": "surf-camp-tibiao",
+      "name": "Tibiao Surf Camp",
+      "image": "https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9?w=600&h=400&fit=crop",
+      "description": "Surf camp on Tibiao beach offering board rentals, lessons, and beachside dorms.",
+      "price": "₱500–₱1,500 / night",
+      "rating": 4.3
+    },
+    {
+      "id": "coconut-grove-villas",
+      "name": "Coconut Grove Villas",
+      "image": "https://images.unsplash.com/photo-1582719508461-905c673771fd?w=600&h=400&fit=crop",
+      "description": "Private villas set in a grove of coconut palms near the coast of Antique.",
+      "price": "₱2,000–₱4,000 / night",
+      "rating": 4.5
+    }
+  ]
+}

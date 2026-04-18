@@ -1,0 +1,417 @@
+{
+  "meta": {
+    "title": "ILOILO PROVINCE",
+    "subtitle": "Iloilo, Western Visayas",
+    "hero_image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=1400&h=700&fit=crop&q=80",
+    "desc_photo": "https://images.unsplash.com/photo-1555400038-63f5ba517a47?w=700&h=420&fit=crop&q=80",
+    "description": "Iloilo Province surrounds the vibrant Iloilo City and spans across the eastern side of Panay Island, encompassing scenic coastal towns, heritage churches, lush rice fields, and the pristine Gigantes Island Group. Known as the 'Heart of the Philippines,' it offers a perfect blend of history, nature, and Ilonggo culture.",
+    "chips": [
+      {
+        "label": "Province",
+        "value": "Iloilo"
+      },
+      {
+        "label": "Region",
+        "value": "Western Visayas"
+      },
+      {
+        "label": "Capital",
+        "value": "Iloilo City"
+      },
+      {
+        "label": "Language",
+        "value": "Hiligaynon"
+      },
+      {
+        "label": "Festival",
+        "value": "Dinagyang"
+      },
+      {
+        "label": "Famous For",
+        "value": "Gigantes Islands"
+      },
+      {
+        "label": "Climate",
+        "value": "Tropical"
+      },
+      {
+        "label": "Best Visit",
+        "value": "Jan–May"
+      },
+      {
+        "label": "Island",
+        "value": "Panay"
+      }
+    ]
+  },
+  "attractions": [
+    {
+      "id": "gigantes-norte",
+      "name": "Gigantes Norte Island",
+      "image": "https://images.unsplash.com/photo-1537996194471-e657df975ab4?w=600&h=400&fit=crop",
+      "description": "A remote island paradise with pristine beaches, sea caves, and towering limestone cliffs.",
+      "price": "₱200 / pax",
+      "rating": 4.9
+    },
+    {
+      "id": "cabugao-gamay",
+      "name": "Cabugao Gamay Island",
+      "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=600&h=400&fit=crop",
+      "description": "A tiny postcard-perfect islet with a coconut tree at the center — iconic Gigantes photo spot.",
+      "price": "₱100 / pax",
+      "rating": 5.0
+    },
+    {
+      "id": "bantayan-iloilo",
+      "name": "Fort San Pedro Heritage",
+      "image": "https://images.unsplash.com/photo-1548018560-c7196548a5c3?w=600&h=400&fit=crop",
+      "description": "A historic Spanish fort in Iloilo dating to the 17th century with panoramic harbor views.",
+      "price": "₱50 / pax",
+      "rating": 4.5
+    },
+    {
+      "id": "jaro-basilica",
+      "name": "Jaro Basilica",
+      "image": "https://images.unsplash.com/photo-1555400038-63f5ba517a47?w=600&h=400&fit=crop",
+      "description": "A stunning 17th-century cathedral and the only basilica in Asia with an outside belfry.",
+      "price": "Free Entry",
+      "rating": 4.7
+    },
+    {
+      "id": "miag-ao-church",
+      "name": "Miagao Church",
+      "image": "https://images.unsplash.com/photo-1548018560-c7196548a5c3?w=600&h=400&fit=crop",
+      "description": "UNESCO World Heritage baroque church carved with coconut and papaya motifs.",
+      "price": "Free Entry",
+      "rating": 4.8
+    },
+    {
+      "id": "tangke-saltwater-lagoon",
+      "name": "Tangke Saltwater Lagoon",
+      "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=600&h=400&fit=crop",
+      "description": "A stunning saltwater lagoon hidden inside a limestone karst cave at Gigantes Islands.",
+      "price": "₱150 / pax",
+      "rating": 4.9
+    },
+    {
+      "id": "sicogon-island",
+      "name": "Sicogon Island",
+      "image": "https://images.unsplash.com/photo-1560713781-d8f1c2d9e978?w=600&h=400&fit=crop",
+      "description": "An emerging eco-resort island with powdery white sand and pristine coral reefs.",
+      "price": "₱500 / day tour",
+      "rating": 4.7
+    },
+    {
+      "id": "garin-farm",
+      "name": "Garin Farm Pilgrimage",
+      "image": "https://images.unsplash.com/photo-1464226184884-fa280b87c399?w=600&h=400&fit=crop",
+      "description": "A unique pilgrimage site combining a hilltop church with a working farm and waterpark.",
+      "price": "₱50 / pax",
+      "rating": 4.6
+    },
+    {
+      "id": "isla-gigantes",
+      "name": "Gigantes Sur Lighthouse",
+      "image": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=600&h=400&fit=crop",
+      "description": "A classic white lighthouse at the tip of Gigantes Sur with sweeping sea views.",
+      "price": "Free Entry",
+      "rating": 4.5
+    }
+  ],
+  "activities": [
+    {
+      "id": "island-hopping-gigantes",
+      "name": "Gigantes Island Hopping",
+      "image": "https://images.unsplash.com/photo-1537996194471-e657df975ab4?w=600&h=400&fit=crop",
+      "description": "The ultimate Iloilo adventure — hopping between the 21 Gigantes Islands by bangka.",
+      "price": "₱1,200 / boat",
+      "rating": 5.0
+    },
+    {
+      "id": "cave-snorkeling",
+      "name": "Gigantes Cave Snorkeling",
+      "image": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=600&h=400&fit=crop",
+      "description": "Snorkel through dramatic sea caves with turquoise waters at the Gigantes archipelago.",
+      "price": "₱200 / pax",
+      "rating": 4.9
+    },
+    {
+      "id": "heritage-tour",
+      "name": "Iloilo Heritage Church Tour",
+      "image": "https://images.unsplash.com/photo-1548018560-c7196548a5c3?w=600&h=400&fit=crop",
+      "description": "Guided tour of Iloilo's UNESCO and ancestral churches across the province.",
+      "price": "₱400 / pax",
+      "rating": 4.6
+    },
+    {
+      "id": "surfing-san-joaquin",
+      "name": "Surfing San Joaquin",
+      "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&h=400&fit=crop",
+      "description": "Ride the consistent swells of San Joaquin's surf breaks along Iloilo's coast.",
+      "price": "₱300 / session",
+      "rating": 4.5
+    },
+    {
+      "id": "paraw-sailing",
+      "name": "Paraw Sailing",
+      "image": "https://images.unsplash.com/photo-1504701954957-2010ec3bcec1?w=600&h=400&fit=crop",
+      "description": "Sail across the Visayan Sea on a traditional double outrigger paraw sailboat.",
+      "price": "₱500 / pax",
+      "rating": 4.7
+    },
+    {
+      "id": "mangrove-eco-tour",
+      "name": "Mangrove Eco Tour",
+      "image": "https://images.unsplash.com/photo-1518791841217-8f162f1912da?w=600&h=400&fit=crop",
+      "description": "Glide through mangrove tunnels teeming with fireflies on a night eco-tour.",
+      "price": "₱200 / pax",
+      "rating": 4.6
+    },
+    {
+      "id": "scuba-diving-iloilo",
+      "name": "Scuba Diving Iloilo",
+      "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=600&h=400&fit=crop",
+      "description": "Explore rich coral gardens and diverse marine life off the coast of Iloilo Province.",
+      "price": "₱1,500 / dive",
+      "rating": 4.7
+    },
+    {
+      "id": "tinuaan-festival",
+      "name": "Tinuaan Festival",
+      "image": "https://images.unsplash.com/photo-1504609773096-104ff2c73ba4?w=600&h=400&fit=crop",
+      "description": "Participate in this unique cultural festival celebrating the woven textile heritage of Iloilo.",
+      "price": "Free to Watch",
+      "rating": 4.5
+    },
+    {
+      "id": "rice-field-walk",
+      "name": "Rice Field Walking Tour",
+      "image": "https://images.unsplash.com/photo-1464226184884-fa280b87c399?w=600&h=400&fit=crop",
+      "description": "Walk through endless verdant rice paddies and visit farming families in provincial Iloilo.",
+      "price": "₱150 / pax",
+      "rating": 4.4
+    }
+  ],
+  "food": [
+    {
+      "id": "la-paz-batchoy-province",
+      "name": "La Paz Batchoy",
+      "image": "https://images.unsplash.com/photo-1585325701956-60dd9c8553bc?w=600&h=400&fit=crop",
+      "description": "The original noodle soup from La Paz, Iloilo — thick egg noodles in rich pork broth with chicharron.",
+      "price": "₱80–₱150",
+      "rating": 5.0
+    },
+    {
+      "id": "pancit-molo",
+      "name": "Pancit Molo",
+      "image": "https://images.unsplash.com/photo-1585325701956-60dd9c8553bc?w=600&h=400&fit=crop",
+      "description": "A unique dumpling soup from Molo district — pork-filled wonton in a clear chicken broth.",
+      "price": "₱100–₱180",
+      "rating": 4.8
+    },
+    {
+      "id": "gigantes-scallops",
+      "name": "Gigantes Scallops",
+      "image": "https://images.unsplash.com/photo-1559847844-5315695dadae?w=600&h=400&fit=crop",
+      "description": "Freshly baked or grilled scallops straight from the Gigantes Island harvest — incredibly fresh.",
+      "price": "₱150–₱300",
+      "rating": 4.9
+    },
+    {
+      "id": "seafood-bulad",
+      "name": "Bulad (Dried Fish)",
+      "image": "https://images.unsplash.com/photo-1559847844-5315695dadae?w=600&h=400&fit=crop",
+      "description": "Sun-dried fish and seafood, a staple of Iloilo coastal life, best paired with hot garlic rice.",
+      "price": "₱80–₱200",
+      "rating": 4.6
+    },
+    {
+      "id": "dinuguan",
+      "name": "Dinuguan",
+      "image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=600&h=400&fit=crop",
+      "description": "A savory pork blood stew with chili and vinegar — a bold and comforting Filipino classic.",
+      "price": "₱100–₱180",
+      "rating": 4.5
+    },
+    {
+      "id": "ilonggo-lechon",
+      "name": "Ilonggo Lechon",
+      "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=600&h=400&fit=crop",
+      "description": "Whole roasted pig stuffed with lemongrass and herbs, with crackling golden skin.",
+      "price": "₱350–₱600 / kg",
+      "rating": 4.8
+    },
+    {
+      "id": "kadios-soup",
+      "name": "Kadios Manok Soup",
+      "image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=600&h=400&fit=crop",
+      "description": "Chicken and pigeon pea soup with batuan fruit, a distinctly Ilonggo sour broth.",
+      "price": "₱120–₱200",
+      "rating": 4.6
+    },
+    {
+      "id": "biscocho",
+      "name": "Biscocho",
+      "image": "https://images.unsplash.com/photo-1558961363-fa8fdf82db35?w=600&h=400&fit=crop",
+      "description": "Twice-baked bread slathered in butter and sugar, Iloilo's most famous pasalubong.",
+      "price": "₱40–₱100 / pack",
+      "rating": 4.8
+    },
+    {
+      "id": "iloilo-seafood-market",
+      "name": "Iloilo Seafood Market",
+      "image": "https://images.unsplash.com/photo-1559847844-5315695dadae?w=600&h=400&fit=crop",
+      "description": "Buy fresh catch from fishermen at the Iloilo wharf and have it grilled on-site.",
+      "price": "₱200–₱400",
+      "rating": 4.7
+    }
+  ],
+  "events": [
+    {
+      "id": "dinagyang-province",
+      "name": "Dinagyang Festival",
+      "image": "https://images.unsplash.com/photo-1504609773096-104ff2c73ba4?w=600&h=400&fit=crop",
+      "description": "January — Iloilo's world-renowned street festival with tribal warriors in vivid costumes.",
+      "price": "Free",
+      "rating": 5.0
+    },
+    {
+      "id": "paraw-regatta-iloilo",
+      "name": "Paraw Regatta Festival",
+      "image": "https://images.unsplash.com/photo-1504701954957-2010ec3bcec1?w=600&h=400&fit=crop",
+      "description": "February — traditional sailboat races from Iloilo City to Guimaras and back.",
+      "price": "Free to Watch",
+      "rating": 4.7
+    },
+    {
+      "id": "kasadyahan",
+      "name": "Kasadyahan Festival",
+      "image": "https://images.unsplash.com/photo-1514525253161-7a46d19cd819?w=600&h=400&fit=crop",
+      "description": "January — provincial cultural festival showcasing dances and traditions of Iloilo towns.",
+      "price": "Free",
+      "rating": 4.6
+    },
+    {
+      "id": "batchoy-festival",
+      "name": "Batchoy Food Festival",
+      "image": "https://images.unsplash.com/photo-1585325701956-60dd9c8553bc?w=600&h=400&fit=crop",
+      "description": "October — La Paz celebrates its famous noodle dish with cooking competitions and free tastings.",
+      "price": "Free",
+      "rating": 4.7
+    },
+    {
+      "id": "gigantes-fiesta",
+      "name": "Gigantes Islands Fiesta",
+      "image": "https://images.unsplash.com/photo-1537996194471-e657df975ab4?w=600&h=400&fit=crop",
+      "description": "June — island fiesta with traditional boat races, beach games, and seafood feasts.",
+      "price": "Free",
+      "rating": 4.6
+    },
+    {
+      "id": "iloilo-fashion-show",
+      "name": "Iloilo Fashion & Design Council Show",
+      "image": "https://images.unsplash.com/photo-1508739773434-c26b3d09e071?w=600&h=400&fit=crop",
+      "description": "Annual fashion show featuring hablon-inspired designs by Ilonggo designers.",
+      "price": "₱200 / pax",
+      "rating": 4.5
+    },
+    {
+      "id": "miagao-fiesta",
+      "name": "Miagao Church Fiesta",
+      "image": "https://images.unsplash.com/photo-1548018560-c7196548a5c3?w=600&h=400&fit=crop",
+      "description": "May 3 — grand fiesta of Miagao's UNESCO church with religious processions and cultural events.",
+      "price": "Free",
+      "rating": 4.5
+    },
+    {
+      "id": "ilonggo-food-festival",
+      "name": "Ilonggo Food Festival",
+      "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=600&h=400&fit=crop",
+      "description": "August — celebrating Iloilo's culinary heritage with street food stalls and cooking demonstrations.",
+      "price": "Free",
+      "rating": 4.6
+    },
+    {
+      "id": "jaro-heritage",
+      "name": "Jaro Heritage Walk",
+      "image": "https://images.unsplash.com/photo-1555400038-63f5ba517a47?w=600&h=400&fit=crop",
+      "description": "March — guided heritage walk through Jaro district's ancestral houses, churches, and museums.",
+      "price": "₱150 / pax",
+      "rating": 4.5
+    }
+  ],
+  "accommodations": [
+    {
+      "id": "gigantes-inn",
+      "name": "Gigantes Island Inn",
+      "image": "https://images.unsplash.com/photo-1582719508461-905c673771fd?w=600&h=400&fit=crop",
+      "description": "Simple island guesthouse on Gigantes Norte, the best base for island hopping.",
+      "price": "₱800–₱2,000 / night",
+      "rating": 4.5
+    },
+    {
+      "id": "sicogon-resort",
+      "name": "Sicogon Island Resort",
+      "image": "https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9?w=600&h=400&fit=crop",
+      "description": "Pristine eco-resort on Sicogon Island with beachfront villas and marine activities.",
+      "price": "₱4,000–₱10,000 / night",
+      "rating": 4.8
+    },
+    {
+      "id": "hotel-del-rio",
+      "name": "Hotel Del Rio Iloilo",
+      "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=600&h=400&fit=crop",
+      "description": "Charming riverside hotel in Iloilo City with pool and heritage restaurant.",
+      "price": "₱3,000–₱6,000 / night",
+      "rating": 4.6
+    },
+    {
+      "id": "jaro-heritage-hotel",
+      "name": "Jaro Heritage Hotel",
+      "image": "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?w=600&h=400&fit=crop",
+      "description": "A restored Spanish colonial mansion converted into a boutique hotel in Jaro.",
+      "price": "₱3,500–₱7,000 / night",
+      "rating": 4.7
+    },
+    {
+      "id": "miagao-beach-resort",
+      "name": "Miagao Beach Resort",
+      "image": "https://images.unsplash.com/photo-1582719508461-905c673771fd?w=600&h=400&fit=crop",
+      "description": "Beachside resort near the Miagao UNESCO church with comfortable rooms and seafood dining.",
+      "price": "₱1,500–₱3,000 / night",
+      "rating": 4.4
+    },
+    {
+      "id": "villa-iloilo",
+      "name": "Villa Iloilo",
+      "image": "https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9?w=600&h=400&fit=crop",
+      "description": "Spanish colonial villa with private gardens, a pool, and curated Ilonggo cuisine.",
+      "price": "₱5,000–₱12,000 / night",
+      "rating": 4.8
+    },
+    {
+      "id": "molo-mansion",
+      "name": "Molo Mansion Inn",
+      "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=600&h=400&fit=crop",
+      "description": "Heritage mansion in Molo district offering immersive historical accommodation.",
+      "price": "₱2,500–₱5,000 / night",
+      "rating": 4.6
+    },
+    {
+      "id": "gigantes-camping",
+      "name": "Gigantes Beach Camping",
+      "image": "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?w=600&h=400&fit=crop",
+      "description": "Tent camping on the beaches of Gigantes Norte with stargazing and bonfires.",
+      "price": "₱400–₱800 / night",
+      "rating": 4.5
+    },
+    {
+      "id": "harbor-hotel-iloilo",
+      "name": "Harbor Hotel Iloilo",
+      "image": "https://images.unsplash.com/photo-1582719508461-905c673771fd?w=600&h=400&fit=crop",
+      "description": "Modern harbor-view hotel with rooftop bar and easy access to Iloilo's attractions.",
+      "price": "₱2,800–₱5,500 / night",
+      "rating": 4.6
+    }
+  ]
+}

@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Detail – Boracay</title>
+  <title id="page-title">Detail – Western Visayas</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
   <style>
@@ -152,6 +152,40 @@
       font-size: 12px;
       color: #555;
       line-height: 1.4;
+    }
+
+    /* ── Action buttons row ── */
+    .action-btns {
+      display: flex;
+      gap: 14px;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin-bottom: 0;
+    }
+
+    /* ── Book Now button ── */
+    .book-now-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 14px 40px;
+      background: #a8d8ea;
+      border: 2px solid #a8d8ea;
+      border-radius: 50px;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 13px;
+      font-weight: 800;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+      color: #1c3a4a;
+      cursor: pointer;
+      transition: background .2s, border-color .2s, transform .2s;
+    }
+
+    .book-now-btn:hover {
+      background: #7ec8e3;
+      border-color: #7ec8e3;
+      transform: translateY(-2px);
     }
 
     /* ── Get Directions button ── */
@@ -376,6 +410,231 @@
     .footer-links a:hover { opacity: .5; }
 
     /* ═══════════════════════════════════════════════
+       BOOKING MODAL
+    ═══════════════════════════════════════════════ */
+    .booking-overlay {
+      display: none;
+      position: fixed;
+      inset: 0;
+      background: rgba(0,0,0,.50);
+      z-index: 1100;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+      backdrop-filter: blur(3px);
+      -webkit-backdrop-filter: blur(3px);
+    }
+
+    .booking-overlay.active { display: flex; }
+
+    .booking-box {
+      background: #fff;
+      border-radius: 22px;
+      width: 100%;
+      max-width: 480px;
+      max-height: 92vh;
+      overflow-y: auto;
+      padding: 36px 32px 28px;
+      position: relative;
+      animation: bk-pop .26s cubic-bezier(.34,1.56,.64,1);
+    }
+
+    @keyframes bk-pop {
+      from { opacity: 0; transform: scale(.9) translateY(24px); }
+      to   { opacity: 1; transform: scale(1) translateY(0); }
+    }
+
+    .booking-close {
+      position: absolute;
+      top: 14px; right: 18px;
+      background: none;
+      border: none;
+      font-size: 26px;
+      cursor: pointer;
+      color: #bbb;
+      line-height: 1;
+      transition: color .15s;
+    }
+
+    .booking-close:hover { color: var(--dark); }
+
+    .booking-title {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 22px;
+      font-weight: 900;
+      color: var(--dark);
+      margin-bottom: 22px;
+    }
+
+    .form-group {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+      margin-bottom: 16px;
+    }
+
+    .form-group label {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 11px;
+      font-weight: 800;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      color: var(--dark);
+    }
+
+    .form-group input {
+      padding: 11px 14px;
+      border: none;
+      border-radius: 10px;
+      background: #f0f0f0;
+      font-size: 13px;
+      font-family: 'Open Sans', sans-serif;
+      color: var(--dark);
+      outline: none;
+      transition: background .2s;
+    }
+
+    .form-group input:focus { background: #e4e8ec; }
+
+    .addons-label {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 11px;
+      font-weight: 800;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      color: var(--dark);
+      margin-bottom: 10px;
+    }
+
+    .addon-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 8px 0;
+      border-bottom: 1px solid #f0f0f0;
+    }
+
+    .addon-row:last-of-type { border-bottom: none; }
+
+    .addon-name {
+      font-size: 13px;
+      color: var(--dark);
+      font-family: 'Open Sans', sans-serif;
+    }
+
+    .addon-right {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .addon-price {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 12px;
+      font-weight: 700;
+      color: #888;
+    }
+
+    .addon-check {
+      width: 18px;
+      height: 18px;
+      accent-color: #a8d8ea;
+      cursor: pointer;
+    }
+
+    .confirm-btn {
+      margin-top: 24px;
+      width: 100%;
+      padding: 14px 0;
+      background: #a8d8ea;
+      border: none;
+      border-radius: 50px;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 12px;
+      font-weight: 800;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+      color: #1c3a4a;
+      cursor: pointer;
+      transition: background .2s, transform .15s;
+    }
+
+    .confirm-btn:hover { background: #7ec8e3; transform: translateY(-1px); }
+
+    .booking-form-inner.hidden { display: none; }
+
+    .success-box {
+      display: none;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      padding: 32px 16px 16px;
+      gap: 14px;
+    }
+
+    .success-box.active { display: flex; }
+
+    .success-icon { font-size: 72px; line-height: 1; }
+
+    .success-title {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 22px;
+      font-weight: 900;
+      color: var(--dark);
+    }
+
+    .back-home-btn {
+      padding: 12px 36px;
+      background: #a8d8ea;
+      border: none;
+      border-radius: 50px;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 11px;
+      font-weight: 800;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+      color: #1c3a4a;
+      cursor: pointer;
+      transition: background .2s;
+    }
+
+    .back-home-btn:hover { background: #7ec8e3; }
+
+    /* ── Ticket display ── */
+    .ticket-display {
+      background: #f0f8fb;
+      border: 1.5px solid #a8d8ea;
+      border-radius: 14px;
+      padding: 18px 28px;
+      width: 100%;
+      text-align: center;
+    }
+
+    .ticket-num-label {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 10px;
+      font-weight: 800;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: #5ab0c8;
+      margin-bottom: 6px;
+    }
+
+    .ticket-num {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 20px;
+      font-weight: 900;
+      letter-spacing: 4px;
+      color: #1c3a4a;
+    }
+
+    .ticket-email-note {
+      font-size: 11px;
+      color: #999;
+      margin-top: 8px;
+    }
+
+    /* ═══════════════════════════════════════════════
        RESPONSIVE
     ═══════════════════════════════════════════════ */
     @media (max-width: 540px) {
@@ -438,13 +697,21 @@
     </div>
   </div>
 
-  <!-- Get Directions -->
-  <button class="directions-btn" id="detail-directions" onclick="openMap()">
-    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
-      <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/>
-    </svg>
-    Get Directions
-  </button>
+  <!-- Buttons row -->
+  <div class="action-btns">
+    <button class="book-now-btn" id="detail-book-btn" onclick="openBooking()">
+      <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+        <rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/>
+      </svg>
+      Book Now
+    </button>
+    <button class="directions-btn" id="detail-directions" onclick="openMap()">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/>
+      </svg>
+      Get Directions
+    </button>
+  </div>
 
 </div>
 
@@ -460,7 +727,7 @@
         </div>
         <div>
           <div class="map-place-name" id="map-title">Location</div>
-          <div class="map-place-sub">Boracay, Aklan, Philippines</div>
+          <div class="map-place-sub" id="mapPlaceSub">Philippines</div>
         </div>
       </div>
       <button class="map-close-btn" onclick="closeMap()" aria-label="Close map">&times;</button>
@@ -482,6 +749,51 @@
   </div>
 </div>
 
+<!-- ═══ BOOKING MODAL ════════════════════════════════════ -->
+<div class="booking-overlay" id="bookingOverlay">
+  <div class="booking-box">
+    <button class="booking-close" id="bookingClose" aria-label="Close">&times;</button>
+
+    <!-- Form view -->
+    <div class="booking-form-inner" id="bookingFormInner">
+      <h2 class="booking-title" id="bookingTitle">Book Now</h2>
+
+      <div class="form-group">
+        <label for="bk-name">Full Name</label>
+        <input type="text" id="bk-name" placeholder="Enter your full name" />
+      </div>
+      <div class="form-group">
+        <label for="bk-email">Email</label>
+        <input type="email" id="bk-email" placeholder="Enter your email" />
+      </div>
+      <div class="form-group">
+        <label for="bk-schedule">Schedule</label>
+        <input type="date" id="bk-schedule" />
+      </div>
+      <div class="form-group">
+        <label for="bk-guests">Guests</label>
+        <input type="number" id="bk-guests" placeholder="Number of guests" min="1" />
+      </div>
+
+      <div id="addonsContainer"></div>
+
+      <button class="confirm-btn" id="confirmBtn">Confirm Booking</button>
+    </div>
+
+    <!-- Success view -->
+    <div class="success-box" id="successBox">
+      <div class="success-icon">🎉</div>
+      <div class="success-title">Booking Confirmed!</div>
+      <div class="ticket-display">
+        <div class="ticket-num-label">Ticket Number</div>
+        <div class="ticket-num" id="ticketNumber">—</div>
+        <div class="ticket-email-note" id="ticketNote">A confirmation has been sent to your email</div>
+      </div>
+      <button class="back-home-btn" id="backHomeBtn">Back to Homepage</button>
+    </div>
+  </div>
+</div>
+
 <!-- ═══ FOOTER ══════════════════════════════════════════ -->
 <footer>
   <div class="footer-title">Western Visayas Travel</div>
@@ -500,17 +812,19 @@
   ══════════════════════════════════════════════════ */
   let currentMapQuery = '';
 
-  // Boracay Island fixed coordinates
-  const BORACAY_EMBED = 'https://www.google.com/maps?q=11.9674,121.9248&output=embed&z=14';
-  const BORACAY_LINK  = 'https://www.google.com/maps/search/?api=1&query=Boracay+Island+Philippines';
+  // Destination injected by Flask/Jinja2
+  const DESTINATION = "{{ destination }}";
+
+  let currentItemName = '';
 
   function openMap() {
     const overlay = document.getElementById('mapOverlay');
     const frame   = document.getElementById('mapFrame');
     const openLnk = document.getElementById('map-open-link');
 
-    frame.src    = BORACAY_EMBED;
-    openLnk.href = BORACAY_LINK;
+    const query = encodeURIComponent((currentItemName || DESTINATION) + ' Philippines');
+    frame.src    = `https://www.google.com/maps?q=${query}&output=embed&z=13`;
+    openLnk.href = `https://www.google.com/maps/search/?api=1&query=${query}`;
 
     overlay.classList.add('active');
     document.body.style.overflow = 'hidden';
@@ -530,8 +844,140 @@
     if (e.target === this) closeMap();
   });
 
-  // Close on Escape key
-  document.addEventListener('keydown', e => { if (e.key === 'Escape') closeMap(); });
+  /* ══════════════════════════════════════════════════
+     CATEGORY-SPECIFIC ADD-ONS
+  ══════════════════════════════════════════════════ */
+  const CATEGORY_ADDONS = {
+    attractions:    [
+      { id: 'guided-tour', name: 'Guided Tour',    price: '₱250' },
+      { id: 'photo-pkg',   name: 'Photo Package',  price: '₱300' },
+    ],
+    activities: [
+      { id: 'equipment',   name: 'Equipment Rental',  price: '₱200' },
+      { id: 'instructor',  name: 'Instructor Fee',    price: '₱300' },
+    ],
+    food: [],
+    events: [
+      { id: 'vip',          name: 'VIP Seating',      price: '₱500' },
+      { id: 'souvenir-kit', name: 'Souvenir Kit',     price: '₱150' },
+    ],
+    accommodations: [
+      { id: 'transfer',    name: 'Airport Transfer',   price: '₱350' },
+      { id: 'breakfast',   name: 'Breakfast Included', price: '₱200' },
+    ],
+  };
+
+  function renderAddons(cat) {
+    const container = document.getElementById('addonsContainer');
+    const addons = CATEGORY_ADDONS[cat] || [];
+    if (!addons.length) { container.innerHTML = ''; return; }
+    container.innerHTML = `
+      <div class="addons-label">Add-Ons</div>
+      ${addons.map(a => `
+        <div class="addon-row">
+          <span class="addon-name">${a.name}</span>
+          <div class="addon-right">
+            <span class="addon-price">${a.price}</span>
+            <input type="checkbox" class="addon-check" id="addon-${a.id}" />
+          </div>
+        </div>
+      `).join('')}
+    `;
+  }
+
+  /* ══════════════════════════════════════════════════
+     BOOKING MODAL
+  ══════════════════════════════════════════════════ */
+  function openBooking() {
+    document.getElementById('bk-name').value     = '';
+    document.getElementById('bk-email').value    = '';
+    document.getElementById('bk-schedule').value = '';
+    document.getElementById('bk-guests').value   = '';
+    renderAddons(category);   // category comes from URL params (defined below)
+    document.getElementById('bookingFormInner').classList.remove('hidden');
+    document.getElementById('successBox').classList.remove('active');
+    document.getElementById('bookingOverlay').classList.add('active');
+    document.body.style.overflow = 'hidden';
+  }
+
+  function closeBooking() {
+    document.getElementById('bookingOverlay').classList.remove('active');
+    document.body.style.overflow = '';
+  }
+
+  document.getElementById('bookingClose').addEventListener('click', closeBooking);
+  document.getElementById('bookingOverlay').addEventListener('click', function(e) {
+    if (e.target === this) closeBooking();
+  });
+
+  document.getElementById('confirmBtn').addEventListener('click', async () => {
+    const name     = document.getElementById('bk-name').value.trim();
+    const email    = document.getElementById('bk-email').value.trim();
+    const schedule = document.getElementById('bk-schedule').value;
+    const guests   = document.getElementById('bk-guests').value;
+    if (!name || !email || !schedule || !guests) {
+      alert('Please fill in all fields before confirming.');
+      return;
+    }
+
+    // Collect checked add-ons
+    const addons = [];
+    document.querySelectorAll('#addonsContainer .addon-row').forEach(row => {
+      const cb = row.querySelector('input[type=checkbox]');
+      if (cb && cb.checked) {
+        addons.push({
+          name:  row.querySelector('.addon-name').textContent,
+          price: row.querySelector('.addon-price').textContent
+        });
+      }
+    });
+
+    const btn = document.getElementById('confirmBtn');
+    btn.disabled = true;
+    btn.textContent = 'Sending…';
+
+    let ticketNum = '—';
+    let emailSent = false;
+    try {
+      const placeName = document.getElementById('bookingTitle').textContent;
+      const res = await fetch('/api/book', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          name, email, schedule, guests, addons,
+          place:       placeName,
+          category:    category,
+          destination: DESTINATION
+        })
+      });
+      const result = await res.json();
+      ticketNum = result.ticket || '—';
+      emailSent = result.email_sent || false;
+    } catch (e) {
+      console.warn('Booking API error:', e);
+    }
+
+    btn.disabled = false;
+    btn.textContent = 'Confirm Booking';
+
+    document.getElementById('ticketNumber').textContent = ticketNum;
+    document.getElementById('ticketNote').textContent = emailSent
+      ? 'A confirmation has been sent to your email'
+      : 'Save this ticket number for your records';
+
+    document.getElementById('bookingFormInner').classList.add('hidden');
+    document.getElementById('successBox').classList.add('active');
+  });
+
+  document.getElementById('backHomeBtn').addEventListener('click', () => {
+    closeBooking();
+    window.location.href = `/${DESTINATION}`;
+  });
+
+  // Close on Escape key — handles both modals
+  document.addEventListener('keydown', e => {
+    if (e.key === 'Escape') { closeMap(); closeBooking(); }
+  });
 
   /* ══════════════════════════════════════════════════
      READ URL PARAMS → FETCH JSON → POPULATE PAGE
@@ -541,7 +987,7 @@
   const id       = params.get('id');
 
   if (category && id) {
-    fetch('/static/data.json')
+    fetch(`/static/data/${DESTINATION}.json`)
       .then(r => r.json())
       .then(data => {
         const items = data[category] || [];
@@ -562,7 +1008,8 @@
         document.getElementById('detail-things').textContent   = item.things_to_do;
 
         /* ── Update page title ── */
-        document.title = item.name + ' – Boracay';
+        document.title = item.name + ' – ' + DESTINATION.charAt(0).toUpperCase() + DESTINATION.slice(1);
+        currentItemName = item.name;
 
         /* ── Swap place photo ── */
         const placeImg = document.querySelector('.place-photo-wrap img');
@@ -572,8 +1019,11 @@
         }
 
         /* ── Set up map modal ── */
-        currentMapQuery = item.name + ' Boracay Philippines';
         document.getElementById('map-title').textContent = item.name;
+        document.getElementById('mapPlaceSub').textContent = item.location || (DESTINATION + ', Philippines');
+
+        /* ── Set booking modal title ── */
+        document.getElementById('bookingTitle').textContent = item.name;
       })
       .catch(err => {
         console.error('Failed to load data.json:', err);

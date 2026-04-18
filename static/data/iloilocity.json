@@ -1,0 +1,525 @@
+{
+  "meta": {
+    "title": "ILOILO CITY",
+    "subtitle": "Iloilo Province, Western Visayas",
+    "hero_image": "https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=1400&h=700&fit=crop&q=80",
+    "desc_photo": "https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=700&h=420&fit=crop&q=80",
+    "description": "Iloilo City is a vibrant heritage destination known as the \"Queen City of the South,\" featuring centuries-old Spanish colonial architecture, ancestral houses, and a thriving culinary scene. The city seamlessly blends rich cultural traditions with modern development, making it a premier destination for history enthusiasts and food lovers. Home to the legendary Dinagyang Festival and finest seafood, Iloilo City offers authentic Filipino charm and urban sophistication.",
+    "chips": [
+      {"label": "Region", "value": "Western Visayas"},
+      {"label": "Population", "value": "~447,000"},
+      {"label": "Province", "value": "Iloilo"},
+      {"label": "City/Capital", "value": "Iloilo City"},
+      {"label": "Languages", "value": "Ilonggo, Filipino, English"},
+      {"label": "Known As", "value": "Queen City of the South"},
+      {"label": "Tagline", "value": "Heritage, Culture & Seafood"},
+      {"label": "Nickname", "value": "The Golden City"},
+      {"label": "Founded", "value": "1566"}
+    ]
+  },
+  "attractions": [
+    {
+      "id": "miagao-church",
+      "name": "Miagao Church",
+      "image": "https://images.unsplash.com/photo-1541961017774-22349e4a1262?w=800&h=520&fit=crop",
+      "description": "A UNESCO World Heritage baroque church featuring intricate stone carvings and distinctive architectural design.",
+      "location": "Miagao, Iloilo Province",
+      "type": "Religious Heritage",
+      "hours": "7:00 AM - 6:00 PM Daily",
+      "things_to_do": "Photography, Historical tours, Architecture appreciation, Attend mass, Local crafts shopping",
+      "price": "Free"
+    },
+    {
+      "id": "jaro-cathedral",
+      "name": "Jaro Cathedral",
+      "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&h=520&fit=crop",
+      "description": "One of the oldest cathedrals in the Philippines with stunning Gothic-inspired architecture and historical significance.",
+      "location": "Jaro, Iloilo City",
+      "type": "Religious Site",
+      "hours": "6:00 AM - 7:00 PM Daily",
+      "things_to_do": "Attend services, Photography, Historical exploration, Spiritual visits, Architecture study",
+      "price": "Free"
+    },
+    {
+      "id": "Fort-san-pedro",
+      "name": "Fort San Pedro",
+      "image": "https://images.unsplash.com/photo-1470114716159-e389f8712fda?w=800&h=520&fit=crop",
+      "description": "Historic Spanish colonial fortress representing Iloilo's maritime heritage and military significance from the 16th century.",
+      "location": "Iloilo City Proper",
+      "type": "Historical Fort",
+      "hours": "9:00 AM - 5:00 PM Daily",
+      "things_to_do": "Historical tours, Photography, Educational visits, Sunset viewing, Museum exploration",
+      "price": "₱50 / person"
+    },
+    {
+      "id": "nelly-garden-museum",
+      "name": "Nelly Garden Museum",
+      "image": "https://images.unsplash.com/photo-1469022563149-aa64dbd37dae?w=800&h=520&fit=crop",
+      "description": "A charming museum showcasing ancestral house interiors, antiques, and artifacts representing Iloilo's colonial past.",
+      "location": "Jaro, Iloilo City",
+      "type": "Museum",
+      "hours": "10:00 AM - 5:00 PM (Tues-Sun)",
+      "things_to_do": "Guided museum tours, Photography, Antique appreciation, Cultural immersion, Gift shopping",
+      "price": "₱150 / person"
+    },
+    {
+      "id": "plaza-liberacion",
+      "name": "Plaza Liberación",
+      "image": "https://images.unsplash.com/photo-1459749411175-04bf5292ceea?w=800&h=520&fit=crop",
+      "description": "Historic public plaza hosting the iconic Dinagyang Festival and serving as the heart of Iloilo's cultural celebrations.",
+      "location": "Iloilo City Proper",
+      "type": "Public Plaza",
+      "hours": "24/7 Access",
+      "things_to_do": "Festival attendance, Street performances, Photography, Cultural events, Socializing",
+      "price": "Free"
+    },
+    {
+      "id": "calle-real",
+      "name": "Calle Real Heritage District",
+      "image": "https://images.unsplash.com/photo-1488714963033-a6a6e20c7f70?w=800&h=520&fit=crop",
+      "description": "Restored colonial street featuring ancestral houses, cafes, galleries, and museums showcasing Spanish-era architecture.",
+      "location": "Iloilo City",
+      "type": "Heritage District",
+      "hours": "9:00 AM - 6:00 PM Daily",
+      "things_to_do": "Walking tours, Photography, Gallery visits, Dining, Antique shopping, Cultural immersion",
+      "price": "Free (Some galleries charge ₱50-150)"
+    },
+    {
+      "id": "soilao-island",
+      "name": "Soilao Island",
+      "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&h=520&fit=crop",
+      "description": "A scenic island destination known for pristine beaches, snorkeling opportunities, and picturesque seaside views.",
+      "location": "Off Iloilo City",
+      "type": "Island",
+      "hours": "6:00 AM - 6:00 PM Daily",
+      "things_to_do": "Beach swimming, Snorkeling, Island hopping, Photography, Picnicking, Water sports",
+      "price": "₱200-300 / boat rental"
+    },
+    {
+      "id": "dinosaur-island-adventure",
+      "name": "Dinosaur Island",
+      "image": "https://images.unsplash.com/photo-1520763185298-1b434c919eba?w=800&h=520&fit=crop",
+      "description": "A fun theme park featuring dinosaur sculptures, themed attractions, and family-friendly activities with beautiful landscapes.",
+      "location": "Iloilo Province",
+      "type": "Theme Park",
+      "hours": "10:00 AM - 6:00 PM Daily",
+      "things_to_do": "Park exploration, Photography, Family activities, Kids play areas, Picnicking, Educational tours",
+      "price": "₱250 / person"
+    },
+    {
+      "id": "business-park-cinema",
+      "name": "Iloilo Business Park",
+      "image": "https://images.unsplash.com/photo-1449844908441-8829872d2607?w=800&h=520&fit=crop",
+      "description": "Modern commercial hub offering shopping, dining, and entertainment facilities with contemporary Filipino architecture.",
+      "location": "Iloilo City",
+      "type": "Commercial Hub",
+      "hours": "10:00 AM - 10:00 PM Daily",
+      "things_to_do": "Shopping, Dining, Movie watching, Entertainment, Socializing, Brand experiences",
+      "price": "Free entry (Dining & shopping vary)"
+    }
+  ],
+  "activities": [
+    {
+      "id": "dinagyang-festival",
+      "name": "Dinagyang Festival Celebration",
+      "image": "https://images.unsplash.com/photo-1533373512331-104da94d4b94?w=800&h=520&fit=crop",
+      "description": "Participate in the vibrant Dinagyang Festival with colorful parades, indigenous tribal dances, and street performances.",
+      "location": "Plaza Liberación, Iloilo City",
+      "type": "Festival",
+      "hours": "January 1-3rd Weekend",
+      "things_to_do": "Street dancing, Parade watching, Cultural performances, Local food tasting, Photography",
+      "price": "Free (Some events charge ₱100-500)"
+    },
+    {
+      "id": "seafood-culinary-tour",
+      "name": "Seafood Culinary Tour",
+      "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=800&h=520&fit=crop",
+      "description": "Explore Iloilo's renowned seafood restaurants and markets, tasting fresh catch and local delicacies.",
+      "location": "Various restaurants, Iloilo City",
+      "type": "Food Tour",
+      "hours": "11:00 AM - 9:00 PM Daily",
+      "things_to_do": "Restaurant visits, Food tasting, Market exploration, Cooking classes, Local recommendations",
+      "price": "₱500-1500 / person"
+    },
+    {
+      "id": "heritage-walking-tour",
+      "name": "Heritage Walking Tour",
+      "image": "https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=800&h=520&fit=crop",
+      "description": "Guided walking tours through colonial districts, ancestral houses, and historical landmarks with expert storytelling.",
+      "location": "Calle Real & surrounding areas",
+      "type": "Historical Tour",
+      "hours": "8:00 AM - 5:00 PM Daily",
+      "things_to_do": "Historical exploration, Photography, Museum visits, Architecture appreciation, Local stories",
+      "price": "₱300-600 / person"
+    },
+    {
+      "id": "riverside-sunset-cruise",
+      "name": "Iloilo River Sunset Cruise",
+      "image": "https://images.unsplash.com/photo-1544551763-92ab472cad5d?w=800&h=520&fit=crop",
+      "description": "Scenic boat cruise along the Iloilo River at sunset with dinner, live music, and cityscape views.",
+      "location": "Iloilo River",
+      "type": "Cruise",
+      "hours": "5:00 PM - 8:00 PM Daily",
+      "things_to_do": "River sightseeing, Sunset photography, Live music enjoyment, Dinner, Romance activities",
+      "price": "₱800-1200 / person"
+    },
+    {
+      "id": "island-hopping-adventure",
+      "name": "Island Hopping Adventure",
+      "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&h=520&fit=crop",
+      "description": "Multi-island tour visiting Soilao, Guimaras, and nearby islands with snorkeling and beach activities.",
+      "location": "Off Iloilo City",
+      "type": "Water Adventure",
+      "hours": "7:00 AM - 5:00 PM Daily",
+      "things_to_do": "Island exploration, Snorkeling, Swimming, Picnicking, Photography, Boat travel",
+      "price": "₱1500-2500 / person"
+    },
+    {
+      "id": "pottery-workshop",
+      "name": "Local Pottery & Crafts Workshop",
+      "image": "https://images.unsplash.com/photo-1565193566173-7cde38f8f5e9?w=800&h=520&fit=crop",
+      "description": "Hands-on workshops learning traditional pottery, weaving, and local craftsmanship from skilled artisans.",
+      "location": "Various workshops, Iloilo City",
+      "type": "Craft Workshop",
+      "hours": "9:00 AM - 5:00 PM Daily",
+      "things_to_do": "Pottery making, Weaving lessons, Craft creation, Artisan interaction, Souvenir making",
+      "price": "₱400-800 / person"
+    },
+    {
+      "id": "night-market-exploration",
+      "name": "Night Market Exploration",
+      "image": "https://images.unsplash.com/photo-1555939594-58d7cb561839?w=800&h=520&fit=crop",
+      "description": "Experience local night markets with street food, vendor stalls, and authentic Filipino street culture.",
+      "location": "Sarao Market & City Center",
+      "type": "Market Tour",
+      "hours": "5:00 PM - 12:00 AM Daily",
+      "things_to_do": "Street food tasting, Local shopping, Night photography, People watching, Food discovery",
+      "price": "₱200-500 / person"
+    },
+    {
+      "id": "extreme-water-sports",
+      "name": "Water Sports Activities",
+      "image": "https://images.unsplash.com/photo-1505142468610-359e7d316be0?w=800&h=520&fit=crop",
+      "description": "Thrilling water sports including jet skiing, parasailing, banana boat rides, and kayaking.",
+      "location": "Iloilo Beach Resorts",
+      "type": "Water Sports",
+      "hours": "9:00 AM - 5:00 PM Daily",
+      "things_to_do": "Jet skiing, Parasailing, Banana boat rides, Kayaking, Swimming, Water skiing",
+      "price": "₱500-1500 / activity"
+    },
+    {
+      "id": "art-gallery-tour",
+      "name": "Art Gallery & Artist Studio Tour",
+      "image": "https://images.unsplash.com/photo-1578301978162-7aae4d755744?w=800&h=520&fit=crop",
+      "description": "Visit contemporary art galleries and artist studios featuring local and national artists' work.",
+      "location": "Calle Real & Jaro",
+      "type": "Art Tour",
+      "hours": "10:00 AM - 6:00 PM (Tues-Sun)",
+      "things_to_do": "Art appreciation, Artist meetings, Gallery browsing, Art purchasing, Creative inspiration",
+      "price": "Free-₱200 / gallery"
+    }
+  ],
+  "food": [
+    {
+      "id": "linarrang",
+      "name": "Linarrang (Local Stew)",
+      "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=800&h=520&fit=crop",
+      "description": "Traditional Ilonggo fish and vegetable stew with rich broth and fresh local ingredients.",
+      "location": "Local restaurants throughout Iloilo City",
+      "type": "Traditional Dish",
+      "hours": "11:00 AM - 9:00 PM Daily",
+      "things_to_do": "Dining, Taste testing, Recipe learning, Food photography, Local cuisine exploration",
+      "price": "₱150-300 / serving"
+    },
+    {
+      "id": "iloilo-seafood-platter",
+      "name": "Fresh Seafood Platter",
+      "image": "https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=800&h=520&fit=crop",
+      "description": "Abundant fresh catch including grilled fish, shrimp, squid, and local sea delicacies prepared daily.",
+      "location": "Waterfront restaurants, Fish markets",
+      "type": "Seafood",
+      "hours": "11:00 AM - 10:00 PM Daily",
+      "things_to_do": "Fresh seafood tasting, Market visits, Restaurant dining, Photography, Culinary experiences",
+      "price": "₱400-1000 / person"
+    },
+    {
+      "id": "batchoy",
+      "name": "La Paz Batchoy",
+      "image": "https://images.unsplash.com/photo-1568291154361-efddb63e2d76?w=800&h=520&fit=crop",
+      "description": "Famous noodle soup from Iloilo featuring pork, shrimp, fish cake, and leafy vegetables in rich broth.",
+      "location": "La Paz Market, Various restaurants",
+      "type": "Noodle Soup",
+      "hours": "6:00 AM - 3:00 PM (Breakfast/Lunch)",
+      "things_to_do": "Traditional breakfast, Market exploration, Recipe learning, Food tasting, Local dining",
+      "price": "₱80-150 / bowl"
+    },
+    {
+      "id": "chicken-inasal",
+      "name": "Chicken Inasal",
+      "image": "https://images.unsplash.com/photo-1598103442097-8b74394b95c6?w=800&h=520&fit=crop",
+      "description": "Grilled marinated chicken with turmeric and spices, a regional favorite with local flavor.",
+      "location": "Street stalls, Restaurants throughout city",
+      "type": "Grilled Specialty",
+      "hours": "11:00 AM - 9:00 PM Daily",
+      "things_to_do": "Street food sampling, Restaurant dining, Cooking classes, Flavor appreciation, Local tours",
+      "price": "₱100-250 / serving"
+    },
+    {
+      "id": "okoy",
+      "name": "Okoy (Shrimp Fritters)",
+      "image": "https://images.unsplash.com/photo-1585238341710-4b4e6f289635?w=800&h=520&fit=crop",
+      "description": "Crispy fried shrimp and vegetable fritters, perfect street food and appetizer specialty.",
+      "location": "Night markets, Street vendors, Restaurants",
+      "type": "Fried Appetizer",
+      "hours": "4:00 PM - 12:00 AM Daily",
+      "things_to_do": "Street food sampling, Night market exploration, Food photography, Snacking, Local discovery",
+      "price": "₱30-80 / order"
+    },
+    {
+      "id": "tinutuan",
+      "name": "Tinutuan (Rice Porridge)",
+      "image": "https://images.unsplash.com/photo-1668050473519-6e891d2f4097?w=800&h=520&fit=crop",
+      "description": "Comfort food rice porridge with pork, ginger, and local seasonings, served for breakfast or comfort meals.",
+      "location": "Local eateries, Markets, Restaurants",
+      "type": "Breakfast Dish",
+      "hours": "6:00 AM - 2:00 PM Daily",
+      "things_to_do": "Breakfast tasting, Local dining, Flavor exploration, Recipe learning, Food culture immersion",
+      "price": "₱60-150 / serving"
+    },
+    {
+      "id": "lumpiang-shanghai",
+      "name": "Lumpiang Shanghai",
+      "image": "https://images.unsplash.com/photo-1573461160552-c812a3fdf0d2?w=800&h=520&fit=crop",
+      "description": "Crispy spring rolls filled with pork, shrimp, and vegetables, popular appetizer and snack.",
+      "location": "Restaurants, Street vendors, Local eateries",
+      "type": "Appetizer",
+      "hours": "10:00 AM - 9:00 PM Daily",
+      "things_to_do": "Appetizer tasting, Street food sampling, Restaurant visits, Food appreciation, Local flavors",
+      "price": "₱50-120 / order"
+    },
+    {
+      "id": "fresh-fruit-shakes",
+      "name": "Tropical Fresh Fruit Shakes",
+      "image": "https://images.unsplash.com/photo-1590080876234-cd6de96c1d54?w=800&h=520&fit=crop",
+      "description": "Refreshing blended drinks with fresh mango, banana, pineapple, and local tropical fruits.",
+      "location": "Juice bars, Street stalls, Restaurants",
+      "type": "Beverage",
+      "hours": "9:00 AM - 9:00 PM Daily",
+      "things_to_do": "Refreshment, Flavor tasting, Health drinks, Smoothie bar visits, Tropical fruit sampling",
+      "price": "₱40-100 / drink"
+    },
+    {
+      "id": "lechon-kawali",
+      "name": "Lechon Kawali (Fried Pork)",
+      "image": "https://images.unsplash.com/photo-1598103442097-8b74394b95c6?w=800&h=520&fit=crop",
+      "description": "Crispy fried pork belly served with liver sauce, a festive Filipino favorite and comfort food.",
+      "location": "Restaurants, Local eateries, Celebrations",
+      "type": "Main Course",
+      "hours": "11:00 AM - 9:00 PM Daily",
+      "things_to_do": "Traditional Filipino dining, Feast participation, Restaurant experience, Flavor discovery, Local cuisine",
+      "price": "₱250-500 / serving"
+    }
+  ],
+  "events": [
+    {
+      "id": "dinagyang-festival-jan",
+      "name": "Dinagyang Festival",
+      "image": "https://images.unsplash.com/photo-1533373512331-104da94d4b94?w=800&h=520&fit=crop",
+      "description": "Iloilo's premier cultural festival featuring indigenous tribal dances, street parades, and colorful celebrations.",
+      "location": "Plaza Liberación & streets of Iloilo City",
+      "type": "Cultural Festival",
+      "hours": "January 1-3rd Weekend",
+      "things_to_do": "Street dancing, Parade watching, Cultural performances, Food festivals, Photography",
+      "price": "Free (Premium seating ₱500-2000)"
+    },
+    {
+      "id": "holy-week-celebrations",
+      "name": "Holy Week Celebrations",
+      "image": "https://images.unsplash.com/photo-1541961017774-22349e4a1262?w=800&h=520&fit=crop",
+      "description": "Religious processions, passion plays, and spiritual observances throughout churches and communities.",
+      "location": "Churches throughout Iloilo City",
+      "type": "Religious Event",
+      "hours": "Easter Period (March-April)",
+      "things_to_do": "Attend processions, Church visits, Passion play viewing, Spiritual reflection, Photography",
+      "price": "Free"
+    },
+    {
+      "id": "iloilo-charter-day",
+      "name": "Iloilo City Charter Day",
+      "image": "https://images.unsplash.com/photo-1459749411175-04bf5292ceea?w=800&h=520&fit=crop",
+      "description": "Celebration of Iloilo City's founding with civic programs, cultural performances, and community activities.",
+      "location": "City Hall, Plaza Liberación",
+      "type": "Civic Celebration",
+      "hours": "August 3rd",
+      "things_to_do": "Civic programs, Parades, Cultural performances, Local festivities, Community participation",
+      "price": "Free"
+    },
+    {
+      "id": "ati-atihan-spillover",
+      "name": "Ati-Atihan Spillover Events",
+      "image": "https://images.unsplash.com/photo-1533373512331-104da94d4b94?w=800&h=520&fit=crop",
+      "description": "Neighboring province's festival influences Iloilo with mini celebrations and cultural events.",
+      "location": "Various venues in Iloilo City",
+      "type": "Festival",
+      "hours": "January (Post-Ati-Atihan)",
+      "things_to_do": "Festival celebrations, Street performances, Food tasting, Cultural immersion, Photography",
+      "price": "Free"
+    },
+    {
+      "id": "art-festival",
+      "name": "Iloilo Art & Design Festival",
+      "image": "https://images.unsplash.com/photo-1578301978162-7aae4d755744?w=800&h=520&fit=crop",
+      "description": "Showcasing local and regional artists with exhibitions, performances, and interactive art installations.",
+      "location": "Various galleries and venues",
+      "type": "Art Festival",
+      "hours": "October-November",
+      "things_to_do": "Art appreciation, Artist interactions, Installation exploration, Photography, Art purchasing",
+      "price": "Free-₱500 / events"
+    },
+    {
+      "id": "seafood-festival",
+      "name": "Iloilo Seafood Festival",
+      "image": "https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=800&h=520&fit=crop",
+      "description": "Celebration of Iloilo's rich seafood heritage with cooking competitions, tastings, and vendor exhibits.",
+      "location": "Waterfront areas, Various venues",
+      "type": "Food Festival",
+      "hours": "September (Varies annually)",
+      "things_to_do": "Seafood tasting, Cooking competitions, Vendor exploration, Restaurant samples, Food photography",
+      "price": "Free (Food purchases ₱50-500)"
+    },
+    {
+      "id": "christmas-celebrations",
+      "name": "Christmas & New Year Festivities",
+      "image": "https://images.unsplash.com/photo-1514306688772-e90dcad49122?w=800&h=520&fit=crop",
+      "description": "Extended Christmas season with light displays, gift fairs, holiday markets, and year-end celebrations.",
+      "location": "City center, Malls, Religious sites",
+      "type": "Holiday Festival",
+      "hours": "November-January",
+      "things_to_do": "Light viewing, Shopping, Holiday concerts, Caroling, Religious services, Family gatherings",
+      "price": "Free (Shopping varies)"
+    },
+    {
+      "id": "independence-day",
+      "name": "Philippine Independence Day",
+      "image": "https://images.unsplash.com/photo-1459749411175-04bf5292ceea?w=800&h=520&fit=crop",
+      "description": "National holiday celebration with flag-raising ceremonies, historical reenactments, and civic activities.",
+      "location": "Government buildings, Schools, Community centers",
+      "type": "National Holiday",
+      "hours": "June 12th",
+      "things_to_do": "Flag ceremonies, Reenactments, Civic activities, Historical exploration, Community events",
+      "price": "Free"
+    },
+    {
+      "id": "music-concert-series",
+      "name": "Iloilo Music & Concert Series",
+      "image": "https://images.unsplash.com/photo-1511379938547-c1f69b13d835?w=800&h=520&fit=crop",
+      "description": "Year-round concerts and live music events featuring local, regional, and international artists.",
+      "location": "Concert halls, Amphitheaters, Venues",
+      "type": "Music Event",
+      "hours": "Various dates throughout year",
+      "things_to_do": "Live music enjoyment, Artist appreciation, Concert attendance, Social events, Photography",
+      "price": "₱300-2000 / ticket"
+    }
+  ],
+  "accommodations": [
+    {
+      "id": "hotel-negresco",
+      "name": "Hotel Negresco Iloilo",
+      "image": "https://images.unsplash.com/photo-1631049307264-da0ec9d70304?w=800&h=520&fit=crop",
+      "description": "Luxury heritage hotel in restored colonial mansion with elegant rooms and fine dining facilities.",
+      "location": "Calle Real, Jaro",
+      "type": "Heritage Hotel",
+      "hours": "24/7 Check-in available",
+      "things_to_do": "Heritage stays, Fine dining, Event hosting, Luxury experiences, Business meetings",
+      "price": "₱3000-8000 / night"
+    },
+    {
+      "id": "sunburst-resort",
+      "name": "Sunburst Resort & Spa",
+      "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=800&h=520&fit=crop",
+      "description": "Beachfront resort with spa facilities, water sports access, and modern amenities.",
+      "location": "Sarao area, near beach",
+      "type": "Beach Resort",
+      "hours": "24/7 Check-in available",
+      "things_to_do": "Beach access, Water sports, Spa treatments, Swimming, Dining, Recreation",
+      "price": "₱2500-6500 / night"
+    },
+    {
+      "id": "fort-iloilo-hotel",
+      "name": "Fort Iloilo Hotel",
+      "image": "https://images.unsplash.com/photo-1631049307264-da0ec9d70304?w=800&h=520&fit=crop",
+      "description": "Contemporary hotel with scenic waterfront views, business facilities, and recreational amenities.",
+      "location": "Iloilo City proper",
+      "type": "Business Hotel",
+      "hours": "24/7 Check-in available",
+      "things_to_do": "Business meetings, Waterfront views, Dining, Shopping, Event hosting, Recreation",
+      "price": "₱2000-5000 / night"
+    },
+    {
+      "id": "smallville-commercial",
+      "name": "Smallville Hotel & Mall",
+      "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=800&h=520&fit=crop",
+      "description": "Integrated hotel and shopping destination with direct mall access and diverse dining options.",
+      "location": "City center",
+      "type": "Hotel-Mall Complex",
+      "hours": "24/7 Check-in available",
+      "things_to_do": "Shopping, Dining, Cinema, Business facilities, Entertainment, Luxury stays",
+      "price": "₱1800-4500 / night"
+    },
+    {
+      "id": "goldenfield-hotel",
+      "name": "Goldenfield Hotel",
+      "image": "https://images.unsplash.com/photo-1631049307264-da0ec9d70304?w=800&h=520&fit=crop",
+      "description": "Budget-friendly hotel offering comfortable rooms and convenient location for city exploration.",
+      "location": "City center",
+      "type": "Budget Hotel",
+      "hours": "24/7 Check-in available",
+      "things_to_do": "Affordable stays, City access, Dining, Business facilities, Local exploration",
+      "price": "₱1000-2500 / night"
+    },
+    {
+      "id": "orchard-garden-hotel",
+      "name": "Orchard Garden Hotel",
+      "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=800&h=520&fit=crop",
+      "description": "Mid-range hotel with garden settings, swimming pool, and family-friendly amenities.",
+      "location": "City residential area",
+      "type": "Family Hotel",
+      "hours": "24/7 Check-in available",
+      "things_to_do": "Swimming, Family stays, Dining, Recreation, Business facilities, Local activities",
+      "price": "₱1500-3500 / night"
+    },
+    {
+      "id": "sarao-beach-resort",
+      "name": "Sarao Beach Resort",
+      "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&h=520&fit=crop",
+      "description": "Intimate beachfront resort with direct beach access, water sports, and relaxed island atmosphere.",
+      "location": "Sarao, near beach",
+      "type": "Beach Resort",
+      "hours": "24/7 Check-in available",
+      "things_to_do": "Beach swimming, Water sports, Island vibes, Sunset viewing, Snorkeling, Dining",
+      "price": "₱2000-5000 / night"
+    },
+    {
+      "id": "iloilo-business-park-hotel",
+      "name": "Iloilo Business Park Hotel",
+      "image": "https://images.unsplash.com/photo-1631049307264-da0ec9d70304?w=800&h=520&fit=crop",
+      "description": "Premium business hotel integrated with shopping and dining complex, ideal for corporate travelers.",
+      "location": "Business Park, City center",
+      "type": "Business Hotel",
+      "hours": "24/7 Check-in available",
+      "things_to_do": "Business meetings, Shopping, Fine dining, Entertainment, Conference facilities, Recreation",
+      "price": "₱2500-6000 / night"
+    },
+    {
+      "id": "budget-backpackers",
+      "name": "Iloilo Backpackers & Hostel",
+      "image": "https://images.unsplash.com/photo-1631049307264-da0ec9d70304?w=800&h=520&fit=crop",
+      "description": "Social hostel offering dorm beds and private rooms with common areas and travel information.",
+      "location": "City center, near attractions",
+      "type": "Hostel",
+      "hours": "24/7 Check-in available",
+      "things_to_do": "Budget stays, Social activities, Travel planning, Shared experiences, Local exploration",
+      "price": "₱400-800 / bed or ₱1200-2000 / private"
+    }
+  ]
+}

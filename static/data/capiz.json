@@ -1,0 +1,552 @@
+{
+  "meta": {
+    "title": "CAPIZ",
+    "subtitle": "Capiz, Western Visayas",
+    "hero_image": "https://images.unsplash.com/photo-1506929562872-bb421503ef21?w=1400&h=700&fit=crop&q=80",
+    "desc_photo": "https://images.unsplash.com/photo-1519046904884-53103b34b206?w=700&h=420&fit=crop&q=80",
+    "description": "Capiz, known as the Seafood Capital of the Philippines, is a province of Panay Island blessed with abundant marine resources, mystical folklore, and the charming city of Roxas. Its rivers, bays, and coastlines provide the freshest oysters, scallops, and crabs in the country.",
+    "chips": [
+      {
+        "label": "Island",
+        "value": "Panay"
+      },
+      {
+        "label": "Region",
+        "value": "Western Visayas"
+      },
+      {
+        "label": "Population",
+        "value": "762,000"
+      },
+      {
+        "label": "Province",
+        "value": "Capiz"
+      },
+      {
+        "label": "Capital",
+        "value": "Roxas City"
+      },
+      {
+        "label": "Languages",
+        "value": "Filipino, English, Kinaray-a, Hiligaynon"
+      },
+      {
+        "label": "Known As",
+        "value": "Seafood Capital of the Philippines"
+      },
+      {
+        "label": "Tagline",
+        "value": "Capiz: More Than Seafood"
+      },
+      {
+        "label": "Nickname",
+        "value": "The Land of Mythical Creatures"
+      }
+    ]
+  },
+  "attractions": [
+    {
+      "id": "roxas-city-plaza",
+      "name": "Roxas City Plaza",
+      "image": "https://images.unsplash.com/photo-1473116763249-2faaef81ccda?w=800&h=520&fit=crop",
+      "description": "The heart of Roxas City featuring a beautiful park, historic church, and the iconic centennial tree that has stood for centuries.",
+      "location": "Roxas City",
+      "type": "Heritage Site",
+      "hours": "Always open",
+      "things_to_do": "Relaxing, photography, historical tour",
+      "price": "Free"
+    },
+    {
+      "id": "capiz-shell-crafts",
+      "name": "Capiz Shell Museum",
+      "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&h=520&fit=crop",
+      "description": "A museum dedicated to the famous Capiz shell, used worldwide in lampshades and decor, showcasing its harvest and processing.",
+      "location": "Roxas City",
+      "type": "Museum",
+      "hours": "8:00 AM – 5:00 PM",
+      "things_to_do": "Museum tour, shell crafts, souvenir shopping",
+      "price": "₱30 / person"
+    },
+    {
+      "id": "olotayan-island",
+      "name": "Olotayan Island",
+      "image": "https://images.unsplash.com/photo-1548574505-5e239809ee19?w=800&h=520&fit=crop",
+      "description": "A pristine island off the coast of Capiz with white sand beaches, clear waters, and excellent snorkeling and diving spots.",
+      "location": "Off Roxas City",
+      "type": "Island",
+      "hours": "Always open",
+      "things_to_do": "Swimming, snorkeling, island relaxation",
+      "price": "₱500 / person"
+    },
+    {
+      "id": "baybay-beach",
+      "name": "Baybay Beach",
+      "image": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=800&h=520&fit=crop",
+      "description": "A popular public beach in Roxas City perfect for swimming, beach strolls, and enjoying stunning sunsets over the Sibuyan Sea.",
+      "location": "Roxas City",
+      "type": "Beach",
+      "hours": "Always open",
+      "things_to_do": "Swimming, sunset viewing, beach volleyball",
+      "price": "Free"
+    },
+    {
+      "id": "panay-church",
+      "name": "Panay Church",
+      "image": "https://images.unsplash.com/photo-1548013146-72479768bada?w=800&h=520&fit=crop",
+      "description": "One of the largest churches in Asia, the Saint John the Baptist Parish in Panay is a stunning 18th century Baroque structure.",
+      "location": "Panay, Capiz",
+      "type": "Heritage Church",
+      "hours": "6:00 AM – 6:00 PM",
+      "things_to_do": "Prayer, historical tour, photography",
+      "price": "Free"
+    },
+    {
+      "id": "sapian-oyster-farm",
+      "name": "Sapian Oyster Farm",
+      "image": "https://images.unsplash.com/photo-1506929562872-bb421503ef21?w=800&h=520&fit=crop",
+      "description": "Visit one of the freshest oyster farms in the Philippines and learn the traditional harvesting process before enjoying them fresh.",
+      "location": "Sapian, Capiz",
+      "type": "Agri-Tourism",
+      "hours": "7:00 AM – 4:00 PM",
+      "things_to_do": "Farm tour, oyster tasting, cultural learning",
+      "price": "₱200 / person"
+    },
+    {
+      "id": "zoo-and-botanical",
+      "name": "Capiz Zoo & Botanical Garden",
+      "image": "https://images.unsplash.com/photo-1559494007-9f5847c49d94?w=800&h=520&fit=crop",
+      "description": "A family-friendly zoo and garden featuring local wildlife, exotic plants, and well-maintained grounds in Roxas City.",
+      "location": "Roxas City",
+      "type": "Zoo & Garden",
+      "hours": "8:00 AM – 5:00 PM",
+      "things_to_do": "Wildlife viewing, garden walk, family fun",
+      "price": "₱50 / person"
+    },
+    {
+      "id": "evelio-javier",
+      "name": "Evelio B. Javier Foundation Museum",
+      "image": "https://images.unsplash.com/photo-1565118531796-763e5082d113?w=800&h=520&fit=crop",
+      "description": "A museum honoring Capiz's beloved governor and human rights advocate Evelio Javier, featuring historical exhibits.",
+      "location": "Roxas City",
+      "type": "Museum",
+      "hours": "9:00 AM – 5:00 PM",
+      "things_to_do": "Museum tour, historical learning",
+      "price": "Free"
+    },
+    {
+      "id": "lawaan-spring",
+      "name": "Lawaan Spring",
+      "image": "https://images.unsplash.com/photo-1484821582734-6c6c9f99a672?w=800&h=520&fit=crop",
+      "description": "A natural freshwater spring surrounded by lush vegetation, perfect for a refreshing dip and nature immersion.",
+      "location": "Capiz Interior",
+      "type": "Natural Spring",
+      "hours": "7:00 AM – 5:00 PM",
+      "things_to_do": "Swimming, nature walk, picnicking",
+      "price": "₱50 / person"
+    }
+  ],
+  "activities": [
+    {
+      "id": "seafood-feast",
+      "name": "Seafood Boodle Fight",
+      "image": "https://images.unsplash.com/photo-1505118380757-91f5f5632de0?w=800&h=520&fit=crop",
+      "description": "Experience a traditional Filipino communal feast with the freshest Capiz seafood — oysters, crabs, shrimps — served on banana leaves.",
+      "location": "Roxas City Restaurants",
+      "type": "Dining Experience",
+      "hours": "11:00 AM – 9:00 PM",
+      "things_to_do": "Seafood feast, cultural dining, group bonding",
+      "price": "₱600 / person"
+    },
+    {
+      "id": "island-hopping-capiz",
+      "name": "Island Hopping",
+      "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&h=520&fit=crop",
+      "description": "Explore the small islands off Capiz's coast by boat, visiting pristine beaches and snorkeling spots teeming with marine life.",
+      "location": "Capiz Waters",
+      "type": "Water Activity",
+      "hours": "7:00 AM – 4:00 PM",
+      "things_to_do": "Island hopping, snorkeling, swimming",
+      "price": "₱1,500 / person"
+    },
+    {
+      "id": "capiz-river-tour",
+      "name": "Capiz River Tour",
+      "image": "https://images.unsplash.com/photo-1519046904884-53103b34b206?w=800&h=520&fit=crop",
+      "description": "A scenic boat tour along the Capiz River through mangrove forests and fishing communities, learning about the local way of life.",
+      "location": "Capiz River",
+      "type": "Eco-tour",
+      "hours": "8:00 AM – 4:00 PM",
+      "things_to_do": "Boat tour, mangrove walk, bird watching",
+      "price": "₱400 / person"
+    },
+    {
+      "id": "fishing-experience",
+      "name": "Traditional Fishing",
+      "image": "https://images.unsplash.com/photo-1473116763249-2faaef81ccda?w=800&h=520&fit=crop",
+      "description": "Join local fishermen for an early morning fishing trip in the bountiful waters of Capiz Bay using traditional methods.",
+      "location": "Capiz Bay",
+      "type": "Cultural Experience",
+      "hours": "4:00 AM – 9:00 AM",
+      "things_to_do": "Fishing, cultural immersion, seafood harvest",
+      "price": "₱500 / person"
+    },
+    {
+      "id": "scallop-farm-visit",
+      "name": "Scallop Farm Visit",
+      "image": "https://images.unsplash.com/photo-1548574505-5e239809ee19?w=800&h=520&fit=crop",
+      "description": "Tour a scallop aquaculture farm in Capiz to see how these prized shellfish are cultivated before being harvested.",
+      "location": "Capiz Bay",
+      "type": "Agri-tourism",
+      "hours": "8:00 AM – 4:00 PM",
+      "things_to_do": "Farm tour, scallop tasting, cultural learning",
+      "price": "₱300 / person"
+    },
+    {
+      "id": "heritage-biking",
+      "name": "Heritage Biking Tour",
+      "image": "https://images.unsplash.com/photo-1506929562872-bb421503ef21?w=800&h=520&fit=crop",
+      "description": "Pedal through Roxas City's heritage sites, colonial churches, and riverside paths on a guided bicycle tour.",
+      "location": "Roxas City",
+      "type": "Active Tour",
+      "hours": "7:00 AM – 12:00 PM",
+      "things_to_do": "Cycling, sightseeing, heritage exploration",
+      "price": "₱250 / person"
+    },
+    {
+      "id": "capiz-shell-workshop",
+      "name": "Capiz Shell Craft Workshop",
+      "image": "https://images.unsplash.com/photo-1559494007-9f5847c49d94?w=800&h=520&fit=crop",
+      "description": "Learn to create beautiful lampshades and decor items from the famous Capiz shell in a hands-on workshop.",
+      "location": "Roxas City",
+      "type": "Workshop",
+      "hours": "9:00 AM – 4:00 PM",
+      "things_to_do": "Crafting, shell art, souvenir making",
+      "price": "₱500 / person"
+    },
+    {
+      "id": "mangrove-planting",
+      "name": "Mangrove Planting",
+      "image": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=800&h=520&fit=crop",
+      "description": "Participate in a mangrove reforestation activity in Capiz's coastal areas and contribute to the environment.",
+      "location": "Capiz Coastline",
+      "type": "Eco-Activity",
+      "hours": "7:00 AM – 11:00 AM",
+      "things_to_do": "Planting, environmental learning, nature walk",
+      "price": "₱200 / person"
+    },
+    {
+      "id": "sunrise-fishing",
+      "name": "Sunrise at Baybay Beach",
+      "image": "https://images.unsplash.com/photo-1484821582734-6c6c9f99a672?w=800&h=520&fit=crop",
+      "description": "Wake up early and watch the stunning sunrise over the Sibuyan Sea from Baybay Beach in Roxas City.",
+      "location": "Baybay Beach",
+      "type": "Leisure",
+      "hours": "5:00 AM – 8:00 AM",
+      "things_to_do": "Sunrise viewing, beach walk, photography",
+      "price": "Free"
+    }
+  ],
+  "food": [
+    {
+      "id": "oysters-capiz",
+      "name": "Fresh Capiz Oysters",
+      "image": "https://images.unsplash.com/photo-1505118380757-91f5f5632de0?w=800&h=520&fit=crop",
+      "description": "The freshest oysters in the Philippines, harvested from Capiz Bay and served raw or grilled with calamansi and chili.",
+      "location": "Roxas City Restaurants",
+      "type": "Seafood",
+      "hours": "10:00 AM – 9:00 PM",
+      "things_to_do": "Dining, seafood tasting",
+      "price": "₱150 / dozen"
+    },
+    {
+      "id": "scallop-dishes",
+      "name": "Scallop Dishes",
+      "image": "https://images.unsplash.com/photo-1519046904884-53103b34b206?w=800&h=520&fit=crop",
+      "description": "Capiz scallops are among the largest and sweetest in Asia, served baked, grilled, or in rich butter and garlic sauce.",
+      "location": "Capiz Restaurants",
+      "type": "Seafood",
+      "hours": "11:00 AM – 9:00 PM",
+      "things_to_do": "Dining, seafood experience",
+      "price": "₱280 / order"
+    },
+    {
+      "id": "baye-baye",
+      "name": "Baye-Baye",
+      "image": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=800&h=520&fit=crop",
+      "description": "Capiz's famous native delicacy made from toasted young glutinous rice, coconut milk, and sugar — a sweet sticky treat.",
+      "location": "Public Markets",
+      "type": "Native Delicacy",
+      "hours": "6:00 AM – 12:00 PM",
+      "things_to_do": "Snacking, market experience",
+      "price": "₱40 / piece"
+    },
+    {
+      "id": "piyaya",
+      "name": "Piyaya",
+      "image": "https://images.unsplash.com/photo-1484821582734-6c6c9f99a672?w=800&h=520&fit=crop",
+      "description": "A flat, unleavened bread filled with muscovado sugar — Iloilo and Capiz's most popular pasalubong (souvenir food gift).",
+      "location": "Bakeries & Markets",
+      "type": "Native Delicacy",
+      "hours": "7:00 AM – 9:00 PM",
+      "things_to_do": "Snacking, souvenir buying",
+      "price": "₱20 / piece"
+    },
+    {
+      "id": "crab-curacha",
+      "name": "Crab & Curacha",
+      "image": "https://images.unsplash.com/photo-1559494007-9f5847c49d94?w=800&h=520&fit=crop",
+      "description": "Fresh mud crabs and curacha (spanner crab) from Capiz Bay prepared in various styles — steamed, in coconut milk, or sweet and spicy.",
+      "location": "Seafood Restaurants",
+      "type": "Seafood",
+      "hours": "10:00 AM – 9:00 PM",
+      "things_to_do": "Dining, seafood feast",
+      "price": "₱350 / kilo"
+    },
+    {
+      "id": "camalig",
+      "name": "Camalig Restaurant",
+      "image": "https://images.unsplash.com/photo-1506929562872-bb421503ef21?w=800&h=520&fit=crop",
+      "description": "The most famous seafood restaurant in Capiz, serving the freshest local catch in a charming riverside setting.",
+      "location": "Roxas City",
+      "type": "Restaurant",
+      "hours": "10:00 AM – 10:00 PM",
+      "things_to_do": "Dining, river views, seafood",
+      "price": "₱400 / person"
+    },
+    {
+      "id": "tinuom",
+      "name": "Tinuom na Manok",
+      "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&h=520&fit=crop",
+      "description": "Chicken stuffed with lemongrass and ginger, wrapped in banana leaves and slow-cooked — a traditional Capizeño recipe.",
+      "location": "Local Eateries",
+      "type": "Traditional Dish",
+      "hours": "10:00 AM – 8:00 PM",
+      "things_to_do": "Dining, traditional food experience",
+      "price": "₱220 / order"
+    },
+    {
+      "id": "seafood-kare-kare",
+      "name": "Seafood Kare-kare",
+      "image": "https://images.unsplash.com/photo-1473116763249-2faaef81ccda?w=800&h=520&fit=crop",
+      "description": "A Capiz twist on the classic Filipino peanut stew, using fresh prawns and crab instead of oxtail for a coastal variation.",
+      "location": "Capiz Restaurants",
+      "type": "Traditional Dish",
+      "hours": "10:00 AM – 9:00 PM",
+      "things_to_do": "Dining, fusion food tasting",
+      "price": "₱380 / order"
+    },
+    {
+      "id": "capiz-halo-halo",
+      "name": "Capiz Halo-halo",
+      "image": "https://images.unsplash.com/photo-1548574505-5e239809ee19?w=800&h=520&fit=crop",
+      "description": "A refreshing Capiz version of the classic Filipino shaved ice dessert, featuring local fruits and the region's unique coconut delicacies.",
+      "location": "Various Stalls",
+      "type": "Dessert",
+      "hours": "10:00 AM – 9:00 PM",
+      "things_to_do": "Dining, dessert tasting",
+      "price": "₱120 / serving"
+    }
+  ],
+  "events": [
+    {
+      "id": "sinadya-sa-halaran",
+      "name": "Sinadya sa Halaran",
+      "image": "https://images.unsplash.com/photo-1537996194471-e657df975ab4?w=800&h=520&fit=crop",
+      "description": "Capiz's grandest festival held every Christmas season, a colorful celebration of thanksgiving for the bountiful harvest of the sea.",
+      "location": "Roxas City",
+      "type": "Cultural Festival",
+      "hours": "December – Annual",
+      "things_to_do": "Street dancing, cultural shows, food fair",
+      "price": "Free"
+    },
+    {
+      "id": "capiz-food-festival",
+      "name": "Capiz Seafood Festival",
+      "image": "https://images.unsplash.com/photo-1505118380757-91f5f5632de0?w=800&h=520&fit=crop",
+      "description": "An annual showcase of Capiz's seafood wealth featuring cooking contests, seafood markets, and celebrity chef demonstrations.",
+      "location": "Roxas City",
+      "type": "Food Festival",
+      "hours": "Various – Annual",
+      "things_to_do": "Food tasting, cooking shows, seafood market",
+      "price": "₱100 / person"
+    },
+    {
+      "id": "manggahan-festival",
+      "name": "Manggahan Festival",
+      "image": "https://images.unsplash.com/photo-1548574505-5e239809ee19?w=800&h=520&fit=crop",
+      "description": "A festival celebrating the mango harvest season in Capiz, with trade fairs, cultural presentations, and mango-based products.",
+      "location": "Roxas City",
+      "type": "Agricultural Festival",
+      "hours": "March – Annual",
+      "things_to_do": "Mango tasting, trade fair, cultural shows",
+      "price": "Free"
+    },
+    {
+      "id": "foundation-day",
+      "name": "Capiz Foundation Day",
+      "image": "https://images.unsplash.com/photo-1506929562872-bb421503ef21?w=800&h=520&fit=crop",
+      "description": "The anniversary of Capiz province, celebrated with parades, cultural programs, and events highlighting provincial heritage.",
+      "location": "Capiz Province",
+      "type": "Civic Celebration",
+      "hours": "March 16 – Annual",
+      "things_to_do": "Parades, cultural shows, fireworks",
+      "price": "Free"
+    },
+    {
+      "id": "ati-atihan-capiz",
+      "name": "Ati-Atihan Capiz",
+      "image": "https://images.unsplash.com/photo-1473116763249-2faaef81ccda?w=800&h=520&fit=crop",
+      "description": "Capiz joins the Western Visayas in celebrating the Ati-Atihan tradition, honoring the Ati people with tribal dances and costumes.",
+      "location": "Various Municipalities",
+      "type": "Cultural Festival",
+      "hours": "January – Annual",
+      "things_to_do": "Dancing, costumes, cultural immersion",
+      "price": "Free"
+    },
+    {
+      "id": "fiesta-roxas",
+      "name": "Fiesta Roxas City",
+      "image": "https://images.unsplash.com/photo-1559494007-9f5847c49d94?w=800&h=520&fit=crop",
+      "description": "Roxas City's founding anniversary celebration with street parties, beauty pageants, sports competitions, and nightly entertainment.",
+      "location": "Roxas City",
+      "type": "City Fiesta",
+      "hours": "December – Annual",
+      "things_to_do": "Street parties, cultural shows, competitions",
+      "price": "Free"
+    },
+    {
+      "id": "fishing-tournament",
+      "name": "International Fishing Tournament",
+      "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&h=520&fit=crop",
+      "description": "An annual fishing competition drawing anglers from across the Philippines and abroad to the rich waters of Capiz Bay.",
+      "location": "Capiz Bay",
+      "type": "Sports Event",
+      "hours": "Various Dates",
+      "things_to_do": "Fishing competition, watching, beach activities",
+      "price": "₱500 registration"
+    },
+    {
+      "id": "shell-craft-fair",
+      "name": "Capiz Shell Craft Fair",
+      "image": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=800&h=520&fit=crop",
+      "description": "An annual fair showcasing and selling handcrafted products made from Capiz shells — lampshades, wind chimes, and decor.",
+      "location": "Roxas City",
+      "type": "Trade Fair",
+      "hours": "Various Dates",
+      "things_to_do": "Shopping, craft viewing, souvenir buying",
+      "price": "Free"
+    },
+    {
+      "id": "religious-procession",
+      "name": "Traslacion de Nuestra Señora",
+      "image": "https://images.unsplash.com/photo-1548013146-72479768bada?w=800&h=520&fit=crop",
+      "description": "A solemn religious procession honoring Capiz's patron saints, featuring antique religious images carried through heritage streets.",
+      "location": "Roxas City",
+      "type": "Religious Event",
+      "hours": "Annual – Various",
+      "things_to_do": "Procession watching, prayer, heritage observation",
+      "price": "Free"
+    }
+  ],
+  "accommodations": [
+    {
+      "id": "roxas-president-hotel",
+      "name": "Roxas President Hotel",
+      "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&h=520&fit=crop",
+      "description": "The premier hotel in Roxas City offering comfortable rooms, a swimming pool, and easy access to the city's seafood restaurants.",
+      "location": "Roxas City",
+      "type": "City Hotel",
+      "hours": "24 hours",
+      "things_to_do": "Pool, dining, city exploration",
+      "price": "₱2,800 / night"
+    },
+    {
+      "id": "hotel-rafael",
+      "name": "Hotel Rafael",
+      "image": "https://images.unsplash.com/photo-1506929562872-bb421503ef21?w=800&h=520&fit=crop",
+      "description": "A centrally located hotel in Roxas City with modern amenities, friendly staff, and proximity to local attractions.",
+      "location": "Roxas City",
+      "type": "Midrange Hotel",
+      "hours": "24 hours",
+      "things_to_do": "Comfortable stay, city access",
+      "price": "₱2,200 / night"
+    },
+    {
+      "id": "capiz-beach-resort",
+      "name": "Capiz Beach Resort",
+      "image": "https://images.unsplash.com/photo-1548574505-5e239809ee19?w=800&h=520&fit=crop",
+      "description": "A beachfront resort on the shores of Baybay Beach offering cottages, a pool, and stunning ocean views.",
+      "location": "Baybay Beach, Roxas City",
+      "type": "Beach Resort",
+      "hours": "24 hours",
+      "things_to_do": "Beach, pool, seafood dining",
+      "price": "₱3,500 / night"
+    },
+    {
+      "id": "gsis-hotel",
+      "name": "Halaran Plaza Hotel",
+      "image": "https://images.unsplash.com/photo-1559494007-9f5847c49d94?w=800&h=520&fit=crop",
+      "description": "A comfortable hotel overlooking the city plaza, ideal for travelers wanting to be in the heart of Roxas City.",
+      "location": "Roxas City Plaza",
+      "type": "City Hotel",
+      "hours": "24 hours",
+      "things_to_todo": "City access, heritage proximity",
+      "price": "₱2,000 / night"
+    },
+    {
+      "id": "ave-pension",
+      "name": "Avenue Pension House",
+      "image": "https://images.unsplash.com/photo-1473116763249-2faaef81ccda?w=800&h=520&fit=crop",
+      "description": "A budget-friendly pension house offering clean, comfortable rooms in the center of Roxas City.",
+      "location": "Roxas City",
+      "type": "Pension House",
+      "hours": "24 hours",
+      "things_to_do": "Affordable stay, city base",
+      "price": "₱1,200 / night"
+    },
+    {
+      "id": "olotayan-resort",
+      "name": "Olotayan Island Resort",
+      "image": "https://images.unsplash.com/photo-1519046904884-53103b34b206?w=800&h=520&fit=crop",
+      "description": "An island escape resort on Olotayan Island accessible by boat from Roxas City, perfect for a secluded beach getaway.",
+      "location": "Olotayan Island",
+      "type": "Island Resort",
+      "hours": "24 hours",
+      "things_to_do": "Beach, snorkeling, island relaxation",
+      "price": "₱4,500 / night"
+    },
+    {
+      "id": "casa-ceres",
+      "name": "Casa Ceres Hotel",
+      "image": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=800&h=520&fit=crop",
+      "description": "A charming heritage-inspired hotel with colonial decor, a garden, and a restaurant serving authentic Capizeño cuisine.",
+      "location": "Roxas City",
+      "type": "Heritage Hotel",
+      "hours": "24 hours",
+      "things_to_do": "Heritage ambiance, local cuisine, garden",
+      "price": "₱2,500 / night"
+    },
+    {
+      "id": "camia-resort",
+      "name": "Camia Resort & Restaurant",
+      "image": "https://images.unsplash.com/photo-1484821582734-6c6c9f99a672?w=800&h=520&fit=crop",
+      "description": "A relaxing resort with pool, nipa cottages, and a popular restaurant known for fresh seafood dishes.",
+      "location": "Capiz Province",
+      "type": "Resort",
+      "hours": "24 hours",
+      "things_to_do": "Pool, seafood dining, relaxation",
+      "price": "₱3,000 / night"
+    },
+    {
+      "id": "budget-capiz",
+      "name": "Capiz Inn",
+      "image": "https://images.unsplash.com/photo-1537996194471-e657df975ab4?w=800&h=520&fit=crop",
+      "description": "A no-frills budget inn offering clean rooms and basic amenities for budget-conscious travelers exploring Capiz.",
+      "location": "Roxas City",
+      "type": "Budget Inn",
+      "hours": "24 hours",
+      "things_to_do": "Affordable base, city access",
+      "price": "₱900 / night"
+    }
+  ]
+}

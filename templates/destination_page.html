@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Boracay – Boracay, Western Visayas</title>
+  <title id="page-title">Loading… – Western Visayas</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
   <style>
@@ -35,16 +35,15 @@
       overflow: hidden;
     }
 
-    /* Real aerial photo of Boracay as hero background */
     .hero-bg {
       width: 100%;
       height: 100%;
       background-image: url('https://images.unsplash.com/photo-1537996194471-e657df975ab4?w=1400&h=700&fit=crop&q=80');
       background-size: cover;
       background-position: center;
+      transition: background-image 0.3s ease;
     }
 
-    /* dark overlay for text readability */
     .hero-bg::after {
       content: '';
       position: absolute;
@@ -57,7 +56,7 @@
       );
     }
 
-    /* ── Floating pill nav — fixed so it stays on scroll ── */
+    /* ── Floating pill nav ── */
     .hero-nav {
       position: fixed;
       top: 28px;
@@ -123,7 +122,7 @@
     }
 
     /* ═══════════════════════════════════════════════
-       ICON MENU  (floats over hero/white boundary)
+       ICON MENU
     ═══════════════════════════════════════════════ */
     .icon-menu {
       display: flex;
@@ -689,6 +688,40 @@
 
     .back-home-btn:hover { background: #7ec8e3; }
 
+    /* ── Ticket display ── */
+    .ticket-display {
+      background: #f0f8fb;
+      border: 1.5px solid #a8d8ea;
+      border-radius: 14px;
+      padding: 18px 28px;
+      width: 100%;
+      text-align: center;
+    }
+
+    .ticket-num-label {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 10px;
+      font-weight: 800;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: #5ab0c8;
+      margin-bottom: 6px;
+    }
+
+    .ticket-num {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 20px;
+      font-weight: 900;
+      letter-spacing: 4px;
+      color: #1c3a4a;
+    }
+
+    .ticket-email-note {
+      font-size: 11px;
+      color: #999;
+      margin-top: 8px;
+    }
+
     .view-more-btn {
       display: block;
       margin: 0 auto;
@@ -853,12 +886,10 @@
     ═══════════════════════════════════════════════ */
     @media (max-width: 540px) {
 
-      /* ── Hero ── */
       .hero { height: 400px; }
       .hero-title h1 { font-size: 40px; letter-spacing: 6px; }
       .hero-title p  { font-size: 11px; letter-spacing: 2px; }
 
-      /* ── Hide desktop nav, show hamburger ── */
       .hero-nav { display: none !important; }
 
       .hamburger-btn {
@@ -929,57 +960,46 @@
       .mobile-menu a:last-child { border-bottom: none; }
       .mobile-menu a:hover { opacity: .6; }
 
-      /* ── Description ── */
       .desc-section { padding: 36px 20px; }
       .desc-inner { gap: 20px; }
       .desc-photo { height: 200px; }
 
-      /* ── Chips ── */
       .chips-section { padding: 8px 16px 36px; gap: 12px; }
       .chip { min-width: 100px; padding: 18px 8px; border-radius: 20px; }
       .chip-label { font-size: 10px; }
       .chip-value { font-size: 10px; }
 
-      /* ── Section wrap ── */
       .section-wrap { padding: 36px 20px; }
       .section-title { font-size: 20px; letter-spacing: 2px; margin-bottom: 24px; }
 
-      /* ── Transport ── */
       .transport-row { gap: 12px; }
       .transport-card { min-width: calc(50% - 6px); padding: 20px 16px; min-height: 120px; border-radius: 16px; }
       .transport-icon svg { width: 44px; height: 44px; }
       .transport-label { font-size: 10px; letter-spacing: 1.5px; }
 
-      /* ── Gallery ── */
       .gallery-section { padding: 36px 0 48px; }
       .gallery-section .section-title { padding: 0 20px; }
       .slide-lg { width: 240px; height: 150px; border-radius: 14px; }
       .slide-sm { width: 180px; height: 130px; border-radius: 14px; }
 
-      /* ── Cards ── */
       .cards-grid { grid-template-columns: 1fr; gap: 14px; }
       .cards-grid > .card:last-child:nth-child(odd) { grid-column: auto; }
       .card { border-radius: 12px; }
       .card-img-wrap { height: 160px; }
 
-      /* ── Booking modal ── */
       .booking-box { padding: 28px 20px 22px; border-radius: 18px; }
       .booking-title { font-size: 18px; }
 
-      /* ── View more btn ── */
       .view-more-btn { padding: 10px 28px; font-size: 10px; }
 
-      /* ── Modal ── */
       .modal-box { padding: 32px 18px 24px; border-radius: 16px; }
       .modal-title { font-size: 17px; letter-spacing: 2px; }
       .modal-grid { grid-template-columns: repeat(2, 1fr); gap: 10px; }
       .modal-grid > .modal-card:last-child:nth-child(odd) { grid-column: 1 / -1; }
       .modal-card { height: 120px; font-size: 10px; }
 
-      /* ── Footer ── */
       footer { height: auto; padding: 18px 16px; font-size: 11px; text-align: center; }
 
-      /* ── Icon menu ── */
       .icon-menu { gap: 16px; padding: 0 12px; }
       .icon-circle { width: 90px; height: 90px; }
       .icon-circle svg { width: 44px; height: 44px; }
@@ -996,7 +1016,7 @@
 
 <!-- ═══ MOBILE MENU OVERLAY ════════════════════════ -->
 <nav class="mobile-menu" id="mobileMenu">
-  <a href="#"               class="mobile-nav-link">Home</a>
+  <a href="/"                class="mobile-nav-link">Home</a>
   <a href="#destination"    class="mobile-nav-link">Destination</a>
   <a href="#attractions"    class="mobile-nav-link">Attraction</a>
   <a href="#restaurants"    class="mobile-nav-link">Restaurant</a>
@@ -1007,10 +1027,10 @@
 
 <!-- ═══ HERO + FLOATING NAV ═══════════════════════════ -->
 <div class="hero">
-  <div class="hero-bg"></div>
+  <div class="hero-bg" id="heroBg"></div>
 
   <nav class="hero-nav">
-    <a href="#">Home</a>
+    <a href="/">Home</a>
     <a href="#destination">Destination</a>
     <a href="#attractions">Attraction</a>
     <a href="#restaurants">Restaurant</a>
@@ -1019,27 +1039,21 @@
     <a href="#accommodations">Accommodation</a>
   </nav>
 
-  <!-- big title centered on hero -->
   <div class="hero-title">
-    <h1>BORACAY</h1>
-    <p>Boracay, Western Visayas</p>
+    <h1 id="heroTitle">…</h1>
+    <p id="heroSubtitle">Western Visayas</p>
   </div>
 </div>
 
-<!-- ═══ ICON MENU (floats over hero/content boundary) ═══════════════ -->
+<!-- ═══ ICON MENU ═══════════════════════════════════════ -->
 <div class="icon-menu">
 
-  <!-- ATTRACTIONS -->
   <div class="icon-item" onclick="document.querySelector('#attractions').scrollIntoView({behavior:'smooth'})">
     <div class="icon-circle">
       <svg viewBox="0 0 64 64" fill="none">
-        <!-- sun -->
         <circle cx="48" cy="16" r="6" fill="#1c1c1e"/>
-        <!-- island -->
         <path d="M10 42 Q32 28 54 42 L50 48 Q32 36 14 48 Z" fill="#1c1c1e"/>
-        <!-- palm trunk -->
         <rect x="30" y="22" width="3" height="18" fill="#1c1c1e"/>
-        <!-- leaves -->
         <path d="M31 22 Q20 18 18 26 Q26 24 31 26 Z" fill="#1c1c1e"/>
         <path d="M31 22 Q42 18 44 26 Q36 24 31 26 Z" fill="#1c1c1e"/>
       </svg>
@@ -1047,16 +1061,13 @@
     <span>Attractions</span>
   </div>
 
-  <!-- RESTAURANTS -->
   <div class="icon-item" onclick="document.querySelector('#restaurants').scrollIntoView({behavior:'smooth'})">
     <div class="icon-circle">
       <svg viewBox="0 0 64 64" fill="none">
-        <!-- fork -->
         <rect x="18" y="10" width="2" height="20" fill="#1c1c1e"/>
         <rect x="22" y="10" width="2" height="20" fill="#1c1c1e"/>
         <rect x="26" y="10" width="2" height="20" fill="#1c1c1e"/>
         <rect x="22" y="30" width="2" height="18" fill="#1c1c1e"/>
-        <!-- spoon -->
         <ellipse cx="40" cy="18" rx="5" ry="7" fill="#1c1c1e"/>
         <rect x="39" y="25" width="2" height="23" fill="#1c1c1e"/>
       </svg>
@@ -1064,13 +1075,10 @@
     <span>Restaurants</span>
   </div>
 
-  <!-- ACTIVITIES -->
   <div class="icon-item" onclick="document.querySelector('#activities').scrollIntoView({behavior:'smooth'})">
     <div class="icon-circle">
       <svg viewBox="0 0 64 64" fill="none">
-        <!-- wave -->
         <path d="M6 42 Q16 34 26 42 T46 42 T62 42" stroke="#1c1c1e" stroke-width="3" fill="none"/>
-        <!-- person -->
         <circle cx="28" cy="20" r="4" fill="#1c1c1e"/>
         <path d="M28 24 L22 34 L30 34 L36 28" stroke="#1c1c1e" stroke-width="3" fill="none"/>
       </svg>
@@ -1078,37 +1086,29 @@
     <span>Activities</span>
   </div>
 
-  <!-- EVENTS -->
   <div class="icon-item" onclick="document.querySelector('#events').scrollIntoView({behavior:'smooth'})">
     <div class="icon-circle">
       <svg viewBox="0 0 64 64" fill="none">
-        <!-- calendar -->
         <rect x="10" y="14" width="44" height="36" rx="4" fill="#1c1c1e"/>
         <rect x="10" y="14" width="44" height="10" fill="white" opacity=".2"/>
-        <!-- rings -->
         <rect x="18" y="8" width="4" height="10" fill="#1c1c1e"/>
         <rect x="42" y="8" width="4" height="10" fill="#1c1c1e"/>
-        <!-- star -->
         <path d="M32 28 L34 34 L40 34 L35 38 L37 44 L32 40 L27 44 L29 38 L24 34 L30 34 Z" fill="white"/>
       </svg>
     </div>
     <span>Events</span>
   </div>
 
-  <!-- ACCOMMODATIONS -->
   <div class="icon-item" onclick="document.querySelector('#accommodations').scrollIntoView({behavior:'smooth'})">
     <div class="icon-circle">
       <svg viewBox="0 0 64 64" fill="none">
-        <!-- building -->
         <rect x="16" y="14" width="32" height="36" rx="3" fill="#1c1c1e"/>
-        <!-- windows -->
         <rect x="22" y="20" width="4" height="4" fill="white"/>
         <rect x="30" y="20" width="4" height="4" fill="white"/>
         <rect x="38" y="20" width="4" height="4" fill="white"/>
         <rect x="22" y="28" width="4" height="4" fill="white"/>
         <rect x="30" y="28" width="4" height="4" fill="white"/>
         <rect x="38" y="28" width="4" height="4" fill="white"/>
-        <!-- door -->
         <rect x="30" y="36" width="4" height="14" fill="white"/>
       </svg>
     </div>
@@ -1122,67 +1122,18 @@
   <div class="desc-inner">
     <div class="desc-left">
       <h2 class="section-title">Description</h2>
-      <p class="desc-text">
-        Every visit to the picturesque Boracay is a tropical vacation that will undoubtedly
-        be memorable. Fall in love again and again with the island's white sand, crystal blue
-        waters, and festive atmosphere that keeps Boracay close to every traveler's heart.
-      </p>
+      <p class="desc-text" id="destDescription">Loading…</p>
     </div>
-    <!-- Real beach photo replacing the placeholder -->
     <div class="desc-photo">
-      <img
-        src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=700&h=420&fit=crop&q=80"
-        alt="Boracay White Beach with palm trees and clear water"
-        loading="lazy"
-      />
+      <img id="descPhoto" src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=700&h=420&fit=crop&q=80" alt="Destination Photo" loading="lazy" />
     </div>
   </div>
 </div>
 
 <!-- ═══ INFO CHIPS ════════════════════════════════════ -->
-<!-- Row 1: Island · Region · Population · Province · City  (matches Figma) -->
-<!-- Row 2: Languages & Dialects · Known As · Tagline · Nickname  (matches Figma order) -->
 <div class="chips-section">
-  <div class="chips-row">
-    <div class="chip">
-      <div class="chip-label">Island</div>
-      <div class="chip-value">Visayas</div>
-    </div>
-    <div class="chip">
-      <div class="chip-label">Region</div>
-      <div class="chip-value">Western Visayas</div>
-    </div>
-    <div class="chip">
-      <div class="chip-label">Population</div>
-      <div class="chip-value">12,000</div>
-    </div>
-    <div class="chip">
-      <div class="chip-label">Province</div>
-      <div class="chip-value">Aklan</div>
-    </div>
-    <div class="chip">
-      <div class="chip-label">City</div>
-      <div class="chip-value">Malay</div>
-    </div>
-  </div>
-  <div class="chips-row">
-    <div class="chip">
-      <div class="chip-label">Languages &amp;<br>Dialects</div>
-      <div class="chip-value">Filipino, English, Aklanon</div>
-    </div>
-    <div class="chip">
-      <div class="chip-label">Known As</div>
-      <div class="chip-value">White-sand beaches</div>
-    </div>
-    <div class="chip">
-      <div class="chip-label">Tagline</div>
-      <div class="chip-value">Boracay Better than Ever</div>
-    </div>
-    <div class="chip">
-      <div class="chip-label">Nickname</div>
-      <div class="chip-value">The Island That Never Sleeps</div>
-    </div>
-  </div>
+  <div class="chips-row" id="chipsRow1"></div>
+  <div class="chips-row" id="chipsRow2"></div>
 </div>
 
 <!-- ═══ TRANSPORTATION ════════════════════════════════ -->
@@ -1190,10 +1141,9 @@
   <h2 class="section-title">Transportations</h2>
   <div class="transport-row">
 
-    <!-- BOAT -->
     <div class="transport-card">
       <span class="transport-icon">
-        <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <svg viewBox="0 0 64 64" fill="none">
           <path d="M8 40 Q32 52 56 40 L52 46 Q32 58 12 46 Z" fill="#1c1c1e"/>
           <line x1="32" y1="12" x2="32" y2="40" stroke="#1c1c1e" stroke-width="2.5" stroke-linecap="round"/>
           <path d="M32 14 L14 38 L32 38 Z" fill="#1c1c1e"/>
@@ -1204,10 +1154,9 @@
       <span class="transport-label">Boat</span>
     </div>
 
-    <!-- VAN -->
     <div class="transport-card">
       <span class="transport-icon">
-        <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <svg viewBox="0 0 64 64" fill="none">
           <rect x="4" y="24" width="56" height="22" rx="4" fill="#1c1c1e"/>
           <path d="M4 24 L12 12 L44 12 L56 24 Z" fill="#1c1c1e"/>
           <path d="M14 14 L20 24 L44 24 L50 14 Z" fill="white" opacity=".2"/>
@@ -1221,10 +1170,9 @@
       <span class="transport-label">Van</span>
     </div>
 
-    <!-- JEEPNEY -->
     <div class="transport-card">
       <span class="transport-icon">
-        <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <svg viewBox="0 0 64 64" fill="none">
           <rect x="4" y="22" width="56" height="22" rx="3" fill="#1c1c1e"/>
           <path d="M4 22 L8 12 L28 12 L28 22 Z" fill="#1c1c1e"/>
           <rect x="28" y="14" width="28" height="8" rx="2" fill="#1c1c1e"/>
@@ -1241,10 +1189,9 @@
       <span class="transport-label">Jeepney</span>
     </div>
 
-    <!-- TRICYCLE -->
     <div class="transport-card">
       <span class="transport-icon">
-        <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <svg viewBox="0 0 64 64" fill="none">
           <rect x="4" y="22" width="30" height="20" rx="4" fill="#1c1c1e"/>
           <rect x="4" y="16" width="30" height="8" rx="3" fill="#1c1c1e"/>
           <rect x="8" y="18" width="10" height="5" rx="1" fill="white" opacity=".25"/>
@@ -1260,15 +1207,13 @@
       <span class="transport-label">Tricycle</span>
     </div>
 
-    <!-- AIRPLANE -->
     <div class="transport-card">
       <span class="transport-icon">
-        <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <svg viewBox="0 0 64 64" fill="none">
           <path d="M6 34 Q24 28 56 32 Q58 34 56 36 Q24 40 6 34 Z" fill="#1c1c1e"/>
           <path d="M52 32 Q62 34 52 36 Z" fill="#1c1c1e"/>
           <path d="M22 34 L18 14 L26 16 L34 34 Z" fill="#1c1c1e"/>
           <path d="M8 34 L6 24 L12 26 L14 34 Z" fill="#1c1c1e"/>
-          <path d="M10 33 L8 26 L12 28 L12 33 Z" fill="#1c1c1e" opacity=".6"/>
           <path d="M22 34 L18 52 L26 50 L34 34 Z" fill="#1c1c1e" opacity=".5"/>
         </svg>
       </span>
@@ -1282,35 +1227,31 @@
 <div class="gallery-section alt-bg">
   <h2 class="section-title">Photos</h2>
 
-  <!-- Row 1 — scrolls left -->
   <div class="slider-viewport">
     <div class="slider-track-1">
-      <div class="slide-lg"><img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=760&h=420&fit=crop" alt="Boracay Beach" loading="eager" decoding="async" /></div>
-      <div class="slide-lg"><img src="https://images.unsplash.com/photo-1519046904884-53103b34b206?w=760&h=420&fit=crop" alt="Boracay Shore" loading="eager" decoding="async" /></div>
-      <div class="slide-lg"><img src="https://images.unsplash.com/photo-1506929562872-bb421503ef21?w=760&h=420&fit=crop" alt="Tropical Island" loading="eager" decoding="async" /></div>
-      <div class="slide-lg"><img src="https://images.unsplash.com/photo-1473116763249-2faaef81ccda?w=760&h=420&fit=crop" alt="White Beach" loading="eager" decoding="async" /></div>
-      <!-- duplicate for seamless loop -->
-      <div class="slide-lg"><img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=760&h=420&fit=crop" alt="Boracay Beach" loading="eager" decoding="async" /></div>
-      <div class="slide-lg"><img src="https://images.unsplash.com/photo-1519046904884-53103b34b206?w=760&h=420&fit=crop" alt="Boracay Shore" loading="eager" decoding="async" /></div>
-      <div class="slide-lg"><img src="https://images.unsplash.com/photo-1506929562872-bb421503ef21?w=760&h=420&fit=crop" alt="Tropical Island" loading="eager" decoding="async" /></div>
-      <div class="slide-lg"><img src="https://images.unsplash.com/photo-1473116763249-2faaef81ccda?w=760&h=420&fit=crop" alt="White Beach" loading="eager" decoding="async" /></div>
+      <div class="slide-lg"><img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=760&h=420&fit=crop" alt="Beach" loading="eager" /></div>
+      <div class="slide-lg"><img src="https://images.unsplash.com/photo-1519046904884-53103b34b206?w=760&h=420&fit=crop" alt="Shore" loading="eager" /></div>
+      <div class="slide-lg"><img src="https://images.unsplash.com/photo-1506929562872-bb421503ef21?w=760&h=420&fit=crop" alt="Tropical" loading="eager" /></div>
+      <div class="slide-lg"><img src="https://images.unsplash.com/photo-1473116763249-2faaef81ccda?w=760&h=420&fit=crop" alt="Island" loading="eager" /></div>
+      <div class="slide-lg"><img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=760&h=420&fit=crop" alt="Beach" loading="eager" /></div>
+      <div class="slide-lg"><img src="https://images.unsplash.com/photo-1519046904884-53103b34b206?w=760&h=420&fit=crop" alt="Shore" loading="eager" /></div>
+      <div class="slide-lg"><img src="https://images.unsplash.com/photo-1506929562872-bb421503ef21?w=760&h=420&fit=crop" alt="Tropical" loading="eager" /></div>
+      <div class="slide-lg"><img src="https://images.unsplash.com/photo-1473116763249-2faaef81ccda?w=760&h=420&fit=crop" alt="Island" loading="eager" /></div>
     </div>
   </div>
 
-  <!-- Row 2 — scrolls left (slightly different speed) -->
   <div class="slider-viewport">
     <div class="slider-track-2">
-      <div class="slide-sm"><img src="https://images.unsplash.com/photo-1548574505-5e239809ee19?w=560&h=360&fit=crop" alt="Night Beach" loading="eager" decoding="async" /></div>
-      <div class="slide-sm"><img src="https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=560&h=360&fit=crop" alt="Island View" loading="eager" decoding="async" /></div>
-      <div class="slide-sm"><img src="https://images.unsplash.com/photo-1559494007-9f5847c49d94?w=560&h=360&fit=crop" alt="Sunset Beach" loading="eager" decoding="async" /></div>
-      <div class="slide-sm"><img src="https://images.unsplash.com/photo-1484821582734-6c6c9f99a672?w=560&h=360&fit=crop" alt="Beach Sunset" loading="eager" decoding="async" /></div>
-      <div class="slide-sm"><img src="https://images.unsplash.com/photo-1505118380757-91f5f5632de0?w=560&h=360&fit=crop" alt="Tropical Palm" loading="eager" decoding="async" /></div>
-      <!-- duplicate for seamless loop -->
-      <div class="slide-sm"><img src="https://images.unsplash.com/photo-1548574505-5e239809ee19?w=560&h=360&fit=crop" alt="Night Beach" loading="eager" decoding="async" /></div>
-      <div class="slide-sm"><img src="https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=560&h=360&fit=crop" alt="Island View" loading="eager" decoding="async" /></div>
-      <div class="slide-sm"><img src="https://images.unsplash.com/photo-1559494007-9f5847c49d94?w=560&h=360&fit=crop" alt="Sunset Beach" loading="eager" decoding="async" /></div>
-      <div class="slide-sm"><img src="https://images.unsplash.com/photo-1484821582734-6c6c9f99a672?w=560&h=360&fit=crop" alt="Beach Sunset" loading="eager" decoding="async" /></div>
-      <div class="slide-sm"><img src="https://images.unsplash.com/photo-1505118380757-91f5f5632de0?w=560&h=360&fit=crop" alt="Tropical Palm" loading="eager" decoding="async" /></div>
+      <div class="slide-sm"><img src="https://images.unsplash.com/photo-1548574505-5e239809ee19?w=560&h=360&fit=crop" alt="Night" loading="eager" /></div>
+      <div class="slide-sm"><img src="https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=560&h=360&fit=crop" alt="View" loading="eager" /></div>
+      <div class="slide-sm"><img src="https://images.unsplash.com/photo-1559494007-9f5847c49d94?w=560&h=360&fit=crop" alt="Sunset" loading="eager" /></div>
+      <div class="slide-sm"><img src="https://images.unsplash.com/photo-1484821582734-6c6c9f99a672?w=560&h=360&fit=crop" alt="Beach" loading="eager" /></div>
+      <div class="slide-sm"><img src="https://images.unsplash.com/photo-1505118380757-91f5f5632de0?w=560&h=360&fit=crop" alt="Palm" loading="eager" /></div>
+      <div class="slide-sm"><img src="https://images.unsplash.com/photo-1548574505-5e239809ee19?w=560&h=360&fit=crop" alt="Night" loading="eager" /></div>
+      <div class="slide-sm"><img src="https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=560&h=360&fit=crop" alt="View" loading="eager" /></div>
+      <div class="slide-sm"><img src="https://images.unsplash.com/photo-1559494007-9f5847c49d94?w=560&h=360&fit=crop" alt="Sunset" loading="eager" /></div>
+      <div class="slide-sm"><img src="https://images.unsplash.com/photo-1484821582734-6c6c9f99a672?w=560&h=360&fit=crop" alt="Beach" loading="eager" /></div>
+      <div class="slide-sm"><img src="https://images.unsplash.com/photo-1505118380757-91f5f5632de0?w=560&h=360&fit=crop" alt="Palm" loading="eager" /></div>
     </div>
   </div>
 </div>
@@ -1351,8 +1292,8 @@
 </div>
 
 <!-- ═══ FOOTER ════════════════════════════════════════ -->
-<footer>
-  &copy; 2026 Boracay, Western Visayas &nbsp;·&nbsp; All rights reserved.
+<footer id="pageFooter">
+  &copy; 2026 Western Visayas Travel &nbsp;·&nbsp; All rights reserved.
 </footer>
 
 <!-- ═══ BOOKING MODAL ════════════════════════════════ -->
@@ -1360,7 +1301,6 @@
   <div class="booking-box">
     <button class="booking-close" id="bookingClose" aria-label="Close">&times;</button>
 
-    <!-- Form view -->
     <div class="booking-form-inner" id="bookingFormInner">
       <h2 class="booking-title" id="bookingTitle">Book Now</h2>
 
@@ -1386,10 +1326,14 @@
       <button class="confirm-btn" id="confirmBtn">Confirm Booking</button>
     </div>
 
-    <!-- Success view -->
     <div class="success-box" id="successBox">
       <div class="success-icon">🎉</div>
       <div class="success-title">Booking Confirmed!</div>
+      <div class="ticket-display">
+        <div class="ticket-num-label">Ticket Number</div>
+        <div class="ticket-num" id="ticketNumber">—</div>
+        <div class="ticket-email-note" id="ticketNote">A confirmation has been sent to your email</div>
+      </div>
       <button class="back-home-btn" id="backHomeBtn">Back to Homepage</button>
     </div>
   </div>
@@ -1406,8 +1350,10 @@
 
 <script>
   /* ══════════════════════════════════════════════════
-     SECTION TITLES used in modal header
+     DESTINATION — injected by Flask/Jinja2
   ══════════════════════════════════════════════════ */
+  const DESTINATION = "{{ destination }}";
+
   const SECTION_TITLES = {
     attractions:    'Attraction',
     activities:     'Activities',
@@ -1416,13 +1362,10 @@
     accommodations: 'Accommodation',
   };
 
-  /* ══════════════════════════════════════════════════
-     FETCH JSON DATABASE & RENDER CARDS
-  ══════════════════════════════════════════════════ */
-  let DB = {};   // will hold the full data.json contents
+  let DB = {};
 
   function goToDetail(category, id) {
-    window.location.href = `/boracay/detail?category=${encodeURIComponent(category)}&id=${encodeURIComponent(id)}`;
+    window.location.href = `/${DESTINATION}/detail?category=${encodeURIComponent(category)}&id=${encodeURIComponent(id)}`;
   }
 
   function buildCard(item, category) {
@@ -1439,10 +1382,8 @@
         <button class="book-btn">Book Now</button>
       </div>
     `;
-    // Card image/label click → detail page
     div.querySelector('.card-img-wrap').addEventListener('click', () => goToDetail(category, item.id));
     div.querySelector('.card-label').addEventListener('click', () => goToDetail(category, item.id));
-    // Book Now button → booking modal
     div.querySelector('.book-btn').addEventListener('click', (e) => {
       e.stopPropagation();
       openBooking(item.name, category);
@@ -1453,7 +1394,6 @@
   function buildModalCard(item, category) {
     const div = document.createElement('div');
     div.className = 'modal-card';
-    div.style.cursor = 'pointer';
     div.innerHTML = `
       <img src="${item.image}" alt="${item.name}" loading="lazy"/>
       <div class="modal-card-label">${item.name}</div>
@@ -1477,14 +1417,14 @@
       { id: 'equipment',   name: 'Equipment Rental',  price: '₱200' },
       { id: 'instructor',  name: 'Instructor Fee',    price: '₱300' },
     ],
-    food: [],
+    food: [],   // no add-ons for restaurant items
     events: [
-      { id: 'vip',          name: 'VIP Seating',      price: '₱500' },
-      { id: 'souvenir-kit', name: 'Souvenir Kit',     price: '₱150' },
+      { id: 'vip',         name: 'VIP Seating',       price: '₱500' },
+      { id: 'souvenir-kit',name: 'Souvenir Kit',      price: '₱150' },
     ],
     accommodations: [
-      { id: 'transfer',    name: 'Airport Transfer',   price: '₱350' },
-      { id: 'breakfast',   name: 'Breakfast Included', price: '₱200' },
+      { id: 'transfer',    name: 'Airport Transfer',  price: '₱350' },
+      { id: 'breakfast',   name: 'Breakfast Included',price: '₱200' },
     ],
   };
 
@@ -1509,21 +1449,24 @@
   /* ══════════════════════════════════════════════════
      BOOKING MODAL
   ══════════════════════════════════════════════════ */
-  const bookingOverlay  = document.getElementById('bookingOverlay');
-  const bookingClose    = document.getElementById('bookingClose');
-  const bookingTitle    = document.getElementById('bookingTitle');
+  const bookingOverlay   = document.getElementById('bookingOverlay');
+  const bookingClose     = document.getElementById('bookingClose');
+  const bookingTitle     = document.getElementById('bookingTitle');
   const bookingFormInner = document.getElementById('bookingFormInner');
-  const successBox      = document.getElementById('successBox');
-  const confirmBtn      = document.getElementById('confirmBtn');
-  const backHomeBtn     = document.getElementById('backHomeBtn');
+  const successBox       = document.getElementById('successBox');
+  const confirmBtn       = document.getElementById('confirmBtn');
+  const backHomeBtn      = document.getElementById('backHomeBtn');
+
+  let currentCategory = '';
 
   function openBooking(name, category) {
+    currentCategory = category || '';
     bookingTitle.textContent = name;
     document.getElementById('bk-name').value     = '';
     document.getElementById('bk-email').value    = '';
     document.getElementById('bk-schedule').value = '';
     document.getElementById('bk-guests').value   = '';
-    renderAddons(category || '');
+    renderAddons(currentCategory);
     bookingFormInner.classList.remove('hidden');
     successBox.classList.remove('active');
     bookingOverlay.classList.add('active');
@@ -1539,17 +1482,60 @@
   bookingOverlay.addEventListener('click', e => { if (e.target === bookingOverlay) closeBooking(); });
   document.addEventListener('keydown', e => { if (e.key === 'Escape') closeBooking(); });
 
-  confirmBtn.addEventListener('click', () => {
+  confirmBtn.addEventListener('click', async () => {
     const name     = document.getElementById('bk-name').value.trim();
     const email    = document.getElementById('bk-email').value.trim();
     const schedule = document.getElementById('bk-schedule').value;
     const guests   = document.getElementById('bk-guests').value;
-
     if (!name || !email || !schedule || !guests) {
       alert('Please fill in all fields before confirming.');
       return;
     }
-    // Show success screen
+
+    // Collect checked add-ons
+    const addons = [];
+    document.querySelectorAll('#addonsContainer .addon-row').forEach(row => {
+      const cb = row.querySelector('input[type=checkbox]');
+      if (cb && cb.checked) {
+        addons.push({
+          name:  row.querySelector('.addon-name').textContent,
+          price: row.querySelector('.addon-price').textContent
+        });
+      }
+    });
+
+    // Disable button while sending
+    confirmBtn.disabled = true;
+    confirmBtn.textContent = 'Sending…';
+
+    let ticketNum = '—';
+    let emailSent = false;
+    try {
+      const res = await fetch('/api/book', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          name, email, schedule, guests, addons,
+          place:       bookingTitle.textContent,
+          category:    currentCategory,
+          destination: DESTINATION
+        })
+      });
+      const result = await res.json();
+      ticketNum = result.ticket || '—';
+      emailSent = result.email_sent || false;
+    } catch (e) {
+      console.warn('Booking API error:', e);
+    }
+
+    confirmBtn.disabled = false;
+    confirmBtn.textContent = 'Confirm Booking';
+
+    document.getElementById('ticketNumber').textContent = ticketNum;
+    document.getElementById('ticketNote').textContent = emailSent
+      ? 'A confirmation has been sent to your email'
+      : 'Save this ticket number for your records';
+
     bookingFormInner.classList.add('hidden');
     successBox.classList.add('active');
   });
@@ -1559,11 +1545,53 @@
     window.scrollTo({ top: 0, behavior: 'smooth' });
   });
 
-  fetch('/static/data/boracay.json')
+  /* ══════════════════════════════════════════════════
+     FETCH JSON & RENDER
+  ══════════════════════════════════════════════════ */
+  fetch(`/static/data/${DESTINATION}.json`)
     .then(r => r.json())
     .then(data => {
       DB = data;
-      // Render first 3 cards for each category
+
+      // ── Populate meta ──
+      const meta = data.meta || {};
+
+      // Hero
+      if (meta.hero_image) {
+        document.getElementById('heroBg').style.backgroundImage = `url('${meta.hero_image}')`;
+      }
+      document.getElementById('heroTitle').textContent    = meta.title    || DESTINATION.toUpperCase();
+      document.getElementById('heroSubtitle').textContent = meta.subtitle || 'Western Visayas';
+      document.getElementById('page-title').textContent   = `${meta.title || DESTINATION} – Western Visayas`;
+
+      // Description section
+      if (meta.description) {
+        document.getElementById('destDescription').textContent = meta.description;
+      }
+      if (meta.desc_photo) {
+        const img = document.getElementById('descPhoto');
+        img.src = meta.desc_photo;
+        img.alt = meta.title || DESTINATION;
+      }
+
+      // Footer
+      document.getElementById('pageFooter').innerHTML =
+        `&copy; 2026 ${meta.title || DESTINATION}, Western Visayas &nbsp;&middot;&nbsp; All rights reserved.`;
+
+      // Chips
+      if (meta.chips && meta.chips.length) {
+        const half = Math.ceil(meta.chips.length / 2);
+        const row1 = document.getElementById('chipsRow1');
+        const row2 = document.getElementById('chipsRow2');
+        meta.chips.forEach((chip, i) => {
+          const el = document.createElement('div');
+          el.className = 'chip';
+          el.innerHTML = `<div class="chip-label">${chip.label}</div><div class="chip-value">${chip.value}</div>`;
+          (i < half ? row1 : row2).appendChild(el);
+        });
+      }
+
+      // ── Render cards ──
       const categories = ['attractions', 'activities', 'food', 'events', 'accommodations'];
       categories.forEach(cat => {
         const grid = document.getElementById('grid-' + cat);
@@ -1573,7 +1601,7 @@
         });
       });
     })
-    .catch(err => console.error('Failed to load data.json:', err));
+    .catch(err => console.error('Failed to load destination data:', err));
 
   /* ══════════════════════════════════════════════════
      MODAL
@@ -1612,34 +1640,30 @@
   const hamburgerBtn = document.getElementById('hamburgerBtn');
   const mobileMenu   = document.getElementById('mobileMenu');
 
-  function toggleMenu() {
+  hamburgerBtn.addEventListener('click', () => {
     const isOpen = mobileMenu.classList.toggle('open');
     hamburgerBtn.classList.toggle('open', isOpen);
     document.body.style.overflow = isOpen ? 'hidden' : '';
-  }
-
-  function closeMenu() {
-    mobileMenu.classList.remove('open');
-    hamburgerBtn.classList.remove('open');
-    document.body.style.overflow = '';
-  }
-
-  hamburgerBtn.addEventListener('click', toggleMenu);
+  });
 
   document.querySelectorAll('.mobile-nav-link').forEach(link => {
     link.addEventListener('click', e => {
       e.preventDefault();
-      closeMenu();
+      mobileMenu.classList.remove('open');
+      hamburgerBtn.classList.remove('open');
+      document.body.style.overflow = '';
       const href = link.getAttribute('href');
-      if (href && href !== '#') {
+      if (href && href !== '/') {
         const target = document.querySelector(href);
         if (target) setTimeout(() => target.scrollIntoView({ behavior: 'smooth' }), 100);
+      } else if (href === '/') {
+        window.location.href = '/';
       }
     });
   });
 
   /* ══════════════════════════════════════════════════
-     SLIDER — start only after images load
+     SLIDER
   ══════════════════════════════════════════════════ */
   const tracks = document.querySelectorAll('.slider-track-1, .slider-track-2');
   tracks.forEach(t => t.style.animationPlayState = 'paused');
@@ -1661,7 +1685,8 @@
   document.querySelectorAll('.hero-nav a').forEach(link => {
     link.addEventListener('click', e => {
       const href = link.getAttribute('href');
-      if (href && href !== '#') {
+      if (href === '/') return; // let browser navigate home
+      if (href && href.startsWith('#')) {
         e.preventDefault();
         const target = document.querySelector(href);
         if (target) target.scrollIntoView({ behavior: 'smooth' });

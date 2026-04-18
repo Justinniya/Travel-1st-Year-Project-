@@ -1,0 +1,552 @@
+{
+  "meta": {
+    "title": "BACOLOD CITY",
+    "subtitle": "Negros Occidental, Western Visayas",
+    "hero_image": "https://images.unsplash.com/photo-1555400038-63f5ba517a47?w=1400&h=700&fit=crop&q=80",
+    "desc_photo": "https://images.unsplash.com/photo-1473116763249-2faaef81ccda?w=700&h=420&fit=crop&q=80",
+    "description": "Bacolod City, the City of Smiles, is the capital of Negros Occidental and the economic hub of the Visayas. Famous for its Masskara Festival, heritage mansions, and the sweetest chicken inasal in the Philippines, Bacolod is a city that celebrates life with infectious warmth and joy.",
+    "chips": [
+      {
+        "label": "Island",
+        "value": "Negros"
+      },
+      {
+        "label": "Region",
+        "value": "Western Visayas"
+      },
+      {
+        "label": "Population",
+        "value": "600,000"
+      },
+      {
+        "label": "Province",
+        "value": "Negros Occidental"
+      },
+      {
+        "label": "Classification",
+        "value": "Independent City"
+      },
+      {
+        "label": "Languages",
+        "value": "Filipino, English, Hiligaynon"
+      },
+      {
+        "label": "Known As",
+        "value": "City of Smiles"
+      },
+      {
+        "label": "Tagline",
+        "value": "Bacolod: Always Smiling"
+      },
+      {
+        "label": "Nickname",
+        "value": "The Sugarbowl of the Philippines"
+      }
+    ]
+  },
+  "attractions": [
+    {
+      "id": "the-ruins",
+      "name": "The Ruins",
+      "image": "https://images.unsplash.com/photo-1548013146-72479768bada?w=800&h=520&fit=crop",
+      "description": "The most iconic landmark of Bacolod — a grand Italianate mansion ruins built by sugar baron Don Mariano Ledesma Lacson, now lit magnificently at night.",
+      "location": "Talisay City, near Bacolod",
+      "type": "Heritage Landmark",
+      "hours": "8:00 AM – 9:00 PM",
+      "things_to_do": "Photography, heritage tour, sunset viewing",
+      "price": "₱100 / person"
+    },
+    {
+      "id": "negros-museum",
+      "name": "Negros Museum",
+      "image": "https://images.unsplash.com/photo-1565118531796-763e5082d113?w=800&h=520&fit=crop",
+      "description": "An excellent museum showcasing the natural history, cultural heritage, and sugar industry legacy of Negros Occidental.",
+      "location": "Bacolod City Proper",
+      "type": "Museum",
+      "hours": "9:00 AM – 5:00 PM",
+      "things_to_do": "Museum tour, cultural learning, art viewing",
+      "price": "₱50 / person"
+    },
+    {
+      "id": "capitol-park",
+      "name": "Capitol Park & Lagoon",
+      "image": "https://images.unsplash.com/photo-1506929562872-bb421503ef21?w=800&h=520&fit=crop",
+      "description": "A beautiful public park surrounding the Negros Occidental Capitol building, featuring a lagoon, gardens, and jogging paths.",
+      "location": "Bacolod City Proper",
+      "type": "Park",
+      "hours": "Always open",
+      "things_to_do": "Walking, jogging, relaxing, photography",
+      "price": "Free"
+    },
+    {
+      "id": "bacolod-public-plaza",
+      "name": "Bacolod City Plaza",
+      "image": "https://images.unsplash.com/photo-1473116763249-2faaef81ccda?w=800&h=520&fit=crop",
+      "description": "The social heart of Bacolod, where locals gather for events, the Masskara Festival, and everyday urban life.",
+      "location": "Bacolod City Proper",
+      "type": "Public Space",
+      "hours": "Always open",
+      "things_to_do": "People watching, events, cultural observation",
+      "price": "Free"
+    },
+    {
+      "id": "san-sebastian-cathedral",
+      "name": "San Sebastian Cathedral",
+      "image": "https://images.unsplash.com/photo-1548579491-c87765e94c98?w=800&h=520&fit=crop",
+      "description": "The main cathedral of Bacolod Diocese, a beautiful historic church that has witnessed centuries of the city's religious life.",
+      "location": "Bacolod City Proper",
+      "type": "Cathedral",
+      "hours": "6:00 AM – 7:00 PM",
+      "things_to_do": "Prayer, sightseeing, heritage photography",
+      "price": "Free"
+    },
+    {
+      "id": "sugar-industry-museum",
+      "name": "Sugar Industry Museum",
+      "image": "https://images.unsplash.com/photo-1537996194471-e657df975ab4?w=800&h=520&fit=crop",
+      "description": "A museum dedicated to the sugar industry that shaped Negros Occidental's history, economy, and culture over 150 years.",
+      "location": "Bacolod City",
+      "type": "Museum",
+      "hours": "9:00 AM – 5:00 PM",
+      "things_to_do": "Museum tour, industrial history, photography",
+      "price": "₱50 / person"
+    },
+    {
+      "id": "qs-ruins-talisay",
+      "name": "Silay Heritage City",
+      "image": "https://images.unsplash.com/photo-1519046904884-53103b34b206?w=800&h=520&fit=crop",
+      "description": "A day trip to the nearby Silay City, the 'Paris of Negros', with well-preserved ancestral houses and a charming heritage atmosphere.",
+      "location": "Silay City, near Bacolod",
+      "type": "Heritage Town",
+      "hours": "Always open",
+      "things_to_do": "Heritage walk, ancestral house tours, dining",
+      "price": "Free"
+    },
+    {
+      "id": "the-gaston-house",
+      "name": "Balay Negrense Museum",
+      "image": "https://images.unsplash.com/photo-1555400038-63f5ba517a47?w=800&h=520&fit=crop",
+      "description": "A beautifully restored 19th century sugar baron's house in Silay City now converted into a fascinating heritage museum.",
+      "location": "Silay City",
+      "type": "Heritage Museum",
+      "hours": "9:00 AM – 5:00 PM",
+      "things_to_do": "Museum tour, heritage photography, cultural learning",
+      "price": "₱80 / person"
+    },
+    {
+      "id": "campuestohan-highland",
+      "name": "Campuestohan Highland Resort",
+      "image": "https://images.unsplash.com/photo-1548574505-5e239809ee19?w=800&h=520&fit=crop",
+      "description": "A highland resort in the mountains above Bacolod offering cool weather, ziplines, swimming pools, and scenic views.",
+      "location": "Talisay City",
+      "type": "Highland Resort",
+      "hours": "8:00 AM – 6:00 PM",
+      "things_to_do": "Zipline, swimming, mountain views, picnicking",
+      "price": "₱200 / person"
+    }
+  ],
+  "activities": [
+    {
+      "id": "masskara-festival-experience",
+      "name": "Masskara Festival Experience",
+      "image": "https://images.unsplash.com/photo-1537996194471-e657df975ab4?w=800&h=520&fit=crop",
+      "description": "Experience Bacolod's most famous festival — a week of street dancing, mask-wearing, and pure joy every October.",
+      "location": "Bacolod City",
+      "type": "Cultural Festival",
+      "hours": "October – Annual",
+      "things_to_do": "Dancing, mask wearing, street parades, concerts",
+      "price": "Free"
+    },
+    {
+      "id": "inasal-food-tour",
+      "name": "Chicken Inasal Food Tour",
+      "image": "https://images.unsplash.com/photo-1505118380757-91f5f5632de0?w=800&h=520&fit=crop",
+      "description": "A guided tour of Bacolod's famous inasal restaurants and street stalls, tasting the original charcoal-grilled chicken that inspired a national chain.",
+      "location": "Various, Bacolod City",
+      "type": "Culinary Tour",
+      "hours": "11:00 AM – 2:00 PM",
+      "things_to_do": "Food tasting, cultural dining",
+      "price": "₱600 / person"
+    },
+    {
+      "id": "sugar-plantation-tour",
+      "name": "Sugar Plantation Tour",
+      "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&h=520&fit=crop",
+      "description": "Visit a working sugarcane plantation and mill in Negros Occidental to witness the harvest and milling process that built the city.",
+      "location": "Negros Occidental",
+      "type": "Agri-Tourism",
+      "hours": "8:00 AM – 4:00 PM",
+      "things_to_do": "Plantation tour, sugarcane tasting, cultural learning",
+      "price": "₱500 / person"
+    },
+    {
+      "id": "mask-making-workshop",
+      "name": "Masskara Mask Making",
+      "image": "https://images.unsplash.com/photo-1559494007-9f5847c49d94?w=800&h=520&fit=crop",
+      "description": "Learn to decorate and paint your own Masskara papier-mâché mask from local artisans in a fun hands-on workshop.",
+      "location": "Bacolod City",
+      "type": "Workshop",
+      "hours": "9:00 AM – 4:00 PM",
+      "things_to_do": "Mask making, crafting, cultural learning",
+      "price": "₱400 / person"
+    },
+    {
+      "id": "ruins-night-tour",
+      "name": "The Ruins Night Tour",
+      "image": "https://images.unsplash.com/photo-1473116763249-2faaef81ccda?w=800&h=520&fit=crop",
+      "description": "Experience The Ruins after dark when the grand mansion is illuminated in golden light, creating an enchanting and romantic atmosphere.",
+      "location": "Talisay City",
+      "type": "Night Tour",
+      "hours": "6:00 PM – 9:00 PM",
+      "things_to_do": "Photography, heritage tour, dinner at the ruins",
+      "price": "₱150 / person"
+    },
+    {
+      "id": "beach-day-sipalay",
+      "name": "Beach Day in Sipalay",
+      "image": "https://images.unsplash.com/photo-1548574505-5e239809ee19?w=800&h=520&fit=crop",
+      "description": "A day trip to the white sand beaches of Sipalay in southern Negros Occidental for swimming, snorkeling, and island relaxation.",
+      "location": "Sipalay, Negros Occidental",
+      "type": "Beach Trip",
+      "hours": "All day",
+      "things_to_do": "Swimming, snorkeling, beach relaxation",
+      "price": "₱1,500 / person"
+    },
+    {
+      "id": "golf-bacolod",
+      "name": "Bacolod Golf & Country Club",
+      "image": "https://images.unsplash.com/photo-1484821582734-6c6c9f99a672?w=800&h=520&fit=crop",
+      "description": "Play a round of golf at one of the best golf courses in the Visayas, set amidst lush greenery with mountain views.",
+      "location": "Bacolod City",
+      "type": "Sports",
+      "hours": "6:00 AM – 6:00 PM",
+      "things_to_do": "Golf, sports, networking",
+      "price": "₱800 / person"
+    },
+    {
+      "id": "ancestral-house-visit",
+      "name": "Ancestral House Tour",
+      "image": "https://images.unsplash.com/photo-1565118531796-763e5082d113?w=800&h=520&fit=crop",
+      "description": "A guided tour of Silay City's preserved ancestral houses, getting a glimpse inside sugar baron mansions from the 19th century.",
+      "location": "Silay City",
+      "type": "Heritage Tour",
+      "hours": "9:00 AM – 5:00 PM",
+      "things_to_do": "Heritage tour, photography, cultural learning",
+      "price": "₱300 / person"
+    },
+    {
+      "id": "mt-kanlaon",
+      "name": "Mt. Kanlaon Day Hike",
+      "image": "https://images.unsplash.com/photo-1519046904884-53103b34b206?w=800&h=520&fit=crop",
+      "description": "Trek to the foothills of the active Mt. Kanlaon volcano, a National Park offering breathtaking views and diverse wildlife.",
+      "location": "Mt. Kanlaon Natural Park",
+      "type": "Nature Trek",
+      "hours": "6:00 AM – 4:00 PM",
+      "things_to_do": "Hiking, birdwatching, nature photography",
+      "price": "₱200 / person"
+    }
+  ],
+  "food": [
+    {
+      "id": "chicken-inasal",
+      "name": "Chicken Inasal",
+      "image": "https://images.unsplash.com/photo-1537996194471-e657df975ab4?w=800&h=520&fit=crop",
+      "description": "Bacolod's most famous dish — charcoal-grilled chicken marinated in local spices and annatto oil, served with garlic rice and spiced vinegar.",
+      "location": "Manokan Country, Bacolod City",
+      "type": "Grilled",
+      "hours": "11:00 AM – 10:00 PM",
+      "things_to_do": "Dining, iconic food experience",
+      "price": "₱140 / order"
+    },
+    {
+      "id": "manokan-country",
+      "name": "Manokan Country",
+      "image": "https://images.unsplash.com/photo-1505118380757-91f5f5632de0?w=800&h=520&fit=crop",
+      "description": "A strip of competing inasal restaurants in the heart of Bacolod — the birthplace of Chicken Inasal and still the best place to taste it.",
+      "location": "Bacolod City Proper",
+      "type": "Restaurant Row",
+      "hours": "10:00 AM – 11:00 PM",
+      "things_to_do": "Dining, inasal tasting, local experience",
+      "price": "₱150 / person"
+    },
+    {
+      "id": "piaya-bacolod",
+      "name": "Piaya & Napoleones",
+      "image": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=800&h=520&fit=crop",
+      "description": "Two of Bacolod's most iconic pasalubong sweets — piaya (muscovado-filled flatbread) and napoleones (custard-filled pastry layers).",
+      "location": "Bacolod City Bakeries",
+      "type": "Pastry & Delicacy",
+      "hours": "7:00 AM – 9:00 PM",
+      "things_to_do": "Snacking, souvenir buying",
+      "price": "₱30 / piece"
+    },
+    {
+      "id": "kansi-bacolod",
+      "name": "Kansi",
+      "image": "https://images.unsplash.com/photo-1484821582734-6c6c9f99a672?w=800&h=520&fit=crop",
+      "description": "A rich sour beef soup unique to Bacolod — slow-cooked beef with bone marrow in a tangy batuan broth served with steamed rice.",
+      "location": "Local Restaurants",
+      "type": "Traditional Dish",
+      "hours": "10:00 AM – 9:00 PM",
+      "things_to_do": "Dining, local cuisine tasting",
+      "price": "₱250 / serving"
+    },
+    {
+      "id": "the-ruins-restaurant",
+      "name": "Dining at The Ruins",
+      "image": "https://images.unsplash.com/photo-1548013146-72479768bada?w=800&h=520&fit=crop",
+      "description": "An unforgettable dining experience at the restaurant within The Ruins heritage site, serving Negrense cuisine with a romantic backdrop.",
+      "location": "The Ruins, Talisay City",
+      "type": "Fine Dining",
+      "hours": "11:00 AM – 9:00 PM",
+      "things_to_do": "Fine dining, heritage ambiance, photography",
+      "price": "₱600 / person"
+    },
+    {
+      "id": "fresh-lumpia",
+      "name": "Bacolod Fresh Lumpia",
+      "image": "https://images.unsplash.com/photo-1559494007-9f5847c49d94?w=800&h=520&fit=crop",
+      "description": "Fresh spring rolls stuffed with local vegetables, shrimps, and pork, wrapped in a soft crepe and topped with sweet garlic sauce.",
+      "location": "Various Street Stalls",
+      "type": "Street Food",
+      "hours": "8:00 AM – 6:00 PM",
+      "things_to_do": "Snacking, street food experience",
+      "price": "₱60 / piece"
+    },
+    {
+      "id": "cakes-sweets",
+      "name": "Bacolod Cakes & Sweets",
+      "image": "https://images.unsplash.com/photo-1473116763249-2faaef81ccda?w=800&h=520&fit=crop",
+      "description": "Bacolod has a thriving cake culture with famous bakeries producing unique ensaimada, sans rival cakes, and chiffon cakes.",
+      "location": "Bacolod City Bakeries",
+      "type": "Pastry",
+      "hours": "7:00 AM – 9:00 PM",
+      "things_to_do": "Cake tasting, souvenir buying",
+      "price": "₱150 / box"
+    },
+    {
+      "id": "bob-marlin",
+      "name": "Bob Marlin Restaurant",
+      "image": "https://images.unsplash.com/photo-1519046904884-53103b34b206?w=800&h=520&fit=crop",
+      "description": "A beloved Bacolod institution known for its grilled seafood, live music, and laid-back beach resort atmosphere.",
+      "location": "Bacolod City",
+      "type": "Restaurant",
+      "hours": "10:00 AM – 10:00 PM",
+      "things_to_do": "Dining, seafood, live entertainment",
+      "price": "₱400 / person"
+    },
+    {
+      "id": "sugar-cakes",
+      "name": "Muscovado Sugar Products",
+      "image": "https://images.unsplash.com/photo-1506929562872-bb421503ef21?w=800&h=520&fit=crop",
+      "description": "Bacolod's rich sugar heritage is tasted in muscovado sugar products — from raw cane sugar to artisanal sweets and pastries.",
+      "location": "Public Markets & Shops",
+      "type": "Local Product",
+      "hours": "7:00 AM – 6:00 PM",
+      "things_to_do": "Tasting, souvenir buying",
+      "price": "₱80 / pack"
+    }
+  ],
+  "events": [
+    {
+      "id": "masskara-festival",
+      "name": "Masskara Festival",
+      "image": "https://images.unsplash.com/photo-1537996194471-e657df975ab4?w=800&h=520&fit=crop",
+      "description": "The City of Smiles' grandest celebration every October — a dazzling week of smiling mask street dances, concerts, food fairs, and fireworks.",
+      "location": "Bacolod City",
+      "type": "Cultural Festival",
+      "hours": "October – Annual",
+      "things_to_do": "Street dancing, concerts, food fair, fireworks",
+      "price": "Free"
+    },
+    {
+      "id": "panaad-festival",
+      "name": "Panaad sa Negros Festival",
+      "image": "https://images.unsplash.com/photo-1506929562872-bb421503ef21?w=800&h=520&fit=crop",
+      "description": "A week-long festival showcasing the unique culture, festivals, and products of each municipality in Negros Occidental.",
+      "location": "Panaad Park, Bacolod",
+      "type": "Cultural Showcase",
+      "hours": "April – Annual",
+      "things_to_do": "Cultural shows, trade fair, sports events",
+      "price": "₱50 / person"
+    },
+    {
+      "id": "halad-festival",
+      "name": "Halad Festival",
+      "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&h=520&fit=crop",
+      "description": "A religious festival honoring the patron saint of Bacolod through processions, street events, and thanksgiving celebrations.",
+      "location": "Bacolod City",
+      "type": "Religious Festival",
+      "hours": "Various Dates – Annual",
+      "things_to_do": "Processions, street events, cultural shows",
+      "price": "Free"
+    },
+    {
+      "id": "negros-trade-fair",
+      "name": "Negros Trade Fair",
+      "image": "https://images.unsplash.com/photo-1565118531796-763e5082d113?w=800&h=520&fit=crop",
+      "description": "An annual trade fair highlighting Negros Occidental's agricultural products, handicrafts, and local food specialties.",
+      "location": "Bacolod City",
+      "type": "Trade Fair",
+      "hours": "Various Dates",
+      "things_to_do": "Shopping, food tasting, product showcase",
+      "price": "Free"
+    },
+    {
+      "id": "christmas-parade",
+      "name": "Bacolod Christmas Parade",
+      "image": "https://images.unsplash.com/photo-1548574505-5e239809ee19?w=800&h=520&fit=crop",
+      "description": "One of the grandest Christmas parades in the Visayas, featuring elaborate floats, marching bands, and a festive atmosphere.",
+      "location": "Bacolod City",
+      "type": "Seasonal Celebration",
+      "hours": "December – Annual",
+      "things_to_do": "Parade watching, caroling, festive shopping",
+      "price": "Free"
+    },
+    {
+      "id": "sugar-centennial",
+      "name": "Sugar Industry Festival",
+      "image": "https://images.unsplash.com/photo-1519046904884-53103b34b206?w=800&h=520&fit=crop",
+      "description": "A celebration of the 150-year sugar industry heritage of Negros Occidental with exhibits, tours, and cultural programs.",
+      "location": "Bacolod City",
+      "type": "Industry Festival",
+      "hours": "Various Dates",
+      "things_to_do": "Heritage tours, exhibits, industry learning",
+      "price": "Free"
+    },
+    {
+      "id": "bacolod-marathon",
+      "name": "Bacolod City Marathon",
+      "image": "https://images.unsplash.com/photo-1473116763249-2faaef81ccda?w=800&h=520&fit=crop",
+      "description": "A major running event in the Visayas drawing thousands of runners through Bacolod's streets every year.",
+      "location": "Bacolod City Streets",
+      "type": "Sports Event",
+      "hours": "Various Dates",
+      "things_to_do": "Running, cheering, community participation",
+      "price": "₱500 registration"
+    },
+    {
+      "id": "art-fair-negros",
+      "name": "Negros Art Gallery Exhibit",
+      "image": "https://images.unsplash.com/photo-1484821582734-6c6c9f99a672?w=800&h=520&fit=crop",
+      "description": "A rotating gallery exhibit at the Negros Museum showcasing works by prominent Negrense artists and national artists.",
+      "location": "Negros Museum, Bacolod",
+      "type": "Art Exhibition",
+      "hours": "Various Dates",
+      "things_to_do": "Art viewing, cultural appreciation",
+      "price": "₱50 / person"
+    },
+    {
+      "id": "food-festival-bacolod",
+      "name": "Bacolod Food Festival",
+      "image": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=800&h=520&fit=crop",
+      "description": "A celebration of Bacolod's rich food culture featuring the city's best restaurants, street food stalls, and cooking competitions.",
+      "location": "Bacolod City",
+      "type": "Food Festival",
+      "hours": "Various Dates",
+      "things_to_do": "Food tasting, cooking shows, competitions",
+      "price": "₱100 / person"
+    }
+  ],
+  "accommodations": [
+    {
+      "id": "l-fisher-hotel",
+      "name": "L'Fisher Hotel",
+      "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&h=520&fit=crop",
+      "description": "Bacolod's most prestigious hotel, offering luxury rooms, a rooftop pool, and fine dining in the heart of the city.",
+      "location": "Lacson Street, Bacolod City",
+      "type": "Luxury Hotel",
+      "hours": "24 hours",
+      "things_to_do": "Pool, fine dining, city center access",
+      "price": "₱5,000 / night"
+    },
+    {
+      "id": "seda-capitol-central",
+      "name": "Seda Capitol Central",
+      "image": "https://images.unsplash.com/photo-1506929562872-bb421503ef21?w=800&h=520&fit=crop",
+      "description": "A modern upscale hotel adjacent to Bacolod's Capitol Lagoon offering stylish rooms and contemporary amenities.",
+      "location": "Bacolod City Proper",
+      "type": "Upscale Hotel",
+      "hours": "24 hours",
+      "things_to_do": "Pool, dining, lagoon views",
+      "price": "₱4,500 / night"
+    },
+    {
+      "id": "sugarland-hotel",
+      "name": "Sugarland Hotel",
+      "image": "https://images.unsplash.com/photo-1548574505-5e239809ee19?w=800&h=520&fit=crop",
+      "description": "A classic Bacolod hotel named after the sugarcane heritage of Negros, offering comfortable rooms and a large pool area.",
+      "location": "Singcang, Bacolod City",
+      "type": "Hotel",
+      "hours": "24 hours",
+      "things_to_do": "Pool, dining, heritage ambiance",
+      "price": "₱3,200 / night"
+    },
+    {
+      "id": "the-henry-hotel",
+      "name": "The Henry Hotel Bacolod",
+      "image": "https://images.unsplash.com/photo-1559494007-9f5847c49d94?w=800&h=520&fit=crop",
+      "description": "A hip boutique hotel with art-inspired design, a rooftop bar, and a curated blend of contemporary and heritage aesthetics.",
+      "location": "Bacolod City",
+      "type": "Boutique Hotel",
+      "hours": "24 hours",
+      "things_to_do": "Rooftop bar, art gallery, dining",
+      "price": "₱4,000 / night"
+    },
+    {
+      "id": "terraces-hotel",
+      "name": "Terraces Hotel",
+      "image": "https://images.unsplash.com/photo-1473116763249-2faaef81ccda?w=800&h=520&fit=crop",
+      "description": "A well-appointed hotel with multiple pools, lush gardens, and a prime location near Bacolod's main commercial district.",
+      "location": "Bacolod City",
+      "type": "Resort Hotel",
+      "hours": "24 hours",
+      "things_to_do": "Multiple pools, dining, shopping proximity",
+      "price": "₱3,800 / night"
+    },
+    {
+      "id": "metro-centre",
+      "name": "Metro Centre Hotel",
+      "image": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=800&h=520&fit=crop",
+      "description": "A centrally located hotel connected to a major shopping mall, perfect for convenience and easy access to the city.",
+      "location": "Bacolod City",
+      "type": "City Hotel",
+      "hours": "24 hours",
+      "things_to_do": "Shopping, dining, city exploration",
+      "price": "₱2,800 / night"
+    },
+    {
+      "id": "almont-inland",
+      "name": "Almont Inland Resort",
+      "image": "https://images.unsplash.com/photo-1484821582734-6c6c9f99a672?w=800&h=520&fit=crop",
+      "description": "A resort-style hotel with multiple pools, event facilities, and a relaxing garden environment a short drive from the city center.",
+      "location": "Bacolod City",
+      "type": "Resort Hotel",
+      "hours": "24 hours",
+      "things_to_do": "Multiple pools, events, relaxation",
+      "price": "₱3,000 / night"
+    },
+    {
+      "id": "golden-sky-hotel",
+      "name": "Golden Sky Hotel",
+      "image": "https://images.unsplash.com/photo-1519046904884-53103b34b206?w=800&h=520&fit=crop",
+      "description": "A mid-range hotel offering clean and comfortable accommodations at reasonable prices in the heart of Bacolod.",
+      "location": "Bacolod City",
+      "type": "Midrange Hotel",
+      "hours": "24 hours",
+      "things_to_do": "Comfortable stay, city access",
+      "price": "₱2,000 / night"
+    },
+    {
+      "id": "bacolod-budget",
+      "name": "Planta Centro Bacolod",
+      "image": "https://images.unsplash.com/photo-1537996194471-e657df975ab4?w=800&h=520&fit=crop",
+      "description": "A modern budget-friendly hotel with stylish rooms in the center of Bacolod City, perfect for value-conscious travelers.",
+      "location": "Bacolod City Center",
+      "type": "Budget Hotel",
+      "hours": "24 hours",
+      "things_to_do": "Affordable stay, city center access",
+      "price": "₱1,500 / night"
+    }
+  ]
+}

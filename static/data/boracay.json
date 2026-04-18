@@ -1,0 +1,552 @@
+{
+  "meta": {
+    "title": "BORACAY",
+    "subtitle": "Aklan, Western Visayas",
+    "hero_image": "https://images.unsplash.com/photo-1537996194471-e657df975ab4?w=1400&h=700&fit=crop&q=80",
+    "desc_photo": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=700&h=420&fit=crop&q=80",
+    "description": "Every visit to the picturesque Boracay is a tropical vacation that will undoubtedly be memorable. Fall in love again and again with the island's white sand, crystal blue waters, and festive atmosphere that keeps Boracay close to every traveler's heart.",
+    "chips": [
+      {
+        "label": "Island",
+        "value": "Visayas"
+      },
+      {
+        "label": "Region",
+        "value": "Western Visayas"
+      },
+      {
+        "label": "Population",
+        "value": "32,000"
+      },
+      {
+        "label": "Province",
+        "value": "Aklan"
+      },
+      {
+        "label": "Municipality",
+        "value": "Malay"
+      },
+      {
+        "label": "Languages",
+        "value": "Filipino, English, Aklanon"
+      },
+      {
+        "label": "Known As",
+        "value": "White-sand beaches"
+      },
+      {
+        "label": "Tagline",
+        "value": "Boracay Better than Ever"
+      },
+      {
+        "label": "Nickname",
+        "value": "The Island That Never Sleeps"
+      }
+    ]
+  },
+  "attractions": [
+    {
+      "id": "white-beach",
+      "name": "White Beach",
+      "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&h=520&fit=crop",
+      "description": "The most famous beach in Boracay, known for its powder-white sand, crystal-clear waters, and vibrant atmosphere.",
+      "location": "Station 1, 2 & 3",
+      "type": "Beach",
+      "hours": "Always open",
+      "things_to_do": "Swimming, sunbathing, sunset viewing",
+      "price": "Free"
+    },
+    {
+      "id": "puka-shell-beach",
+      "name": "Puka Shell Beach",
+      "image": "https://images.unsplash.com/photo-1519046904884-53103b34b206?w=800&h=520&fit=crop",
+      "description": "A quieter, more secluded beach at the northern tip of Boracay, named after the puka shells found along its shores.",
+      "location": "North Boracay",
+      "type": "Beach",
+      "hours": "Always open",
+      "things_to_do": "Shell collecting, snorkeling, swimming",
+      "price": "Free"
+    },
+    {
+      "id": "willys-rock",
+      "name": "Willy's Rock",
+      "image": "https://images.unsplash.com/photo-1473116763249-2faaef81ccda?w=800&h=520&fit=crop",
+      "description": "An iconic volcanic rock formation rising from the sea at Station 1, topped with a shrine of the Virgin Mary.",
+      "location": "Station 1",
+      "type": "Landmark",
+      "hours": "Always open",
+      "things_to_do": "Photography, sightseeing, swimming",
+      "price": "Free"
+    },
+    {
+      "id": "crocodile-island",
+      "name": "Crocodile Island",
+      "image": "https://images.unsplash.com/photo-1506929562872-bb421503ef21?w=800&h=520&fit=crop",
+      "description": "A small island off the coast of Boracay shaped like a crocodile, surrounded by rich coral reefs.",
+      "location": "Off Boracay Coast",
+      "type": "Island",
+      "hours": "6:00 AM – 5:00 PM",
+      "things_to_do": "Snorkeling, diving, island hopping",
+      "price": "₱500 / person"
+    },
+    {
+      "id": "diniwid-beach",
+      "name": "Diniwid Beach",
+      "image": "https://images.unsplash.com/photo-1548574505-5e239809ee19?w=800&h=520&fit=crop",
+      "description": "A small, peaceful cove just north of White Beach, accessible via a rocky trail — perfect for a quiet escape.",
+      "location": "North of Station 1",
+      "type": "Beach",
+      "hours": "Always open",
+      "things_to_do": "Relaxing, swimming, photography",
+      "price": "Free"
+    },
+    {
+      "id": "mount-luho",
+      "name": "Mount Luho View Deck",
+      "image": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=800&h=520&fit=crop",
+      "description": "The highest point in Boracay offering a 360-degree panoramic view of the entire island and surrounding seas.",
+      "location": "Interior Boracay",
+      "type": "Viewpoint",
+      "hours": "7:00 AM – 6:00 PM",
+      "things_to_do": "Sightseeing, photography, hiking",
+      "price": "₱100 / person"
+    },
+    {
+      "id": "bat-cave",
+      "name": "Bat Cave",
+      "image": "https://images.unsplash.com/photo-1559494007-9f5847c49d94?w=800&h=520&fit=crop",
+      "description": "A natural cave on the island housing thousands of fruit bats. A fascinating and unique attraction near Puka Beach.",
+      "location": "North Boracay",
+      "type": "Natural Wonder",
+      "hours": "8:00 AM – 5:00 PM",
+      "things_to_do": "Cave exploration, bat watching, nature walk",
+      "price": "₱150 / person"
+    },
+    {
+      "id": "bulabog-beach",
+      "name": "Bulabog Beach",
+      "image": "https://images.unsplash.com/photo-1484821582734-6c6c9f99a672?w=800&h=520&fit=crop",
+      "description": "Located on the eastern side of Boracay, this beach is the hub for kitesurfing and windsurfing enthusiasts.",
+      "location": "East Boracay",
+      "type": "Beach",
+      "hours": "Always open",
+      "things_to_do": "Kitesurfing, windsurfing, swimming",
+      "price": "Free"
+    },
+    {
+      "id": "magic-island",
+      "name": "Magic Island",
+      "image": "https://images.unsplash.com/photo-1505118380757-91f5f5632de0?w=800&h=520&fit=crop",
+      "description": "A small islet famous for its cliff diving spots, offering jumps of various heights for thrill-seekers.",
+      "location": "Off White Beach",
+      "type": "Island",
+      "hours": "7:00 AM – 5:00 PM",
+      "things_to_do": "Cliff diving, snorkeling, swimming",
+      "price": "₱300 / person"
+    }
+  ],
+  "activities": [
+    {
+      "id": "island-hopping",
+      "name": "Island Hopping",
+      "image": "https://images.unsplash.com/photo-1506929562872-bb421503ef21?w=800&h=520&fit=crop",
+      "description": "Explore the beautiful islands surrounding Boracay by boat, visiting crystal-clear lagoons and snorkeling spots.",
+      "location": "Boracay Waters",
+      "type": "Water Activity",
+      "hours": "7:00 AM – 4:00 PM",
+      "things_to_do": "Snorkeling, swimming, boat riding",
+      "price": "₱1,500 / person"
+    },
+    {
+      "id": "parasailing",
+      "name": "Parasailing",
+      "image": "https://images.unsplash.com/photo-1548574505-5e239809ee19?w=800&h=520&fit=crop",
+      "description": "Soar above Boracay's breathtaking coastline while being towed by a speedboat for an unforgettable aerial view.",
+      "location": "Station 2, White Beach",
+      "type": "Adventure",
+      "hours": "8:00 AM – 5:00 PM",
+      "things_to_do": "Parasailing, aerial photography, thrills",
+      "price": "₱2,500 / person"
+    },
+    {
+      "id": "kitesurfing",
+      "name": "Kitesurfing",
+      "image": "https://images.unsplash.com/photo-1559494007-9f5847c49d94?w=800&h=520&fit=crop",
+      "description": "Bulabog Beach is one of Asia's top kitesurfing destinations. Lessons and equipment rentals available for all levels.",
+      "location": "Bulabog Beach",
+      "type": "Water Sport",
+      "hours": "8:00 AM – 5:00 PM",
+      "things_to_do": "Kitesurfing, lessons, equipment rental",
+      "price": "₱3,000 / person"
+    },
+    {
+      "id": "scuba-diving",
+      "name": "Scuba Diving",
+      "image": "https://images.unsplash.com/photo-1484821582734-6c6c9f99a672?w=800&h=520&fit=crop",
+      "description": "Discover vibrant coral reefs and diverse marine life in the waters around Boracay with certified dive operators.",
+      "location": "Various Dive Sites",
+      "type": "Water Sport",
+      "hours": "7:00 AM – 4:00 PM",
+      "things_to_do": "Diving, marine life viewing, coral exploration",
+      "price": "₱2,800 / person"
+    },
+    {
+      "id": "snorkeling",
+      "name": "Snorkeling",
+      "image": "https://images.unsplash.com/photo-1505118380757-91f5f5632de0?w=800&h=520&fit=crop",
+      "description": "Explore the underwater world just below the surface at Crocodile Island and other spots teeming with marine life.",
+      "location": "Crocodile Island & Laurel Island",
+      "type": "Water Activity",
+      "hours": "7:00 AM – 5:00 PM",
+      "things_to_do": "Snorkeling, fish feeding, underwater photography",
+      "price": "₱800 / person"
+    },
+    {
+      "id": "sunset-sailing",
+      "name": "Sunset Sailing",
+      "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&h=520&fit=crop",
+      "description": "Sail along the coast on a traditional paraw sailboat and witness Boracay's legendary golden sunsets.",
+      "location": "White Beach",
+      "type": "Leisure",
+      "hours": "4:00 PM – 7:00 PM",
+      "things_to_do": "Sailing, sunset viewing, photography",
+      "price": "₱1,200 / person"
+    },
+    {
+      "id": "atv-riding",
+      "name": "ATV Riding",
+      "image": "https://images.unsplash.com/photo-1519046904884-53103b34b206?w=800&h=520&fit=crop",
+      "description": "Ride all-terrain vehicles through the forest trails and rugged terrain of the island's interior.",
+      "location": "Interior Boracay",
+      "type": "Adventure",
+      "hours": "8:00 AM – 5:00 PM",
+      "things_to_do": "ATV riding, trail exploration, photography",
+      "price": "₱1,800 / person"
+    },
+    {
+      "id": "cliff-diving",
+      "name": "Cliff Diving",
+      "image": "https://images.unsplash.com/photo-1473116763249-2faaef81ccda?w=800&h=520&fit=crop",
+      "description": "Test your courage with jumps from platforms of varying heights at the famous Magic Island cliff diving spot.",
+      "location": "Magic Island",
+      "type": "Adventure",
+      "hours": "8:00 AM – 5:00 PM",
+      "things_to_do": "Cliff diving, swimming, snorkeling",
+      "price": "₱350 / person"
+    },
+    {
+      "id": "helmet-diving",
+      "name": "Helmet Diving",
+      "image": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=800&h=520&fit=crop",
+      "description": "Walk on the ocean floor with a special helmet that keeps your head dry — no swimming skills required!",
+      "location": "Station 2",
+      "type": "Water Activity",
+      "hours": "8:00 AM – 4:00 PM",
+      "things_to_do": "Underwater walking, fish feeding, marine viewing",
+      "price": "₱2,000 / person"
+    }
+  ],
+  "food": [
+    {
+      "id": "seafood-bbq",
+      "name": "Seafood BBQ",
+      "image": "https://images.unsplash.com/photo-1505118380757-91f5f5632de0?w=800&h=520&fit=crop",
+      "description": "Fresh catch of the day grilled to perfection along the beachfront — a must-try Boracay dining experience.",
+      "location": "D'Mall & Station 2",
+      "type": "Restaurant",
+      "hours": "5:00 PM – 12:00 AM",
+      "things_to_do": "Dining, live music, beachfront views",
+      "price": "₱450 / person"
+    },
+    {
+      "id": "halo-halo",
+      "name": "Halo-halo",
+      "image": "https://images.unsplash.com/photo-1484821582734-6c6c9f99a672?w=800&h=520&fit=crop",
+      "description": "The iconic Filipino shaved ice dessert loaded with mixed fruits, sweet beans, leche flan, and ube ice cream.",
+      "location": "Various Stalls",
+      "type": "Dessert",
+      "hours": "10:00 AM – 10:00 PM",
+      "things_to_do": "Dining, dessert tasting, local culture",
+      "price": "₱120 / serving"
+    },
+    {
+      "id": "mango-float",
+      "name": "Mango Float",
+      "image": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=800&h=520&fit=crop",
+      "description": "A beloved Filipino no-bake cake made with layers of graham crackers, cream, and fresh Boracay mangoes.",
+      "location": "Local Bakeries & Cafes",
+      "type": "Dessert",
+      "hours": "8:00 AM – 9:00 PM",
+      "things_to_do": "Dining, dessert tasting",
+      "price": "₱180 / slice"
+    },
+    {
+      "id": "pusit-grilled-squid",
+      "name": "Pusit (Grilled Squid)",
+      "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&h=520&fit=crop",
+      "description": "Freshly caught squid stuffed with tomatoes and onions, grilled and served with a tangy dipping sauce.",
+      "location": "Beachfront Restaurants",
+      "type": "Restaurant",
+      "hours": "11:00 AM – 11:00 PM",
+      "things_to_do": "Dining, seafood tasting",
+      "price": "₱280 / order"
+    },
+    {
+      "id": "kare-kare",
+      "name": "Kare-kare",
+      "image": "https://images.unsplash.com/photo-1519046904884-53103b34b206?w=800&h=520&fit=crop",
+      "description": "A rich Filipino oxtail stew cooked in peanut sauce, served with fermented shrimp paste and banana blossom.",
+      "location": "Filipino Restaurants",
+      "type": "Restaurant",
+      "hours": "10:00 AM – 10:00 PM",
+      "things_to_do": "Dining, Filipino cuisine tasting",
+      "price": "₱380 / order"
+    },
+    {
+      "id": "fresh-buko-juice",
+      "name": "Fresh Buko Juice",
+      "image": "https://images.unsplash.com/photo-1473116763249-2faaef81ccda?w=800&h=520&fit=crop",
+      "description": "Cold fresh coconut juice served straight from the shell — the perfect tropical refreshment on a hot beach day.",
+      "location": "Beach Vendors",
+      "type": "Beverage",
+      "hours": "8:00 AM – 8:00 PM",
+      "things_to_do": "Refreshments, beach relaxation",
+      "price": "₱80 / coconut"
+    },
+    {
+      "id": "lechon-de-leche",
+      "name": "Lechon de Leche",
+      "image": "https://images.unsplash.com/photo-1548574505-5e239809ee19?w=800&h=520&fit=crop",
+      "description": "Whole roasted suckling pig with perfectly crispy skin — a centerpiece dish at Filipino celebrations.",
+      "location": "Specialty Restaurants",
+      "type": "Restaurant",
+      "hours": "11:00 AM – 9:00 PM",
+      "things_to_do": "Dining, Filipino culture experience",
+      "price": "₱550 / order"
+    },
+    {
+      "id": "sinigang",
+      "name": "Sinigang",
+      "image": "https://images.unsplash.com/photo-1559494007-9f5847c49d94?w=800&h=520&fit=crop",
+      "description": "A sour Filipino soup made with tamarind broth, vegetables, and your choice of pork, shrimp, or fish.",
+      "location": "Filipino Restaurants",
+      "type": "Restaurant",
+      "hours": "10:00 AM – 10:00 PM",
+      "things_to_do": "Dining, Filipino cuisine tasting",
+      "price": "₱320 / order"
+    },
+    {
+      "id": "sisig",
+      "name": "Sisig",
+      "image": "https://images.unsplash.com/photo-1506929562872-bb421503ef21?w=800&h=520&fit=crop",
+      "description": "A sizzling Filipino dish made from chopped pork face and ears, seasoned with calamansi and chili — best paired with cold beer.",
+      "location": "Bars & Restaurants",
+      "type": "Restaurant",
+      "hours": "11:00 AM – 2:00 AM",
+      "things_to_do": "Dining, nightlife, Filipino cuisine",
+      "price": "₱290 / order"
+    }
+  ],
+  "events": [
+    {
+      "id": "ati-atihan-festival",
+      "name": "Ati-Atihan Festival",
+      "image": "https://images.unsplash.com/photo-1537996194471-e657df975ab4?w=800&h=520&fit=crop",
+      "description": "One of the Philippines' oldest and grandest festivals celebrating the Ati people with colorful costumes, dancing, and music.",
+      "location": "Boracay Island",
+      "type": "Cultural Festival",
+      "hours": "January – Annual",
+      "things_to_do": "Dancing, costumes, street parades, music",
+      "price": "Free"
+    },
+    {
+      "id": "boracay-funboard-cup",
+      "name": "Boracay Funboard Cup",
+      "image": "https://images.unsplash.com/photo-1519046904884-53103b34b206?w=800&h=520&fit=crop",
+      "description": "An international windsurfing competition held annually at Bulabog Beach, attracting top athletes from around the world.",
+      "location": "Bulabog Beach",
+      "type": "Sports Event",
+      "hours": "January – Annual",
+      "things_to_do": "Watching competitions, windsurfing, beach activities",
+      "price": "Free"
+    },
+    {
+      "id": "artboracay",
+      "name": "ArTboracay",
+      "image": "https://images.unsplash.com/photo-1473116763249-2faaef81ccda?w=800&h=520&fit=crop",
+      "description": "An annual arts and culture festival showcasing local and international artists through exhibits, live performances, and workshops.",
+      "location": "Various Venues",
+      "type": "Arts Festival",
+      "hours": "March – Annual",
+      "things_to_do": "Art viewing, workshops, live performances",
+      "price": "₱200 / person"
+    },
+    {
+      "id": "new-years-countdown",
+      "name": "New Year's Countdown",
+      "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&h=520&fit=crop",
+      "description": "Boracay's legendary New Year's Eve celebration with spectacular fireworks, live music, and beach parties along White Beach.",
+      "location": "White Beach",
+      "type": "Celebration",
+      "hours": "December 31 – Annual",
+      "things_to_do": "Fireworks, parties, live music, beach gathering",
+      "price": "Free"
+    },
+    {
+      "id": "easter-mass",
+      "name": "Easter Mass on the Beach",
+      "image": "https://images.unsplash.com/photo-1548574505-5e239809ee19?w=800&h=520&fit=crop",
+      "description": "A unique and moving sunrise Easter Mass held directly on the sands of White Beach, drawing thousands of locals and tourists.",
+      "location": "White Beach",
+      "type": "Religious Event",
+      "hours": "Easter Sunday – Annual",
+      "things_to_do": "Mass, reflection, community gathering",
+      "price": "Free"
+    },
+    {
+      "id": "paraw-regatta",
+      "name": "Paraw Regatta",
+      "image": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=800&h=520&fit=crop",
+      "description": "The oldest traditional sailboat race in Asia, featuring colorful paraw boats racing along Boracay's coast every February.",
+      "location": "White Beach",
+      "type": "Sports Event",
+      "hours": "February – Annual",
+      "things_to_do": "Watching races, sailing, beach activities",
+      "price": "Free"
+    },
+    {
+      "id": "boracay-food-festival",
+      "name": "Boracay Food Festival",
+      "image": "https://images.unsplash.com/photo-1505118380757-91f5f5632de0?w=800&h=520&fit=crop",
+      "description": "A celebration of Filipino and international cuisine featuring top restaurants, cooking competitions, and food stalls.",
+      "location": "D'Mall Area",
+      "type": "Food Festival",
+      "hours": "Various Dates – Annual",
+      "things_to_do": "Food tasting, cooking shows, cultural performances",
+      "price": "₱150 / person"
+    },
+    {
+      "id": "sandcastle-competition",
+      "name": "Sandcastle Competition",
+      "image": "https://images.unsplash.com/photo-1484821582734-6c6c9f99a672?w=800&h=520&fit=crop",
+      "description": "Teams of artists and locals compete to build the most creative and elaborate sandcastles along White Beach.",
+      "location": "White Beach",
+      "type": "Competition",
+      "hours": "Various Dates – Annual",
+      "things_to_do": "Watching, participating, photography",
+      "price": "Free"
+    },
+    {
+      "id": "sinulog-sa-boracay",
+      "name": "Sinulog sa Boracay",
+      "image": "https://images.unsplash.com/photo-1559494007-9f5847c49d94?w=800&h=520&fit=crop",
+      "description": "Boracay's vibrant version of the famous Sinulog Festival, featuring street dancing, colorful costumes, and cultural performances.",
+      "location": "Boracay Island",
+      "type": "Cultural Festival",
+      "hours": "January – Annual",
+      "things_to_do": "Street dancing, costumes, cultural shows",
+      "price": "Free"
+    }
+  ],
+  "accommodations": [
+    {
+      "id": "shangri-la-boracay",
+      "name": "Shangri-La Boracay",
+      "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&h=520&fit=crop",
+      "description": "A world-class luxury resort nestled on Boracay's northern hillside with private beaches, infinity pools, and panoramic ocean views.",
+      "location": "Barangay Yapak, North Boracay",
+      "type": "Luxury Resort",
+      "hours": "24 hours",
+      "things_to_do": "Swimming, dining, spa, water sports",
+      "price": "₱12,000 / night"
+    },
+    {
+      "id": "discovery-shores",
+      "name": "Discovery Shores",
+      "image": "https://images.unsplash.com/photo-1506929562872-bb421503ef21?w=800&h=520&fit=crop",
+      "description": "An award-winning beachfront resort on Station 1 offering elegant rooms, a stunning infinity pool, and direct beach access.",
+      "location": "Station 1, White Beach",
+      "type": "Beachfront Resort",
+      "hours": "24 hours",
+      "things_to_do": "Beach, pool, dining, spa, water activities",
+      "price": "₱9,500 / night"
+    },
+    {
+      "id": "henann-resort",
+      "name": "Henann Resort",
+      "image": "https://images.unsplash.com/photo-1548574505-5e239809ee19?w=800&h=520&fit=crop",
+      "description": "One of Boracay's most popular resorts featuring multiple swimming pools, lush gardens, and direct access to White Beach.",
+      "location": "Station 1, White Beach",
+      "type": "Resort",
+      "hours": "24 hours",
+      "things_to_do": "Pool, beach, dining, entertainment",
+      "price": "₱6,500 / night"
+    },
+    {
+      "id": "the-lind-boracay",
+      "name": "The Lind Boracay",
+      "image": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=800&h=520&fit=crop",
+      "description": "A sophisticated boutique hotel on White Beach offering stylish rooms, a rooftop bar, and personalized service.",
+      "location": "Station 2, White Beach",
+      "type": "Boutique Hotel",
+      "hours": "24 hours",
+      "things_to_do": "Rooftop bar, beach, dining, spa",
+      "price": "₱7,800 / night"
+    },
+    {
+      "id": "fairways-bluewater",
+      "name": "Fairways & Bluewater",
+      "image": "https://images.unsplash.com/photo-1537996194471-e657df975ab4?w=800&h=520&fit=crop",
+      "description": "A sprawling golf and beach resort offering villas, condotel units, a golf course, and stunning ocean views.",
+      "location": "North Boracay",
+      "type": "Golf & Beach Resort",
+      "hours": "24 hours",
+      "things_to_do": "Golf, swimming, dining, water sports",
+      "price": "₱5,500 / night"
+    },
+    {
+      "id": "movenpick",
+      "name": "Movenpick Resort",
+      "image": "https://images.unsplash.com/photo-1473116763249-2faaef81ccda?w=800&h=520&fit=crop",
+      "description": "A premium international resort brand offering Swiss-inspired hospitality, beachfront access, and world-class amenities.",
+      "location": "Station 1, White Beach",
+      "type": "Luxury Resort",
+      "hours": "24 hours",
+      "things_to_do": "Beach, pool, fine dining, spa, wellness",
+      "price": "₱11,000 / night"
+    },
+    {
+      "id": "crimson-hotel",
+      "name": "Crimson Hotel",
+      "image": "https://images.unsplash.com/photo-1559494007-9f5847c49d94?w=800&h=520&fit=crop",
+      "description": "A vibrant beachfront hotel on White Beach known for its colorful design, lively atmosphere, and excellent value.",
+      "location": "Station 1, White Beach",
+      "type": "Beachfront Hotel",
+      "hours": "24 hours",
+      "things_to_do": "Beach, pool, dining, nightlife",
+      "price": "₱4,800 / night"
+    },
+    {
+      "id": "be-grand-resort",
+      "name": "Be Grand Resort",
+      "image": "https://images.unsplash.com/photo-1484821582734-6c6c9f99a672?w=800&h=520&fit=crop",
+      "description": "A modern resort on Bulabog Beach offering sleek rooms, rooftop pools, and panoramic views of the Sibuyan Sea.",
+      "location": "Bulabog Beach",
+      "type": "Resort",
+      "hours": "24 hours",
+      "things_to_do": "Pool, beach, dining, kitesurfing",
+      "price": "₱3,900 / night"
+    },
+    {
+      "id": "astoria-boracay",
+      "name": "Astoria Boracay",
+      "image": "https://images.unsplash.com/photo-1505118380757-91f5f5632de0?w=800&h=520&fit=crop",
+      "description": "A stylish hotel steps from White Beach offering comfortable rooms, a pool, and easy access to Boracay's top attractions.",
+      "location": "Station 2, White Beach",
+      "type": "Hotel",
+      "hours": "24 hours",
+      "things_to_do": "Beach, pool, dining, shopping",
+      "price": "₱2,800 / night"
+    }
+  ]
+}

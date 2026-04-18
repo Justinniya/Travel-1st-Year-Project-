@@ -1,0 +1,417 @@
+{
+  "meta": {
+    "title": "NEGROS OCCIDENTAL",
+    "subtitle": "Negros Occidental, Western Visayas",
+    "hero_image": "https://images.unsplash.com/photo-1559628233-100c798642c5?w=1400&h=700&fit=crop&q=80",
+    "desc_photo": "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=700&h=420&fit=crop&q=80",
+    "description": "Negros Occidental is known as the 'Sugar Bowl of the Philippines,' producing over half of the country's sugar. Beyond its agricultural fame, it boasts a rich heritage of ancestral mansions, Spanish-era churches, volcanic peaks, and pristine coastlines, making it a destination of culture, nature, and gastronomy.",
+    "chips": [
+      {
+        "label": "Province",
+        "value": "Negros Occidental"
+      },
+      {
+        "label": "Region",
+        "value": "Western Visayas"
+      },
+      {
+        "label": "Capital",
+        "value": "Bacolod"
+      },
+      {
+        "label": "Language",
+        "value": "Ilonggo"
+      },
+      {
+        "label": "Festival",
+        "value": "MassKara"
+      },
+      {
+        "label": "Famous For",
+        "value": "Sugar Industry"
+      },
+      {
+        "label": "Climate",
+        "value": "Tropical"
+      },
+      {
+        "label": "Best Visit",
+        "value": "Oct–Apr"
+      },
+      {
+        "label": "Island",
+        "value": "Negros"
+      }
+    ]
+  },
+  "attractions": [
+    {
+      "id": "ruins",
+      "name": "The Ruins",
+      "image": "https://images.unsplash.com/photo-1548018560-c7196548a5c3?w=600&h=400&fit=crop",
+      "description": "The 'Taj Mahal of Negros' — a grandly ruined mansion surrounded by lush gardens.",
+      "price": "₱100 / pax",
+      "rating": 4.9
+    },
+    {
+      "id": "mount-kanlaon",
+      "name": "Mount Kanlaon",
+      "image": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=600&h=400&fit=crop",
+      "description": "An active volcano and the highest peak in the Visayas, a hiker's paradise.",
+      "price": "₱500 / pax (permit)",
+      "rating": 4.7
+    },
+    {
+      "id": "victorias-milling",
+      "name": "Victorias Milling Company",
+      "image": "https://images.unsplash.com/photo-1565193566173-7a0ee3dbe261?w=600&h=400&fit=crop",
+      "description": "One of the world's largest sugar mills with the famous Angry Christ mural.",
+      "price": "₱100 / pax",
+      "rating": 4.5
+    },
+    {
+      "id": "silay-heritage-houses",
+      "name": "Silay Heritage Houses",
+      "image": "https://images.unsplash.com/photo-1555400038-63f5ba517a47?w=600&h=400&fit=crop",
+      "description": "Walk through Silay City's 30+ ancestral houses dating from the 19th century.",
+      "price": "₱50–₱150 / house",
+      "rating": 4.6
+    },
+    {
+      "id": "mambukal-resort",
+      "name": "Mambukal Mountain Resort",
+      "image": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=600&h=400&fit=crop",
+      "description": "A government resort with seven waterfalls, hot springs, and mountain trails.",
+      "price": "₱80 / pax",
+      "rating": 4.6
+    },
+    {
+      "id": "cadiz-city-saltbeds",
+      "name": "Cadiz Saltbeds",
+      "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=600&h=400&fit=crop",
+      "description": "Vast salt flats that turn pink at sunset, a unique natural spectacle.",
+      "price": "Free Entry",
+      "rating": 4.5
+    },
+    {
+      "id": "sugar-museum",
+      "name": "Sugar Industry Museum",
+      "image": "https://images.unsplash.com/photo-1582555172866-f73bb12a2ab3?w=600&h=400&fit=crop",
+      "description": "Traces the history of sugarcane cultivation and the hacienda culture of Negros.",
+      "price": "₱50 / pax",
+      "rating": 4.4
+    },
+    {
+      "id": "lake-danao",
+      "name": "Lake Danao",
+      "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=600&h=400&fit=crop",
+      "description": "A tranquil crater lake ideal for fishing and early morning picnics.",
+      "price": "₱50 / pax",
+      "rating": 4.4
+    },
+    {
+      "id": "danjugan-island",
+      "name": "Danjugan Island",
+      "image": "https://images.unsplash.com/photo-1537996194471-e657df975ab4?w=600&h=400&fit=crop",
+      "description": "A protected marine sanctuary with pristine reefs and lagoons.",
+      "price": "₱1,500 / day tour",
+      "rating": 4.8
+    }
+  ],
+  "activities": [
+    {
+      "id": "masquerade-festival",
+      "name": "MassKara Festival Parade",
+      "image": "https://images.unsplash.com/photo-1504609773096-104ff2c73ba4?w=600&h=400&fit=crop",
+      "description": "Join the electrifying October street dance festival known for smiling masks.",
+      "price": "Free to Watch",
+      "rating": 5.0
+    },
+    {
+      "id": "kanlaon-trekking",
+      "name": "Mount Kanlaon Trekking",
+      "image": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=600&h=400&fit=crop",
+      "description": "Multi-day guided trek to the summit of the Visayas' highest active volcano.",
+      "price": "₱2,500 / pax",
+      "rating": 4.7
+    },
+    {
+      "id": "heritage-walk",
+      "name": "Silay Heritage Walk",
+      "image": "https://images.unsplash.com/photo-1555400038-63f5ba517a47?w=600&h=400&fit=crop",
+      "description": "Guided walking tour through the colonial streets and mansions of Silay.",
+      "price": "₱300 / pax",
+      "rating": 4.5
+    },
+    {
+      "id": "scuba-danjugan",
+      "name": "Scuba Diving at Danjugan",
+      "image": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=600&h=400&fit=crop",
+      "description": "Dive among vibrant coral gardens teeming with marine life at Danjugan Island.",
+      "price": "₱1,800 / dive",
+      "rating": 4.8
+    },
+    {
+      "id": "hot-spring-soak",
+      "name": "Mambukal Hot Spring Soak",
+      "image": "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?w=600&h=400&fit=crop",
+      "description": "Relax in natural sulfuric hot spring pools set in the mountain resort.",
+      "price": "₱200 / pax",
+      "rating": 4.5
+    },
+    {
+      "id": "sugar-farm-tour",
+      "name": "Sugar Farm Tour",
+      "image": "https://images.unsplash.com/photo-1464226184884-fa280b87c399?w=600&h=400&fit=crop",
+      "description": "Ride vintage sugar cane trains and explore the hacienda life of Negros.",
+      "price": "₱400 / pax",
+      "rating": 4.6
+    },
+    {
+      "id": "whale-shark-watching",
+      "name": "Whale Shark Watching",
+      "image": "https://images.unsplash.com/photo-1518791841217-8f162f1912da?w=600&h=400&fit=crop",
+      "description": "Swim alongside gentle whale sharks off the shores of Negros Occidental.",
+      "price": "₱1,200 / pax",
+      "rating": 4.9
+    },
+    {
+      "id": "cooking-class",
+      "name": "Negrense Cooking Class",
+      "image": "https://images.unsplash.com/photo-1565193566173-7a0ee3dbe261?w=600&h=400&fit=crop",
+      "description": "Learn to cook iconic Negrense dishes like chicken inasal and napoleones.",
+      "price": "₱500 / pax",
+      "rating": 4.5
+    },
+    {
+      "id": "island-hopping",
+      "name": "Island Hopping Hinoba-an",
+      "image": "https://images.unsplash.com/photo-1537996194471-e657df975ab4?w=600&h=400&fit=crop",
+      "description": "Explore remote islands with white sand beaches and clear blue waters.",
+      "price": "₱900 / boat",
+      "rating": 4.6
+    }
+  ],
+  "food": [
+    {
+      "id": "chicken-inasal",
+      "name": "Chicken Inasal",
+      "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=600&h=400&fit=crop",
+      "description": "Bacolod's legendary grilled chicken marinated in calamansi and annatto, a national icon.",
+      "price": "₱150–₱250",
+      "rating": 5.0
+    },
+    {
+      "id": "napoleones",
+      "name": "Napoleones",
+      "image": "https://images.unsplash.com/photo-1558961363-fa8fdf82db35?w=600&h=400&fit=crop",
+      "description": "Flaky puff pastry filled with sweet custard cream, Negros Occidental's most beloved pasalubong.",
+      "price": "₱20–₱50 / piece",
+      "rating": 4.9
+    },
+    {
+      "id": "cansi",
+      "name": "Cansi",
+      "image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=600&h=400&fit=crop",
+      "description": "A sour beef shank and bone marrow soup, Negrense comfort food at its finest.",
+      "price": "₱200–₱350",
+      "rating": 4.8
+    },
+    {
+      "id": "batchoy",
+      "name": "La Paz Batchoy",
+      "image": "https://images.unsplash.com/photo-1585325701956-60dd9c8553bc?w=600&h=400&fit=crop",
+      "description": "Thick egg noodle soup with pork organs and crushed chicharon, originated in Iloilo.",
+      "price": "₱80–₱150",
+      "rating": 4.8
+    },
+    {
+      "id": "pinasugbo",
+      "name": "Pinasugbo",
+      "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=600&h=400&fit=crop",
+      "description": "Banana chips cooked in caramelized sugar and sesame — a crispy Negrense sweet.",
+      "price": "₱50–₱120 / pack",
+      "rating": 4.7
+    },
+    {
+      "id": "piaya-negros",
+      "name": "Piaya of Negros",
+      "image": "https://images.unsplash.com/photo-1558961363-fa8fdf82db35?w=600&h=400&fit=crop",
+      "description": "Flat muscovado-filled unleavened bread, a must-buy delicacy of the province.",
+      "price": "₱30–₱80 / pack",
+      "rating": 4.8
+    },
+    {
+      "id": "baked-scallops",
+      "name": "Baked Scallops",
+      "image": "https://images.unsplash.com/photo-1559847844-5315695dadae?w=600&h=400&fit=crop",
+      "description": "Fresh scallops baked with garlic butter and cheese, a coastal Negrense delicacy.",
+      "price": "₱180–₱280",
+      "rating": 4.7
+    },
+    {
+      "id": "cakes-pastries",
+      "name": "Negrense Cakes & Pastries",
+      "image": "https://images.unsplash.com/photo-1558961363-fa8fdf82db35?w=600&h=400&fit=crop",
+      "description": "From caramel bars to mango pie, Negrense bakers craft exquisite Spanish-inspired sweets.",
+      "price": "₱50–₱200",
+      "rating": 4.6
+    },
+    {
+      "id": "tuba-wine",
+      "name": "Tuba (Coconut Wine)",
+      "image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=600&h=400&fit=crop",
+      "description": "Locally tapped coconut palm wine, a traditional drink enjoyed throughout Negros.",
+      "price": "₱30–₱60",
+      "rating": 4.4
+    }
+  ],
+  "events": [
+    {
+      "id": "maskarafestival",
+      "name": "MassKara Festival",
+      "image": "https://images.unsplash.com/photo-1504609773096-104ff2c73ba4?w=600&h=400&fit=crop",
+      "description": "October — Bacolod's world-famous festival of smiling masks and vibrant street dancing.",
+      "price": "Free",
+      "rating": 5.0
+    },
+    {
+      "id": "panaad-sa-negros",
+      "name": "Panaad sa Negros Festival",
+      "image": "https://images.unsplash.com/photo-1514525253161-7a46d19cd819?w=600&h=400&fit=crop",
+      "description": "April — provincial festival showcasing the culture, food, and dances of all Negros towns.",
+      "price": "Free",
+      "rating": 4.7
+    },
+    {
+      "id": "kanlaon-triathlon",
+      "name": "Kanlaon Triathlon",
+      "image": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=600&h=400&fit=crop",
+      "description": "Annual triathlon race across the Kanlaon volcano landscape attracting regional athletes.",
+      "price": "₱500 / registration",
+      "rating": 4.5
+    },
+    {
+      "id": "buglasan-festival",
+      "name": "Buglasan Festival",
+      "image": "https://images.unsplash.com/photo-1467810563316-b5476525c0f9?w=600&h=400&fit=crop",
+      "description": "October — 'Festival of Festivals' in Negros Oriental celebrating cultural heritage.",
+      "price": "Free",
+      "rating": 4.5
+    },
+    {
+      "id": "kadaugan-festival",
+      "name": "Kadaugan sa Mactan",
+      "image": "https://images.unsplash.com/photo-1508739773434-c26b3d09e071?w=600&h=400&fit=crop",
+      "description": "April 27 — commemorating Lapu-Lapu's victory with re-enactments and cultural shows.",
+      "price": "Free",
+      "rating": 4.4
+    },
+    {
+      "id": "hugot-fiesta",
+      "name": "Hugot Fiesta",
+      "image": "https://images.unsplash.com/photo-1504609773096-104ff2c73ba4?w=600&h=400&fit=crop",
+      "description": "December — Negrense music festival celebrating original compositions and performances.",
+      "price": "₱200 / pax",
+      "rating": 4.4
+    },
+    {
+      "id": "sugarcane-harvest",
+      "name": "Sugarcane Harvest Festival",
+      "image": "https://images.unsplash.com/photo-1464226184884-fa280b87c399?w=600&h=400&fit=crop",
+      "description": "January–April — hacienda open houses with sugar milling tours and local food fairs.",
+      "price": "Free",
+      "rating": 4.5
+    },
+    {
+      "id": "inasal-sa-dalan",
+      "name": "Inasal sa Dalan",
+      "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=600&h=400&fit=crop",
+      "description": "Street food festival in Bacolod dedicated entirely to chicken inasal varieties.",
+      "price": "Free",
+      "rating": 4.7
+    },
+    {
+      "id": "silay-heritage-month",
+      "name": "Silay Heritage Month",
+      "image": "https://images.unsplash.com/photo-1555400038-63f5ba517a47?w=600&h=400&fit=crop",
+      "description": "September — month-long celebration with art exhibits, tours, and ancestral house openings.",
+      "price": "Free",
+      "rating": 4.6
+    }
+  ],
+  "accommodations": [
+    {
+      "id": "the-ruins-hotel",
+      "name": "The Ruins Boutique Hotel",
+      "image": "https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9?w=600&h=400&fit=crop",
+      "description": "Elegant hotel inspired by The Ruins mansion with stunning garden views.",
+      "price": "₱4,000–₱9,000 / night",
+      "rating": 4.8
+    },
+    {
+      "id": "sugarland-hotel",
+      "name": "Sugarland Hotel",
+      "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=600&h=400&fit=crop",
+      "description": "Bacolod's premier hotel with full amenities in the city center.",
+      "price": "₱3,500–₱7,000 / night",
+      "rating": 4.7
+    },
+    {
+      "id": "l-fish-hotel",
+      "name": "L'Fisher Hotel",
+      "image": "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?w=600&h=400&fit=crop",
+      "description": "Iconic business hotel in central Bacolod with a celebrated restaurant.",
+      "price": "₱2,800–₱5,500 / night",
+      "rating": 4.6
+    },
+    {
+      "id": "mambukal-mountain",
+      "name": "Mambukal Mountain Resort Hotel",
+      "image": "https://images.unsplash.com/photo-1582719508461-905c673771fd?w=600&h=400&fit=crop",
+      "description": "Stay overnight at the foot of the waterfalls in comfortable forest chalets.",
+      "price": "₱2,000–₱4,000 / night",
+      "rating": 4.5
+    },
+    {
+      "id": "danjugan-camp",
+      "name": "Danjugan Island Camp",
+      "image": "https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9?w=600&h=400&fit=crop",
+      "description": "Eco-camp on a pristine island with beach camping and marine sanctuary access.",
+      "price": "₱1,500–₱3,000 / night",
+      "rating": 4.6
+    },
+    {
+      "id": "silay-heritage-inn",
+      "name": "Silay Heritage Inn",
+      "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=600&h=400&fit=crop",
+      "description": "Restored ancestral house offering an authentic colonial Negrense experience.",
+      "price": "₱2,500–₱4,500 / night",
+      "rating": 4.5
+    },
+    {
+      "id": "kanlaon-basecamp",
+      "name": "Kanlaon Basecamp Lodge",
+      "image": "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?w=600&h=400&fit=crop",
+      "description": "Budget lodge at the foot of Mount Kanlaon for mountaineers and adventurers.",
+      "price": "₱800–₱1,800 / night",
+      "rating": 4.3
+    },
+    {
+      "id": "bacolod-grand-central",
+      "name": "Bacolod Grand Central Hotel",
+      "image": "https://images.unsplash.com/photo-1582719508461-905c673771fd?w=600&h=400&fit=crop",
+      "description": "Modern mid-range hotel with business facilities in downtown Bacolod.",
+      "price": "₱2,200–₱4,000 / night",
+      "rating": 4.4
+    },
+    {
+      "id": "the-henry-hotel",
+      "name": "The Henry Hotel",
+      "image": "https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9?w=600&h=400&fit=crop",
+      "description": "A boutique lifestyle hotel with local art installations and a rooftop pool.",
+      "price": "₱4,500–₱9,500 / night",
+      "rating": 4.8
+    }
+  ]
+}

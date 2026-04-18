@@ -1,0 +1,417 @@
+{
+  "meta": {
+    "title": "GUIMARAS",
+    "subtitle": "Guimaras, Western Visayas",
+    "hero_image": "https://images.unsplash.com/photo-1560713781-d8f1c2d9e978?w=1400&h=700&fit=crop&q=80",
+    "desc_photo": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=700&h=420&fit=crop&q=80",
+    "description": "Guimaras is a small island province in the Visayan Sea known as the 'Mango Capital of the Philippines,' producing the world-renowned Guimaras sweet mango. Beyond its orchards, it offers pristine beaches, clear-water lagoons, historic churches, and the charming Roca Encantada — a riverside mansion in lush gardens.",
+    "chips": [
+      {
+        "label": "Province",
+        "value": "Guimaras"
+      },
+      {
+        "label": "Region",
+        "value": "Western Visayas"
+      },
+      {
+        "label": "Capital",
+        "value": "Jordan"
+      },
+      {
+        "label": "Language",
+        "value": "Hiligaynon"
+      },
+      {
+        "label": "Famous For",
+        "value": "Sweet Mango"
+      },
+      {
+        "label": "Festival",
+        "value": "Manggahan"
+      },
+      {
+        "label": "Climate",
+        "value": "Tropical"
+      },
+      {
+        "label": "Best Visit",
+        "value": "Mar–Jun"
+      },
+      {
+        "label": "Island",
+        "value": "Guimaras"
+      }
+    ]
+  },
+  "attractions": [
+    {
+      "id": "roca-encantada",
+      "name": "Roca Encantada",
+      "image": "https://images.unsplash.com/photo-1555400038-63f5ba517a47?w=600&h=400&fit=crop",
+      "description": "A majestic mansion on a rocky promontory surrounded by lush botanical gardens.",
+      "price": "₱100 / pax",
+      "rating": 4.7
+    },
+    {
+      "id": "trappist-monastery",
+      "name": "Trappist Monastery",
+      "image": "https://images.unsplash.com/photo-1548018560-c7196548a5c3?w=600&h=400&fit=crop",
+      "description": "A peaceful monastery famous for homemade mango products and spiritual retreats.",
+      "price": "Free Entry",
+      "rating": 4.6
+    },
+    {
+      "id": "guisi-beach",
+      "name": "Guisi Beach & Lighthouse",
+      "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=600&h=400&fit=crop",
+      "description": "A pristine white-sand beach with a century-old lighthouse at the cliff's edge.",
+      "price": "₱30 / pax",
+      "rating": 4.7
+    },
+    {
+      "id": "alubihod-beach",
+      "name": "Alubihod Beach",
+      "image": "https://images.unsplash.com/photo-1537996194471-e657df975ab4?w=600&h=400&fit=crop",
+      "description": "One of Guimaras' most beautiful beaches with fine white sand and clear blue water.",
+      "price": "₱50 / pax",
+      "rating": 4.8
+    },
+    {
+      "id": "pitstop-mango-farm",
+      "name": "Pitstop Mango Farm",
+      "image": "https://images.unsplash.com/photo-1464226184884-fa280b87c399?w=600&h=400&fit=crop",
+      "description": "Walk through sprawling mango orchards and taste the world-famous Guimaras variety.",
+      "price": "₱150 / pax",
+      "rating": 4.6
+    },
+    {
+      "id": "natago-beach",
+      "name": "Natago Beach",
+      "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=600&h=400&fit=crop",
+      "description": "A quiet secluded beach accessible by boat, beloved by locals for its calm waters.",
+      "price": "₱100 / pax",
+      "rating": 4.5
+    },
+    {
+      "id": "santo-nino-de-jordan",
+      "name": "Sto. Niño de Jordan Church",
+      "image": "https://images.unsplash.com/photo-1548018560-c7196548a5c3?w=600&h=400&fit=crop",
+      "description": "The oldest church in Guimaras, a centuries-old heritage site at the heart of Jordan.",
+      "price": "Free Entry",
+      "rating": 4.5
+    },
+    {
+      "id": "guimaras-mangrove",
+      "name": "Guimaras Mangrove Forest",
+      "image": "https://images.unsplash.com/photo-1518791841217-8f162f1912da?w=600&h=400&fit=crop",
+      "description": "Vast mangrove eco-park with walking bridges and rich coastal biodiversity.",
+      "price": "₱50 / pax",
+      "rating": 4.4
+    },
+    {
+      "id": "dolores-cave",
+      "name": "Dolores Cave",
+      "image": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=600&h=400&fit=crop",
+      "description": "A mystical cave with stalactite formations and a small chapel inside.",
+      "price": "₱80 / pax",
+      "rating": 4.3
+    }
+  ],
+  "activities": [
+    {
+      "id": "island-hopping-guimaras",
+      "name": "Guimaras Island Hopping",
+      "image": "https://images.unsplash.com/photo-1537996194471-e657df975ab4?w=600&h=400&fit=crop",
+      "description": "Explore small islands, sandbars, and snorkeling spots around the Guimaras coast.",
+      "price": "₱700 / boat",
+      "rating": 4.8
+    },
+    {
+      "id": "mango-farm-tour",
+      "name": "Mango Farm Tour",
+      "image": "https://images.unsplash.com/photo-1464226184884-fa280b87c399?w=600&h=400&fit=crop",
+      "description": "A guided tour of the famous mango orchards, tasting different mango varieties.",
+      "price": "₱200 / pax",
+      "rating": 4.7
+    },
+    {
+      "id": "manggahan-festival",
+      "name": "Manggahan Festival",
+      "image": "https://images.unsplash.com/photo-1504609773096-104ff2c73ba4?w=600&h=400&fit=crop",
+      "description": "Join the annual mango harvest festival with mango-eating contests and street fairs.",
+      "price": "Free to Watch",
+      "rating": 4.9
+    },
+    {
+      "id": "bike-tour",
+      "name": "Guimaras Bike Tour",
+      "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&h=400&fit=crop",
+      "description": "Cycle through quiet provincial roads past mango orchards and coastal villages.",
+      "price": "₱300 / day",
+      "rating": 4.5
+    },
+    {
+      "id": "kayaking-guimaras",
+      "name": "Sea Kayaking",
+      "image": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=600&h=400&fit=crop",
+      "description": "Kayak along Guimaras' calm coastline, exploring sea caves and hidden coves.",
+      "price": "₱350 / hour",
+      "rating": 4.6
+    },
+    {
+      "id": "snorkeling-alubihod",
+      "name": "Snorkeling at Alubihod",
+      "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=600&h=400&fit=crop",
+      "description": "Discover colorful sea life in the protected waters off Alubihod Beach.",
+      "price": "₱150 / pax",
+      "rating": 4.7
+    },
+    {
+      "id": "trappist-retreat",
+      "name": "Trappist Monastery Retreat",
+      "image": "https://images.unsplash.com/photo-1548018560-c7196548a5c3?w=600&h=400&fit=crop",
+      "description": "A spiritual day retreat with silent reflection and monastic mango product tasting.",
+      "price": "Free Donation",
+      "rating": 4.5
+    },
+    {
+      "id": "fishing-trip",
+      "name": "Traditional Fishing Trip",
+      "image": "https://images.unsplash.com/photo-1559847844-5315695dadae?w=600&h=400&fit=crop",
+      "description": "Join local fishermen on an early morning traditional fishing expedition.",
+      "price": "₱250 / pax",
+      "rating": 4.5
+    },
+    {
+      "id": "lighthouse-hike",
+      "name": "Guisi Lighthouse Hike",
+      "image": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=600&h=400&fit=crop",
+      "description": "Short coastal hike leading to the century-old lighthouse with stunning ocean views.",
+      "price": "Free",
+      "rating": 4.6
+    }
+  ],
+  "food": [
+    {
+      "id": "guimaras-mango",
+      "name": "Fresh Guimaras Mango",
+      "image": "https://images.unsplash.com/photo-1560713781-d8f1c2d9e978?w=600&h=400&fit=crop",
+      "description": "The world's sweetest mango — succulent, fragrant, and bursting with tropical flavor.",
+      "price": "₱50–₱120 / kilo",
+      "rating": 5.0
+    },
+    {
+      "id": "mango-pizza",
+      "name": "Mango Pizza",
+      "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=600&h=400&fit=crop",
+      "description": "A unique local creation: thin-crust pizza topped generously with sweet Guimaras mango slices.",
+      "price": "₱150–₱250",
+      "rating": 4.7
+    },
+    {
+      "id": "mango-ice-cream",
+      "name": "Guimaras Mango Ice Cream",
+      "image": "https://images.unsplash.com/photo-1558961363-fa8fdf82db35?w=600&h=400&fit=crop",
+      "description": "Creamy homemade ice cream crafted from 100% fresh Guimaras mangoes.",
+      "price": "₱40–₱80",
+      "rating": 4.9
+    },
+    {
+      "id": "mango-cake",
+      "name": "Mango Chiffon Cake",
+      "image": "https://images.unsplash.com/photo-1558961363-fa8fdf82db35?w=600&h=400&fit=crop",
+      "description": "Light and airy chiffon cake with fresh mango cream, a Guimaras bakery staple.",
+      "price": "₱180–₱350 / slice",
+      "rating": 4.8
+    },
+    {
+      "id": "sinuglaw",
+      "name": "Sinuglaw",
+      "image": "https://images.unsplash.com/photo-1559847844-5315695dadae?w=600&h=400&fit=crop",
+      "description": "A combination of grilled pork belly and kinilaw, a beloved Filipino surf-and-turf dish.",
+      "price": "₱150–₱250",
+      "rating": 4.7
+    },
+    {
+      "id": "ginataan",
+      "name": "Ginataan",
+      "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=600&h=400&fit=crop",
+      "description": "A sweet coconut milk stew of rice balls, yam, and banana — a comforting Filipino merienda.",
+      "price": "₱50–₱100",
+      "rating": 4.5
+    },
+    {
+      "id": "tuba-guimaras",
+      "name": "Guimaras Tuba",
+      "image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=600&h=400&fit=crop",
+      "description": "Freshly tapped coconut wine from Guimaras palms, enjoyed chilled on the beach.",
+      "price": "₱30–₱60",
+      "rating": 4.4
+    },
+    {
+      "id": "seafood-grill-guimaras",
+      "name": "Grilled Fresh Seafood",
+      "image": "https://images.unsplash.com/photo-1559847844-5315695dadae?w=600&h=400&fit=crop",
+      "description": "Grilled prawns, squid, and fish straight from the daily catch of Guimaras fishermen.",
+      "price": "₱180–₱350",
+      "rating": 4.7
+    },
+    {
+      "id": "mango-pastillas",
+      "name": "Mango Pastillas",
+      "image": "https://images.unsplash.com/photo-1558961363-fa8fdf82db35?w=600&h=400&fit=crop",
+      "description": "Soft milk candy rolled in sugar and infused with real Guimaras mango — a popular pasalubong.",
+      "price": "₱30–₱80 / pack",
+      "rating": 4.8
+    }
+  ],
+  "events": [
+    {
+      "id": "manggahan",
+      "name": "Manggahan Festival",
+      "image": "https://images.unsplash.com/photo-1504609773096-104ff2c73ba4?w=600&h=400&fit=crop",
+      "description": "May — Guimaras' flagship festival celebrating the mango harvest with fairs and concerts.",
+      "price": "Free",
+      "rating": 5.0
+    },
+    {
+      "id": "guimaras-foundation",
+      "name": "Guimaras Foundation Day",
+      "image": "https://images.unsplash.com/photo-1514525253161-7a46d19cd819?w=600&h=400&fit=crop",
+      "description": "May 22 — province-wide celebrations marking the founding of Guimaras.",
+      "price": "Free",
+      "rating": 4.5
+    },
+    {
+      "id": "mango-queen",
+      "name": "Mango Queen Pageant",
+      "image": "https://images.unsplash.com/photo-1508739773434-c26b3d09e071?w=600&h=400&fit=crop",
+      "description": "Annual beauty pageant crowning the Mango Queen of Guimaras during Manggahan.",
+      "price": "₱100 / pax",
+      "rating": 4.5
+    },
+    {
+      "id": "ocean-triathlon",
+      "name": "Guimaras Ocean Triathlon",
+      "image": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=600&h=400&fit=crop",
+      "description": "Annual multi-sport race across Guimaras' seas, roads, and trails.",
+      "price": "₱500 / registration",
+      "rating": 4.5
+    },
+    {
+      "id": "paraw-regatta",
+      "name": "Paraw Regatta",
+      "image": "https://images.unsplash.com/photo-1504701954957-2010ec3bcec1?w=600&h=400&fit=crop",
+      "description": "February — traditional sailboat race from Iloilo City to Guimaras and back.",
+      "price": "Free to Watch",
+      "rating": 4.6
+    },
+    {
+      "id": "eco-day",
+      "name": "Guimaras Eco Day",
+      "image": "https://images.unsplash.com/photo-1518791841217-8f162f1912da?w=600&h=400&fit=crop",
+      "description": "June — island-wide cleanup and reforestation event honoring Guimaras' environment.",
+      "price": "Free",
+      "rating": 4.4
+    },
+    {
+      "id": "mango-cooking",
+      "name": "Mango Cooking Competition",
+      "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=600&h=400&fit=crop",
+      "description": "Annual culinary contest where chefs showcase creative dishes using Guimaras mangoes.",
+      "price": "Free to Watch",
+      "rating": 4.6
+    },
+    {
+      "id": "guisi-lighthouse-day",
+      "name": "Guisi Lighthouse Day",
+      "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=600&h=400&fit=crop",
+      "description": "October — heritage celebration at the iconic Guisi lighthouse with cultural programs.",
+      "price": "Free",
+      "rating": 4.4
+    },
+    {
+      "id": "alubihod-beach-party",
+      "name": "Alubihod Beach Party",
+      "image": "https://images.unsplash.com/photo-1537996194471-e657df975ab4?w=600&h=400&fit=crop",
+      "description": "December — beach concert and bonfire event at the shores of Alubihod Beach.",
+      "price": "₱150 / pax",
+      "rating": 4.5
+    }
+  ],
+  "accommodations": [
+    {
+      "id": "raymen-beach-resort",
+      "name": "Raymen Beach Resort",
+      "image": "https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9?w=600&h=400&fit=crop",
+      "description": "Popular beachfront resort with nipa cottages and water sports facilities.",
+      "price": "₱2,000–₱4,000 / night",
+      "rating": 4.6
+    },
+    {
+      "id": "guimaras-island-resort",
+      "name": "Guimaras Island Resort",
+      "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=600&h=400&fit=crop",
+      "description": "Peaceful island resort with direct beach access and sea-view cottages.",
+      "price": "₱1,800–₱3,500 / night",
+      "rating": 4.5
+    },
+    {
+      "id": "mango-grove-villas",
+      "name": "Mango Grove Villas",
+      "image": "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?w=600&h=400&fit=crop",
+      "description": "Villas set among working mango orchards with farm-to-table dining experiences.",
+      "price": "₱3,000–₱6,000 / night",
+      "rating": 4.7
+    },
+    {
+      "id": "andana-resort",
+      "name": "Andana Resort",
+      "image": "https://images.unsplash.com/photo-1582719508461-905c673771fd?w=600&h=400&fit=crop",
+      "description": "Boutique resort with lush tropical gardens and a beachfront infinity pool.",
+      "price": "₱3,500–₱7,000 / night",
+      "rating": 4.7
+    },
+    {
+      "id": "natago-lodge",
+      "name": "Natago Lodge",
+      "image": "https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9?w=600&h=400&fit=crop",
+      "description": "Rustic lodge accessible by boat, perfect for secluded island getaways.",
+      "price": "₱1,200–₱2,500 / night",
+      "rating": 4.4
+    },
+    {
+      "id": "costa-rica-resort",
+      "name": "Costa Rica Resort Guimaras",
+      "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=600&h=400&fit=crop",
+      "description": "Family resort with a wave pool, water slides, and beachside cabanas.",
+      "price": "₱1,500–₱3,000 / night",
+      "rating": 4.4
+    },
+    {
+      "id": "trappist-guesthouse",
+      "name": "Trappist Monastery Guesthouse",
+      "image": "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?w=600&h=400&fit=crop",
+      "description": "Simple, peaceful accommodation in the monastery grounds for spiritual retreats.",
+      "price": "₱500–₱1,000 / night",
+      "rating": 4.3
+    },
+    {
+      "id": "balay-na-bato",
+      "name": "Balay na Bato Guesthouse",
+      "image": "https://images.unsplash.com/photo-1582719508461-905c673771fd?w=600&h=400&fit=crop",
+      "description": "Heritage stone house converted into a charming guesthouse in Jordan town.",
+      "price": "₱1,000–₱2,200 / night",
+      "rating": 4.4
+    },
+    {
+      "id": "isla-resort",
+      "name": "Isla Resort Guimaras",
+      "image": "https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9?w=600&h=400&fit=crop",
+      "description": "Modern island resort with glass-floor chalets over the water and stunning sea views.",
+      "price": "₱4,000–₱9,000 / night",
+      "rating": 4.8
+    }
+  ]
+}

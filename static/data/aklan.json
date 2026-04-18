@@ -1,0 +1,417 @@
+{
+  "meta": {
+    "title": "AKLAN",
+    "subtitle": "Aklan, Western Visayas",
+    "hero_image": "https://images.unsplash.com/photo-1590523741831-ab7e8b8f9c7f?w=1400&h=700&fit=crop&q=80",
+    "desc_photo": "https://images.unsplash.com/photo-1570789210967-2cac24afeb00?w=700&h=420&fit=crop&q=80",
+    "description": "Aklan is a province in the Western Visayas region of the Philippines, best known as the gateway to Boracay Island. It is also famous for the Ati-Atihan Festival, one of the country's oldest and most celebrated cultural events, honoring the Santo Niño with colorful costumes and lively street dancing.",
+    "chips": [
+      {
+        "label": "Province",
+        "value": "Aklan"
+      },
+      {
+        "label": "Region",
+        "value": "Western Visayas"
+      },
+      {
+        "label": "Capital",
+        "value": "Kalibo"
+      },
+      {
+        "label": "Language",
+        "value": "Aklanon"
+      },
+      {
+        "label": "Festival",
+        "value": "Ati-Atihan"
+      },
+      {
+        "label": "Gateway to",
+        "value": "Boracay"
+      },
+      {
+        "label": "Climate",
+        "value": "Tropical"
+      },
+      {
+        "label": "Best Visit",
+        "value": "Jan–May"
+      },
+      {
+        "label": "Island",
+        "value": "Panay"
+      }
+    ]
+  },
+  "attractions": [
+    {
+      "id": "bakhawan-ecopark",
+      "name": "Bakhawan Ecopark",
+      "image": "https://images.unsplash.com/photo-1518791841217-8f162f1912da?w=600&h=400&fit=crop",
+      "description": "A stunning mangrove forest with boardwalks winding through lush greenery.",
+      "price": "Free Entry",
+      "rating": 4.7
+    },
+    {
+      "id": "kalibo-cathedral",
+      "name": "Saint John the Baptist Parish",
+      "image": "https://images.unsplash.com/photo-1548018560-c7196548a5c3?w=600&h=400&fit=crop",
+      "description": "A centuries-old church at the heart of Kalibo city, rich in heritage.",
+      "price": "Free Entry",
+      "rating": 4.6
+    },
+    {
+      "id": "new-washington-beach",
+      "name": "New Washington Beach",
+      "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=600&h=400&fit=crop",
+      "description": "A peaceful local beach away from the tourist crowds.",
+      "price": "Free Entry",
+      "rating": 4.4
+    },
+    {
+      "id": "libacao-falls",
+      "name": "Libacao Falls",
+      "image": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=600&h=400&fit=crop",
+      "description": "Cascading waterfalls nestled in the mountains of Libacao town.",
+      "price": "₱50 / pax",
+      "rating": 4.5
+    },
+    {
+      "id": "tinagong-dagat",
+      "name": "Tinagong Dagat",
+      "image": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=600&h=400&fit=crop",
+      "description": "A hidden lake surrounded by mangroves, perfect for birdwatching.",
+      "price": "₱100 / pax",
+      "rating": 4.6
+    },
+    {
+      "id": "pat-pay-shrine",
+      "name": "Pat-Pay Shrine",
+      "image": "https://images.unsplash.com/photo-1555400038-63f5ba517a47?w=600&h=400&fit=crop",
+      "description": "A scenic hilltop shrine offering panoramic views of the surrounding landscape.",
+      "price": "Free Entry",
+      "rating": 4.3
+    },
+    {
+      "id": "aklan-museum",
+      "name": "Aklan Museum",
+      "image": "https://images.unsplash.com/photo-1582555172866-f73bb12a2ab3?w=600&h=400&fit=crop",
+      "description": "Home to cultural artifacts and exhibits about Aklanon history and tradition.",
+      "price": "₱30 / pax",
+      "rating": 4.2
+    },
+    {
+      "id": "barangay-bisita-chapel",
+      "name": "Barangay Bisita Chapel",
+      "image": "https://images.unsplash.com/photo-1548018560-c7196548a5c3?w=600&h=400&fit=crop",
+      "description": "A quiet roadside chapel known for its intricate craftsmanship.",
+      "price": "Free Entry",
+      "rating": 4.1
+    },
+    {
+      "id": "aklan-river",
+      "name": "Aklan River Cruise",
+      "image": "https://images.unsplash.com/photo-1504701954957-2010ec3bcec1?w=600&h=400&fit=crop",
+      "description": "Cruise along the peaceful Aklan River and enjoy the natural scenery.",
+      "price": "₱150 / pax",
+      "rating": 4.5
+    }
+  ],
+  "activities": [
+    {
+      "id": "ati-atihan-festival",
+      "name": "Ati-Atihan Festival",
+      "image": "https://images.unsplash.com/photo-1504609773096-104ff2c73ba4?w=600&h=400&fit=crop",
+      "description": "Join the Philippines' most celebrated street festival with tribal dances and costumes.",
+      "price": "Free to Watch",
+      "rating": 5.0
+    },
+    {
+      "id": "mangrove-kayaking",
+      "name": "Mangrove Kayaking",
+      "image": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=600&h=400&fit=crop",
+      "description": "Paddle through the mangrove channels of Bakhawan Ecopark.",
+      "price": "₱350 / hour",
+      "rating": 4.6
+    },
+    {
+      "id": "bamboo-weaving",
+      "name": "Bamboo Weaving Workshop",
+      "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&h=400&fit=crop",
+      "description": "Learn traditional Aklanon bamboo weaving from local artisans.",
+      "price": "₱200 / session",
+      "rating": 4.4
+    },
+    {
+      "id": "island-hopping-buruanga",
+      "name": "Island Hopping Buruanga",
+      "image": "https://images.unsplash.com/photo-1537996194471-e657df975ab4?w=600&h=400&fit=crop",
+      "description": "Explore hidden coves and sandbars along the Buruanga coastline.",
+      "price": "₱800 / boat",
+      "rating": 4.7
+    },
+    {
+      "id": "zip-line-adventure",
+      "name": "Zip-Line Adventure",
+      "image": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=600&h=400&fit=crop",
+      "description": "Soar above the treetops on an exhilarating zip-line experience.",
+      "price": "₱300 / ride",
+      "rating": 4.5
+    },
+    {
+      "id": "farm-tour",
+      "name": "Organic Farm Tour",
+      "image": "https://images.unsplash.com/photo-1464226184884-fa280b87c399?w=600&h=400&fit=crop",
+      "description": "Visit local organic farms and learn about sustainable agriculture in Aklan.",
+      "price": "₱150 / pax",
+      "rating": 4.3
+    },
+    {
+      "id": "mountain-biking",
+      "name": "Mountain Biking Trail",
+      "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&h=400&fit=crop",
+      "description": "Ride through scenic mountain trails with views of the Aklan countryside.",
+      "price": "₱400 / day",
+      "rating": 4.4
+    },
+    {
+      "id": "bird-watching",
+      "name": "Bird Watching Tour",
+      "image": "https://images.unsplash.com/photo-1518791841217-8f162f1912da?w=600&h=400&fit=crop",
+      "description": "Spot over 80 endemic bird species in the mangroves and forests.",
+      "price": "₱250 / pax",
+      "rating": 4.5
+    },
+    {
+      "id": "pottery-making",
+      "name": "Pottery Making Class",
+      "image": "https://images.unsplash.com/photo-1565193566173-7a0ee3dbe261?w=600&h=400&fit=crop",
+      "description": "Create your own Aklanon-style pottery guided by local craftspeople.",
+      "price": "₱300 / session",
+      "rating": 4.3
+    }
+  ],
+  "food": [
+    {
+      "id": "inubarang",
+      "name": "Inubarang",
+      "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=600&h=400&fit=crop",
+      "description": "A hearty local stew made with chicken and bamboo shoots, a proud Aklanon specialty.",
+      "price": "₱150–₱250",
+      "rating": 4.7
+    },
+    {
+      "id": "binakol",
+      "name": "Binakol",
+      "image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=600&h=400&fit=crop",
+      "description": "Chicken soup cooked inside a bamboo tube with coconut water and lemongrass.",
+      "price": "₱180–₱280",
+      "rating": 4.8
+    },
+    {
+      "id": "piaya",
+      "name": "Piaya",
+      "image": "https://images.unsplash.com/photo-1558961363-fa8fdf82db35?w=600&h=400&fit=crop",
+      "description": "Flat unleavened bread filled with muscovado sugar, Aklan's iconic pasalubong.",
+      "price": "₱30–₱80 / pack",
+      "rating": 4.9
+    },
+    {
+      "id": "seafood-sa-puso",
+      "name": "Seafood sa Puso",
+      "image": "https://images.unsplash.com/photo-1559847844-5315695dadae?w=600&h=400&fit=crop",
+      "description": "Fresh grilled seafood served in banana leaf cones, a local dining experience.",
+      "price": "₱200–₱350",
+      "rating": 4.6
+    },
+    {
+      "id": "suman-sa-lihiya",
+      "name": "Suman sa Lihiya",
+      "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=600&h=400&fit=crop",
+      "description": "Sticky rice cake wrapped in banana leaves, a traditional Filipino delicacy.",
+      "price": "₱20–₱50",
+      "rating": 4.5
+    },
+    {
+      "id": "KBL",
+      "name": "KBL (Kadyos Baboy Langka)",
+      "image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=600&h=400&fit=crop",
+      "description": "A hearty Western Visayas soup of pigeon peas, pork, and jackfruit.",
+      "price": "₱120–₱200",
+      "rating": 4.7
+    },
+    {
+      "id": "garlic-chicharon",
+      "name": "Garlic Chicharon",
+      "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&h=400&fit=crop",
+      "description": "Crunchy pork rinds seasoned with native garlic, a popular Aklan street snack.",
+      "price": "₱50–₱100",
+      "rating": 4.6
+    },
+    {
+      "id": "baye-baye",
+      "name": "Baye-Baye",
+      "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=600&h=400&fit=crop",
+      "description": "Roasted rice and coconut candy roll, a classic Aklanon sweet treat.",
+      "price": "₱25–₱60",
+      "rating": 4.4
+    },
+    {
+      "id": "fresh-tuba",
+      "name": "Fresh Tuba",
+      "image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=600&h=400&fit=crop",
+      "description": "Freshly tapped coconut wine, a beloved traditional drink of Western Visayas.",
+      "price": "₱30–₱60",
+      "rating": 4.5
+    }
+  ],
+  "events": [
+    {
+      "id": "ati-atihan",
+      "name": "Ati-Atihan Festival",
+      "image": "https://images.unsplash.com/photo-1504609773096-104ff2c73ba4?w=600&h=400&fit=crop",
+      "description": "Third week of January — the Philippines' oldest street festival honoring Santo Niño.",
+      "price": "Free",
+      "rating": 5.0
+    },
+    {
+      "id": "aklan-day",
+      "name": "Aklan Foundation Day",
+      "image": "https://images.unsplash.com/photo-1514525253161-7a46d19cd819?w=600&h=400&fit=crop",
+      "description": "April 25 — province-wide celebrations with cultural shows and exhibits.",
+      "price": "Free",
+      "rating": 4.5
+    },
+    {
+      "id": "higantes-festival",
+      "name": "Higantes Parade",
+      "image": "https://images.unsplash.com/photo-1508739773434-c26b3d09e071?w=600&h=400&fit=crop",
+      "description": "October — giant papier-mâché figures parade through the streets of Kalibo.",
+      "price": "Free",
+      "rating": 4.6
+    },
+    {
+      "id": "kalibo-town-fiesta",
+      "name": "Kalibo Town Fiesta",
+      "image": "https://images.unsplash.com/photo-1467810563316-b5476525c0f9?w=600&h=400&fit=crop",
+      "description": "August 29 — feast of Saint John the Baptist with processions and local games.",
+      "price": "Free",
+      "rating": 4.4
+    },
+    {
+      "id": "farmers-festival",
+      "name": "Aklan Farmers Festival",
+      "image": "https://images.unsplash.com/photo-1464226184884-fa280b87c399?w=600&h=400&fit=crop",
+      "description": "March — celebrating Aklan's agricultural heritage with fairs and produce displays.",
+      "price": "Free",
+      "rating": 4.3
+    },
+    {
+      "id": "bamboo-summit",
+      "name": "Bamboo Summit",
+      "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&h=400&fit=crop",
+      "description": "Annual event showcasing bamboo crafts and sustainable building from Aklan artisans.",
+      "price": "₱100 / pax",
+      "rating": 4.5
+    },
+    {
+      "id": "kaplag-festival",
+      "name": "Kaplag Festival",
+      "image": "https://images.unsplash.com/photo-1504609773096-104ff2c73ba4?w=600&h=400&fit=crop",
+      "description": "November — a thanksgiving harvest festival featuring indigenous Ati dances.",
+      "price": "Free",
+      "rating": 4.4
+    },
+    {
+      "id": "mangrove-festival",
+      "name": "Mangrove Festival",
+      "image": "https://images.unsplash.com/photo-1518791841217-8f162f1912da?w=600&h=400&fit=crop",
+      "description": "May — environmental event with tree-planting drives and eco-tours at Bakhawan.",
+      "price": "Free",
+      "rating": 4.5
+    },
+    {
+      "id": "piaya-festival",
+      "name": "Piaya Food Festival",
+      "image": "https://images.unsplash.com/photo-1558961363-fa8fdf82db35?w=600&h=400&fit=crop",
+      "description": "December — food fair celebrating Aklan's famous piaya and other delicacies.",
+      "price": "Free",
+      "rating": 4.6
+    }
+  ],
+  "accommodations": [
+    {
+      "id": "boracay-beach-club",
+      "name": "Boracay Beach Club",
+      "image": "https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9?w=600&h=400&fit=crop",
+      "description": "Beachfront resort on Boracay with pools and world-class amenities.",
+      "price": "₱5,000–₱15,000 / night",
+      "rating": 4.8
+    },
+    {
+      "id": "kalibo-grand-hotel",
+      "name": "Kalibo Grand Hotel",
+      "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=600&h=400&fit=crop",
+      "description": "Modern hotel in the heart of Kalibo city, close to the airport.",
+      "price": "₱2,500–₱4,500 / night",
+      "rating": 4.5
+    },
+    {
+      "id": "aklan-lodge",
+      "name": "Aklan Nature Lodge",
+      "image": "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?w=600&h=400&fit=crop",
+      "description": "Eco-lodge surrounded by lush greenery perfect for nature lovers.",
+      "price": "₱1,800–₱3,000 / night",
+      "rating": 4.4
+    },
+    {
+      "id": "mangrove-inn",
+      "name": "Mangrove Inn",
+      "image": "https://images.unsplash.com/photo-1582719508461-905c673771fd?w=600&h=400&fit=crop",
+      "description": "Charming guesthouse adjacent to Bakhawan Ecopark with river views.",
+      "price": "₱1,200–₱2,000 / night",
+      "rating": 4.3
+    },
+    {
+      "id": "casa-kalibo",
+      "name": "Casa Kalibo Boutique Hotel",
+      "image": "https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9?w=600&h=400&fit=crop",
+      "description": "Boutique hotel with local art décor and modern comforts in Kalibo.",
+      "price": "₱2,200–₱3,800 / night",
+      "rating": 4.5
+    },
+    {
+      "id": "sunrise-beach-resort",
+      "name": "Sunrise Beach Resort",
+      "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=600&h=400&fit=crop",
+      "description": "Family resort on a quiet Aklan beach with direct water access.",
+      "price": "₱1,500–₱3,500 / night",
+      "rating": 4.4
+    },
+    {
+      "id": "mountain-breeze-inn",
+      "name": "Mountain Breeze Inn",
+      "image": "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?w=600&h=400&fit=crop",
+      "description": "Hilltop inn offering cool breezes and stunning views of Aklan valley.",
+      "price": "₱1,000–₱2,200 / night",
+      "rating": 4.3
+    },
+    {
+      "id": "festival-hostel",
+      "name": "Festival Hostel Kalibo",
+      "image": "https://images.unsplash.com/photo-1582719508461-905c673771fd?w=600&h=400&fit=crop",
+      "description": "Budget-friendly hostel popular with backpackers near the festival grounds.",
+      "price": "₱500–₱1,200 / night",
+      "rating": 4.2
+    },
+    {
+      "id": "hacienda-aklan",
+      "name": "Hacienda Aklan",
+      "image": "https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9?w=600&h=400&fit=crop",
+      "description": "Spanish colonial-style estate offering private villas and farm experiences.",
+      "price": "₱4,000–₱8,000 / night",
+      "rating": 4.7
+    }
+  ]
+}
